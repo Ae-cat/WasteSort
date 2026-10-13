@@ -216,12 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-<<<<<<< HEAD
-data/
-=======
 
 # Dataset and model weights
 data/
 *.pth
 *.pt
->>>>>>> origin/john
