@@ -1,16 +1,19 @@
-# Adjust file with work organized by teammates
-"""WasteSort prediction pipeline: image -> preprocessing -> model -> class/category/confidence.
+"""
+Currently have image as a placeholder file
+WasteSort prediction pipeline: image -> preprocessing -> model -> class/category/confidence.
 
-Usage (from the repo root):
-    python3 ml/predict.py path/to/image.jpg
-    python ml/predict.py path/to/image.jpg --repeat 5   # check output is consistent
-    Use python3 if running on a Mac system
+Adds to the team pipeline (ml/predict.py + ml/model.py): a confidence threshold, a safe
+"Needs review" result for unmapped/low-confidence predictions, and a --repeat consistency check.
 
-Model checkpoint: models/baseline.pth (gitignored). Supported formats:
-  - a plain state_dict for a ResNet18 with a replaced final layer, or
-  - a dict with "state_dict" (or "model_state_dict") and optionally "classes".
+Usage (from the repo root; use python3 on a Mac):
+    python3 ml/predict_ariella.py path/to/image.jpg
+    python3 ml/predict_ariella.py path/to/image.jpg --repeat 5   # check output is consistent
+
+Model checkpoint: models/resnet18_realwaste.pt (saved by ml/train.py, gitignored). Expected format:
+  {"model_state": ..., "classes": [...], ...}. A plain state_dict, or a dict using the keys
+  "state_dict" / "model_state_dict", is also accepted.
 If the checkpoint has no class list, DEFAULT_CLASSES is used. That list MUST match the
-order used in training (torchvision ImageFolder sorts class folders alphabetically).
+order used in training (ml/dataset.py sorts class names alphabetically).
 """
 import argparse
 from pathlib import Path
@@ -20,8 +23,7 @@ from PIL import Image
 from torch import nn
 from torchvision.models import resnet18, ResNet18_Weights
 
-MODEL_PATH = Path("models/baseline.pth")
-# still need the file, once file is made adjust name to the correct file.
+MODEL_PATH = Path("models/resnet18_realwaste.pt")
 
 # RealWaste folder names, in alphabetical (ImageFolder) order.
 DEFAULT_CLASSES = [
@@ -36,8 +38,9 @@ DEFAULT_CLASSES = [
     "Vegetation",
 ]
 
-# Dataset class -> WasteSort category. None = not decided yet (reported as needs review).
-# TEAM DECISION NEEDED: confirm every entry below, especially Plastic.
+# Dataset class -> WasteSort category. None = not decided (reported as needs review).
+# Kept in sync with DISPOSAL_MAP in ml/model.py and docs/data_plan.md.
+# Plastic -> Recyclable is a proposed MVP rule; narrow it once a target municipality is chosen.
 CATEGORY_MAP = {
     "Cardboard": "Recyclable",
     "Food Organics": "Compost",
@@ -45,7 +48,7 @@ CATEGORY_MAP = {
     "Metal": "Recyclable",
     "Miscellaneous Trash": "Landfill",
     "Paper": "Recyclable",
-    "Plastic": None,
+    "Plastic": "Recyclable",
     "Textile Trash": "Landfill",
     "Vegetation": "Compost",
 }
@@ -64,15 +67,17 @@ def load_model(path=MODEL_PATH):
     path = Path(path)
     if not path.exists():
         raise FileNotFoundError(
-            f"No model checkpoint at {path}. Put the trained .pth file there "
-            "(checkpoints are gitignored, so share it with the team separately)."
+            f"No model checkpoint at {path}. Train one with ml/train.py or get the .pt file "
+            "from the model owner (checkpoints are gitignored, so share it separately)."
         )
     ckpt = torch.load(path, map_location="cpu", weights_only=True)
     classes = DEFAULT_CLASSES
     state = ckpt
-    if isinstance(ckpt, dict) and ("state_dict" in ckpt or "model_state_dict" in ckpt):
-        state = ckpt.get("state_dict", ckpt.get("model_state_dict"))
-        classes = ckpt.get("classes", DEFAULT_CLASSES)
+    for key in ("model_state", "state_dict", "model_state_dict"):
+        if isinstance(ckpt, dict) and key in ckpt:
+            state = ckpt[key]
+            classes = ckpt.get("classes", DEFAULT_CLASSES)
+            break
     model = resnet18(weights=None)
     model.fc = nn.Linear(model.fc.in_features, len(classes))
     model.load_state_dict(state)
@@ -80,7 +85,10 @@ def load_model(path=MODEL_PATH):
     _model, _classes = model, list(classes)
     return _model
 
+
+# Below this confidence the result is reported as "Needs review" instead of a category.
 CONFIDENCE_THRESHOLD = 0.60
+
 
 def predict(image_path):
     """Return the predicted item, category, and confidence."""
