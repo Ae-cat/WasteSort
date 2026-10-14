@@ -21,8 +21,28 @@ python -m unittest discover -s tests -v
 
 - Automated dataset and end-to-end untrained-model inference tests: **2 passed** in 0.258 seconds.
 - Python compilation and both command-line help checks: **passed**.
+- Dataset inspection: **4,752 images**, nine classes, all sampled images were RGB 524 x 524.
+- Stratified split loading: **3,323 train / 710 validation / 719 test** images.
+- Development dependencies: PyTorch, torchvision, NumPy, pandas, Pillow, matplotlib, scikit-learn, and OpenCV are installed.
+- ImageNet ResNet18 baseline: **completed** for one deterministic sample per RealWaste class.
 - RealWaste training: not run in this checkout because the dataset is intentionally excluded from Git.
-- Physical camera capture: not run because this execution environment has no camera access and OpenCV is not installed.
+- Physical camera interface: OpenCV loads correctly, but macOS denied camera permission to the current terminal process. Grant Camera permission before the live demo.
+
+## Baseline output
+
+```text
+Cardboard            -> cassette (80%)
+Food Organics        -> hatchet (26%)
+Glass                -> beer bottle (69%)
+Metal                -> beer bottle (60%)
+Miscellaneous Trash  -> screwdriver (65%)
+Paper                -> packet (77%)
+Plastic              -> tray (39%)
+Textile Trash        -> handkerchief (60%)
+Vegetation           -> walking stick (69%)
+```
+
+This is an expected baseline: the unmodified model predicts ImageNet labels, which demonstrates why the RealWaste classifier needs transfer learning in the next model-training phase.
 
 The model checkpoint and captured images are local artifacts and must not be committed.
 

@@ -222,3 +222,4 @@ data/
 *.pth
 *.pt
 captures/
+.torch/
