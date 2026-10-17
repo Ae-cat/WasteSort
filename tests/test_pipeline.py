@@ -9,6 +9,7 @@ from PIL import Image
 sys.path.insert(0, str(Path(__file__).parents[1] / "ml"))
 
 from dataset import WasteDataset
+from evaluate import calculate_metrics
 from model import DISPOSAL_MAP, build_model, predict_image
 
 
@@ -39,6 +40,17 @@ class PipelineTest(unittest.TestCase):
             self.assertEqual(result["disposal_category"], DISPOSAL_MAP[result["label"]])
             self.assertGreaterEqual(result["confidence"], 0)
             self.assertLessEqual(result["confidence"], 1)
+
+    def test_evaluation_metrics(self):
+        targets = [0, 0, 1, 1]
+        predictions = [0, 1, 1, 1]
+        overall, per_class, matrix = calculate_metrics(
+            targets, predictions, ["Cardboard", "Glass"]
+        )
+        self.assertEqual(overall, 0.75)
+        self.assertEqual(per_class["Cardboard"], 0.5)
+        self.assertEqual(per_class["Glass"], 1.0)
+        self.assertEqual(matrix.tolist(), [[1, 1], [0, 2]])
 
 
 if __name__ == "__main__":
