@@ -31,3 +31,20 @@ Determine what waste objects WasteSort should recognize, and prepare a dataset t
 ## Split and loading
 
 Stratified 70/15/15 split with seed 42, saved in `ml/splits.csv`: 3,323 train, 710 val, 719 test. Load it with `WasteDataset("train" | "val" | "test")` from `ml/dataset.py`. The test set is for final evaluation only.
+
+## Week 3 verification
+
+- Class counts unchanged: 4,752 images across 9 classes.
+- No empty folders, corrupt files, exact duplicates, or near-duplicates (`ml/check_duplicates.py`).
+- Splits are separate: every image appears in exactly one split (0 overlaps).
+- Splits are reproducible: rerunning `ml/make_split.py` (seed 42) produces an identical `splits.csv`.
+- The trained checkpoint's class list matches the dataset classes and the disposal mapping in `ml/model.py`.
+- No augmentation is currently used; the same preprocessing is applied to train, val, and test.
+- All 9 classes are mapped. Plastic → Recyclable is an assumption: most sampled Plastic images are rigid containers.
+
+## Known limitations
+
+- Every image is overhead on gray concrete, so camera images will look different.
+- Material labels don't always match disposal rules (food-soiled cardboard, glass shards, scrap metal).
+- Miscellaneous Trash is a mixed "everything else" class. It is the weakest class (57% test accuracy) and is often predicted as Food Organics, which would send it to compost.
+- Similar-angle photos of the same object would not be caught by the duplicate check.
