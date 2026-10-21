@@ -42,6 +42,7 @@ def main():
     parser.add_argument("--learning-rate", type=float, default=1e-3)
     parser.add_argument("--freeze-backbone", action="store_true")
     parser.add_argument("--no-pretrained", action="store_true")
+    parser.add_argument("--class-weights", action="store_true")
     args = parser.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
@@ -53,7 +54,14 @@ def main():
 
     model = build_model(len(train_set.classes), not args.no_pretrained, args.freeze_backbone).to(device)
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=args.learning_rate)
-    loss_fn = torch.nn.CrossEntropyLoss()
+    if args.class_weights:
+        labels = torch.tensor([label for _, label in train_set.samples])
+        counts = torch.bincount(labels, minlength=len(train_set.classes)).float()
+        weights = len(train_set) / (len(train_set.classes) * counts)
+        print("class weights:", {c: round(w, 4) for c, w in zip(train_set.classes, weights.tolist())})
+        loss_fn = torch.nn.CrossEntropyLoss(weight=weights.to(device))
+    else:
+        loss_fn = torch.nn.CrossEntropyLoss()
     best_accuracy = -1.0
     args.output.parent.mkdir(parents=True, exist_ok=True)
 
