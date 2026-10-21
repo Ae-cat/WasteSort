@@ -1,6 +1,6 @@
 # Week 4 Camera Integration: Requirements and Blockers
 
-Owner: Ariella (project lead). Based on the current `ml/` code on `main`. Items marked **Verified** come from reading the code; items marked **To check** are assumptions that need a test.
+Based on the current `ml/` code on `main`. Items marked **Verified** come from reading the code; items marked **To check** are assumptions that need a test.
 
 ## 1. What the model expects
 
