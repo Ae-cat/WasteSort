@@ -13,3 +13,7 @@ Evaluate a trained checkpoint on the held-out test split with:
 ```bash
 python3 ml/evaluate.py
 ```
+
+Week 3 prediction logs, reproduced held-out results, and the independent external
+image collection/test workflow are in
+[`docs/week3_carryover_results.md`](docs/week3_carryover_results.md).

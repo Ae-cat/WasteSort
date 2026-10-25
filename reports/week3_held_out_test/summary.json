@@ -1,0 +1,176 @@
+{
+  "images": 719,
+  "labeled_images": 719,
+  "correct": 578,
+  "accuracy": 0.803894297635605,
+  "disposal_accuracy": 0.9360222531293463,
+  "per_class": {
+    "Cardboard": {
+      "support": 70,
+      "correct": 57,
+      "recall": 0.8142857142857143
+    },
+    "Food Organics": {
+      "support": 63,
+      "correct": 57,
+      "recall": 0.9047619047619048
+    },
+    "Glass": {
+      "support": 63,
+      "correct": 52,
+      "recall": 0.8253968253968254
+    },
+    "Metal": {
+      "support": 119,
+      "correct": 102,
+      "recall": 0.8571428571428571
+    },
+    "Miscellaneous Trash": {
+      "support": 75,
+      "correct": 43,
+      "recall": 0.5733333333333334
+    },
+    "Paper": {
+      "support": 75,
+      "correct": 61,
+      "recall": 0.8133333333333334
+    },
+    "Plastic": {
+      "support": 139,
+      "correct": 103,
+      "recall": 0.7410071942446043
+    },
+    "Textile Trash": {
+      "support": 49,
+      "correct": 38,
+      "recall": 0.7755102040816326
+    },
+    "Vegetation": {
+      "support": 66,
+      "correct": 65,
+      "recall": 0.9848484848484849
+    }
+  },
+  "confusion_matrix": [
+    [
+      57,
+      0,
+      0,
+      1,
+      0,
+      9,
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      57,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      52,
+      6,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      102,
+      2,
+      0,
+      13,
+      0,
+      1
+    ],
+    [
+      1,
+      9,
+      2,
+      5,
+      43,
+      4,
+      4,
+      6,
+      1
+    ],
+    [
+      12,
+      0,
+      0,
+      2,
+      0,
+      61,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      7,
+      12,
+      6,
+      5,
+      103,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      5,
+      2,
+      1,
+      38,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      65
+    ]
+  ],
+  "dataset_kind": "realwaste_held_out_test",
+  "classes": [
+    "Cardboard",
+    "Food Organics",
+    "Glass",
+    "Metal",
+    "Miscellaneous Trash",
+    "Paper",
+    "Plastic",
+    "Textile Trash",
+    "Vegetation"
+  ],
+  "checkpoint_sha256": "ec029f793f7ee5e126eda72e9b8bb6de6cba3aa5502d20d20dcab10be5e3b17f",
+  "splits_sha256": "f9e7009d12ed25bac595b4ca82ea7d7d536def7e7ffca3da1be52a87514d6ba4",
+  "device": "cpu",
+  "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "torch": "2.12.1",
+  "torchvision": "0.27.1",
+  "python": "3.12.1",
+  "git_revision": "a176f21df88ada748874e55a1a0c856d65da671e",
+  "manifest_sha256": null
+}
