@@ -1,0 +1,572 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>WasteSort baseline error review</title><style>
+body{font:16px system-ui;margin:30px;background:#f5f5f5;color:#162331}
+main{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+article{background:white;padding:14px;border:1px solid #ddd;border-radius:10px}
+img{width:100%;height:240px;object-fit:contain}h2{font-size:17px}p{overflow-wrap:anywhere}
+</style><h1>Baseline held-out RealWaste error review</h1>
+<p>Sorted by decreasing confidence. These are not external images. True labels are dataset labels;
+visual cause must be reviewed, not inferred from the prediction. CSV contains an empty review_note column.</p><main><article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_58.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_58.jpg" alt="Plastic → Cardboard"></a>
+<h2>#1 Plastic → Cardboard</h2><p>Confidence 93.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_58.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_219.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_219.jpg" alt="Miscellaneous Trash → Textile Trash"></a>
+<h2>#2 Miscellaneous Trash → Textile Trash</h2><p>Confidence 90.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_219.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_303.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_303.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#3 Miscellaneous Trash → Food Organics</h2><p>Confidence 89.7% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_303.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_379.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_379.jpg" alt="Glass → Metal"></a>
+<h2>#4 Glass → Metal</h2><p>Confidence 82.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_379.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_318.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_318.jpg" alt="Metal → Plastic"></a>
+<h2>#5 Metal → Plastic</h2><p>Confidence 82.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_318.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_192.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_192.jpg" alt="Paper → Cardboard"></a>
+<h2>#6 Paper → Cardboard</h2><p>Confidence 81.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_192.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_20.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_20.jpg" alt="Paper → Cardboard"></a>
+<h2>#7 Paper → Cardboard</h2><p>Confidence 79.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_20.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_768.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_768.jpg" alt="Plastic → Metal"></a>
+<h2>#8 Plastic → Metal</h2><p>Confidence 78.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_768.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_219.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_219.jpg" alt="Paper → Cardboard"></a>
+<h2>#9 Paper → Cardboard</h2><p>Confidence 77.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_219.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_33.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_33.jpg" alt="Textile Trash → Paper"></a>
+<h2>#10 Textile Trash → Paper</h2><p>Confidence 77.3% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_33.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_352.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_352.jpg" alt="Miscellaneous Trash → Cardboard"></a>
+<h2>#11 Miscellaneous Trash → Cardboard</h2><p>Confidence 77.0% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_352.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_68.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_68.jpg" alt="Glass → Metal"></a>
+<h2>#12 Glass → Metal</h2><p>Confidence 77.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_68.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_253.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_253.jpg" alt="Plastic → Metal"></a>
+<h2>#13 Plastic → Metal</h2><p>Confidence 75.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_253.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_381.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_381.jpg" alt="Miscellaneous Trash → Vegetation"></a>
+<h2>#14 Miscellaneous Trash → Vegetation</h2><p>Confidence 75.0% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_381.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_172.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_172.jpg" alt="Paper → Cardboard"></a>
+<h2>#15 Paper → Cardboard</h2><p>Confidence 74.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_172.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_74.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_74.jpg" alt="Miscellaneous Trash → Plastic"></a>
+<h2>#16 Miscellaneous Trash → Plastic</h2><p>Confidence 74.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_74.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_353.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_353.jpg" alt="Cardboard → Paper"></a>
+<h2>#17 Cardboard → Paper</h2><p>Confidence 74.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_353.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_411.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_411.jpg" alt="Food Organics → Vegetation"></a>
+<h2>#18 Food Organics → Vegetation</h2><p>Confidence 73.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Food Organics/Food Organics_411.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_302.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_302.jpg" alt="Metal → Plastic"></a>
+<h2>#19 Metal → Plastic</h2><p>Confidence 73.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_302.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_200.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_200.jpg" alt="Paper → Cardboard"></a>
+<h2>#20 Paper → Cardboard</h2><p>Confidence 70.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_200.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_85.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_85.jpg" alt="Food Organics → Vegetation"></a>
+<h2>#21 Food Organics → Vegetation</h2><p>Confidence 69.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Food Organics/Food Organics_85.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_201.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_201.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#22 Miscellaneous Trash → Food Organics</h2><p>Confidence 68.0% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_201.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_325.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_325.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#23 Miscellaneous Trash → Food Organics</h2><p>Confidence 67.9% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_325.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_489.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_489.jpg" alt="Miscellaneous Trash → Textile Trash"></a>
+<h2>#24 Miscellaneous Trash → Textile Trash</h2><p>Confidence 67.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_489.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_423.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_423.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#25 Miscellaneous Trash → Food Organics</h2><p>Confidence 66.8% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_423.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_17.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_17.jpg" alt="Paper → Metal"></a>
+<h2>#26 Paper → Metal</h2><p>Confidence 66.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_17.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_764.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_764.jpg" alt="Plastic → Paper"></a>
+<h2>#27 Plastic → Paper</h2><p>Confidence 65.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_764.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_161.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_161.jpg" alt="Miscellaneous Trash → Textile Trash"></a>
+<h2>#28 Miscellaneous Trash → Textile Trash</h2><p>Confidence 64.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_161.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_310.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_310.jpg" alt="Cardboard → Paper"></a>
+<h2>#29 Cardboard → Paper</h2><p>Confidence 64.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_310.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_56.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_56.jpg" alt="Plastic → Cardboard"></a>
+<h2>#30 Plastic → Cardboard</h2><p>Confidence 64.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_56.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_8.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_8.jpg" alt="Textile Trash → Metal"></a>
+<h2>#31 Textile Trash → Metal</h2><p>Confidence 64.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_8.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_920.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_920.jpg" alt="Plastic → Glass"></a>
+<h2>#32 Plastic → Glass</h2><p>Confidence 64.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_920.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_215.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_215.jpg" alt="Metal → Miscellaneous Trash"></a>
+<h2>#33 Metal → Miscellaneous Trash</h2><p>Confidence 63.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_215.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_502.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_502.jpg" alt="Plastic → Glass"></a>
+<h2>#34 Plastic → Glass</h2><p>Confidence 62.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_502.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_428.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_428.jpg" alt="Miscellaneous Trash → Metal"></a>
+<h2>#35 Miscellaneous Trash → Metal</h2><p>Confidence 62.8% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_428.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_370.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_370.jpg" alt="Cardboard → Paper"></a>
+<h2>#36 Cardboard → Paper</h2><p>Confidence 62.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_370.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_100.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_100.jpg" alt="Metal → Plastic"></a>
+<h2>#37 Metal → Plastic</h2><p>Confidence 62.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_100.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_219.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_219.jpg" alt="Metal → Plastic"></a>
+<h2>#38 Metal → Plastic</h2><p>Confidence 61.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_219.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_61.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_61.jpg" alt="Plastic → Cardboard"></a>
+<h2>#39 Plastic → Cardboard</h2><p>Confidence 60.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_61.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_292.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_292.jpg" alt="Plastic → Miscellaneous Trash"></a>
+<h2>#40 Plastic → Miscellaneous Trash</h2><p>Confidence 60.9% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_292.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_159.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_159.jpg" alt="Miscellaneous Trash → Textile Trash"></a>
+<h2>#41 Miscellaneous Trash → Textile Trash</h2><p>Confidence 60.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_159.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_353.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_353.jpg" alt="Miscellaneous Trash → Paper"></a>
+<h2>#42 Miscellaneous Trash → Paper</h2><p>Confidence 59.0% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_353.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_179.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_179.jpg" alt="Miscellaneous Trash → Metal"></a>
+<h2>#43 Miscellaneous Trash → Metal</h2><p>Confidence 59.0% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_179.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_68.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_68.jpg" alt="Miscellaneous Trash → Textile Trash"></a>
+<h2>#44 Miscellaneous Trash → Textile Trash</h2><p>Confidence 58.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_68.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_307.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_307.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#45 Miscellaneous Trash → Food Organics</h2><p>Confidence 58.7% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_307.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_394.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_394.jpg" alt="Cardboard → Paper"></a>
+<h2>#46 Cardboard → Paper</h2><p>Confidence 58.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_394.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_294.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_294.jpg" alt="Cardboard → Paper"></a>
+<h2>#47 Cardboard → Paper</h2><p>Confidence 58.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_294.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_163.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_163.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#48 Miscellaneous Trash → Food Organics</h2><p>Confidence 58.5% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_163.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_224.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_224.jpg" alt="Plastic → Metal"></a>
+<h2>#49 Plastic → Metal</h2><p>Confidence 58.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_224.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_232.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_232.jpg" alt="Metal → Plastic"></a>
+<h2>#50 Metal → Plastic</h2><p>Confidence 58.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_232.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_670.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_670.jpg" alt="Metal → Plastic"></a>
+<h2>#51 Metal → Plastic</h2><p>Confidence 58.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_670.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_171.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_171.jpg" alt="Glass → Metal"></a>
+<h2>#52 Glass → Metal</h2><p>Confidence 57.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_171.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_141.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_141.jpg" alt="Cardboard → Plastic"></a>
+<h2>#53 Cardboard → Plastic</h2><p>Confidence 57.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_141.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_82.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_82.jpg" alt="Plastic → Metal"></a>
+<h2>#54 Plastic → Metal</h2><p>Confidence 56.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_82.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_394.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_394.jpg" alt="Paper → Cardboard"></a>
+<h2>#55 Paper → Cardboard</h2><p>Confidence 56.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_394.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_330.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_330.jpg" alt="Plastic → Metal"></a>
+<h2>#56 Plastic → Metal</h2><p>Confidence 56.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_330.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_313.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_313.jpg" alt="Metal → Cardboard"></a>
+<h2>#57 Metal → Cardboard</h2><p>Confidence 56.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_313.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_347.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_347.jpg" alt="Food Organics → Vegetation"></a>
+<h2>#58 Food Organics → Vegetation</h2><p>Confidence 56.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Food Organics/Food Organics_347.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_298.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_298.jpg" alt="Food Organics → Miscellaneous Trash"></a>
+<h2>#59 Food Organics → Miscellaneous Trash</h2><p>Confidence 55.8% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Food Organics/Food Organics_298.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_90.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_90.jpg" alt="Miscellaneous Trash → Glass"></a>
+<h2>#60 Miscellaneous Trash → Glass</h2><p>Confidence 55.7% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_90.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_92.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_92.jpg" alt="Paper → Cardboard"></a>
+<h2>#61 Paper → Cardboard</h2><p>Confidence 55.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_92.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_274.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_274.jpg" alt="Cardboard → Paper"></a>
+<h2>#62 Cardboard → Paper</h2><p>Confidence 54.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_274.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_49.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_49.jpg" alt="Plastic → Metal"></a>
+<h2>#63 Plastic → Metal</h2><p>Confidence 54.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_49.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_194.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_194.jpg" alt="Plastic → Textile Trash"></a>
+<h2>#64 Plastic → Textile Trash</h2><p>Confidence 53.6% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_194.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_122.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_122.jpg" alt="Glass → Cardboard"></a>
+<h2>#65 Glass → Cardboard</h2><p>Confidence 53.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_122.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_198.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_198.jpg" alt="Miscellaneous Trash → Textile Trash"></a>
+<h2>#66 Miscellaneous Trash → Textile Trash</h2><p>Confidence 53.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_198.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_289.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_289.jpg" alt="Metal → Plastic"></a>
+<h2>#67 Metal → Plastic</h2><p>Confidence 52.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_289.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_72.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_72.jpg" alt="Plastic → Paper"></a>
+<h2>#68 Plastic → Paper</h2><p>Confidence 52.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_72.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_50.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_50.jpg" alt="Plastic → Cardboard"></a>
+<h2>#69 Plastic → Cardboard</h2><p>Confidence 52.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_50.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_77.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_77.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#70 Miscellaneous Trash → Food Organics</h2><p>Confidence 52.0% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_77.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_261.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_261.jpg" alt="Textile Trash → Miscellaneous Trash"></a>
+<h2>#71 Textile Trash → Miscellaneous Trash</h2><p>Confidence 51.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_261.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_20.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_20.jpg" alt="Cardboard → Paper"></a>
+<h2>#72 Cardboard → Paper</h2><p>Confidence 51.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_20.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_339.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_339.jpg" alt="Food Organics → Vegetation"></a>
+<h2>#73 Food Organics → Vegetation</h2><p>Confidence 51.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Food Organics/Food Organics_339.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_193.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_193.jpg" alt="Plastic → Textile Trash"></a>
+<h2>#74 Plastic → Textile Trash</h2><p>Confidence 51.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_193.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_322.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_322.jpg" alt="Plastic → Miscellaneous Trash"></a>
+<h2>#75 Plastic → Miscellaneous Trash</h2><p>Confidence 50.9% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_322.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_393.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_393.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#76 Miscellaneous Trash → Food Organics</h2><p>Confidence 50.4% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_393.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_439.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_439.jpg" alt="Cardboard → Paper"></a>
+<h2>#77 Cardboard → Paper</h2><p>Confidence 50.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_439.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_354.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_354.jpg" alt="Miscellaneous Trash → Paper"></a>
+<h2>#78 Miscellaneous Trash → Paper</h2><p>Confidence 50.2% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_354.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_454.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_454.jpg" alt="Plastic → Paper"></a>
+<h2>#79 Plastic → Paper</h2><p>Confidence 49.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_454.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_214.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_214.jpg" alt="Metal → Miscellaneous Trash"></a>
+<h2>#80 Metal → Miscellaneous Trash</h2><p>Confidence 49.3% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_214.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_393.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_393.jpg" alt="Glass → Metal"></a>
+<h2>#81 Glass → Metal</h2><p>Confidence 49.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_393.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_845.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_845.jpg" alt="Plastic → Metal"></a>
+<h2>#82 Plastic → Metal</h2><p>Confidence 49.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_845.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_419.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_419.jpg" alt="Miscellaneous Trash → Plastic"></a>
+<h2>#83 Miscellaneous Trash → Plastic</h2><p>Confidence 48.9% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_419.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_112.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_112.jpg" alt="Textile Trash → Miscellaneous Trash"></a>
+<h2>#84 Textile Trash → Miscellaneous Trash</h2><p>Confidence 48.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_112.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_140.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_140.jpg" alt="Metal → Plastic"></a>
+<h2>#85 Metal → Plastic</h2><p>Confidence 48.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_140.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_86.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_86.jpg" alt="Textile Trash → Vegetation"></a>
+<h2>#86 Textile Trash → Vegetation</h2><p>Confidence 48.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_86.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_221.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_221.jpg" alt="Paper → Cardboard"></a>
+<h2>#87 Paper → Cardboard</h2><p>Confidence 48.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_221.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_497.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_497.jpg" alt="Plastic → Glass"></a>
+<h2>#88 Plastic → Glass</h2><p>Confidence 47.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_497.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_374.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_374.jpg" alt="Paper → Cardboard"></a>
+<h2>#89 Paper → Cardboard</h2><p>Confidence 47.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_374.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_331.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_331.jpg" alt="Paper → Metal"></a>
+<h2>#90 Paper → Metal</h2><p>Confidence 47.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_331.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_363.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_363.jpg" alt="Glass → Plastic"></a>
+<h2>#91 Glass → Plastic</h2><p>Confidence 47.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_363.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_183.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_183.jpg" alt="Metal → Plastic"></a>
+<h2>#92 Metal → Plastic</h2><p>Confidence 47.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_183.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_422.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_422.jpg" alt="Paper → Cardboard"></a>
+<h2>#93 Paper → Cardboard</h2><p>Confidence 47.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_422.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_626.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_626.jpg" alt="Plastic → Glass"></a>
+<h2>#94 Plastic → Glass</h2><p>Confidence 46.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_626.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_162.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_162.jpg" alt="Plastic → Metal"></a>
+<h2>#95 Plastic → Metal</h2><p>Confidence 46.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_162.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_346.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_346.jpg" alt="Plastic → Glass"></a>
+<h2>#96 Plastic → Glass</h2><p>Confidence 45.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_346.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Vegetation/Vegetation_281.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Vegetation/Vegetation_281.jpg" alt="Vegetation → Miscellaneous Trash"></a>
+<h2>#97 Vegetation → Miscellaneous Trash</h2><p>Confidence 45.7% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Vegetation/Vegetation_281.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_198.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_198.jpg" alt="Plastic → Paper"></a>
+<h2>#98 Plastic → Paper</h2><p>Confidence 44.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_198.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_143.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_143.jpg" alt="Cardboard → Paper"></a>
+<h2>#99 Cardboard → Paper</h2><p>Confidence 43.5% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_143.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_116.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_116.jpg" alt="Textile Trash → Miscellaneous Trash"></a>
+<h2>#100 Textile Trash → Miscellaneous Trash</h2><p>Confidence 42.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_116.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_426.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_426.jpg" alt="Miscellaneous Trash → Plastic"></a>
+<h2>#101 Miscellaneous Trash → Plastic</h2><p>Confidence 42.8% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_426.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_406.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_406.jpg" alt="Miscellaneous Trash → Paper"></a>
+<h2>#102 Miscellaneous Trash → Paper</h2><p>Confidence 42.6% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_406.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_64.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_64.jpg" alt="Metal → Plastic"></a>
+<h2>#103 Metal → Plastic</h2><p>Confidence 42.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_64.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_685.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_685.jpg" alt="Metal → Plastic"></a>
+<h2>#104 Metal → Plastic</h2><p>Confidence 42.2% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_685.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_405.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_405.jpg" alt="Plastic → Metal"></a>
+<h2>#105 Plastic → Metal</h2><p>Confidence 41.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_405.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_271.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_271.jpg" alt="Plastic → Miscellaneous Trash"></a>
+<h2>#106 Plastic → Miscellaneous Trash</h2><p>Confidence 41.4% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_271.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_496.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_496.jpg" alt="Plastic → Glass"></a>
+<h2>#107 Plastic → Glass</h2><p>Confidence 41.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_496.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_365.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_365.jpg" alt="Cardboard → Metal"></a>
+<h2>#108 Cardboard → Metal</h2><p>Confidence 40.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_365.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_315.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_315.jpg" alt="Glass → Plastic"></a>
+<h2>#109 Glass → Plastic</h2><p>Confidence 40.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_315.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_759.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_759.jpg" alt="Plastic → Paper"></a>
+<h2>#110 Plastic → Paper</h2><p>Confidence 40.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_759.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_341.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_341.jpg" alt="Miscellaneous Trash → Paper"></a>
+<h2>#111 Miscellaneous Trash → Paper</h2><p>Confidence 40.7% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_341.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_374.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_374.jpg" alt="Glass → Plastic"></a>
+<h2>#112 Glass → Plastic</h2><p>Confidence 40.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_374.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_125.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_125.jpg" alt="Textile Trash → Plastic"></a>
+<h2>#113 Textile Trash → Plastic</h2><p>Confidence 39.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_125.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_180.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_180.jpg" alt="Textile Trash → Miscellaneous Trash"></a>
+<h2>#114 Textile Trash → Miscellaneous Trash</h2><p>Confidence 38.9% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_180.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_156.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_156.jpg" alt="Cardboard → Plastic"></a>
+<h2>#115 Cardboard → Plastic</h2><p>Confidence 38.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_156.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_456.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_456.jpg" alt="Miscellaneous Trash → Food Organics"></a>
+<h2>#116 Miscellaneous Trash → Food Organics</h2><p>Confidence 38.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_456.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_241.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_241.jpg" alt="Textile Trash → Metal"></a>
+<h2>#117 Textile Trash → Metal</h2><p>Confidence 37.8% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_241.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_731.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_731.jpg" alt="Metal → Plastic"></a>
+<h2>#118 Metal → Plastic</h2><p>Confidence 37.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_731.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_358.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_358.jpg" alt="Miscellaneous Trash → Metal"></a>
+<h2>#119 Miscellaneous Trash → Metal</h2><p>Confidence 37.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_358.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_211.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_211.jpg" alt="Metal → Plastic"></a>
+<h2>#120 Metal → Plastic</h2><p>Confidence 36.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_211.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_415.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_415.jpg" alt="Paper → Cardboard"></a>
+<h2>#121 Paper → Cardboard</h2><p>Confidence 36.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_415.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_139.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Cardboard/Cardboard_139.jpg" alt="Cardboard → Plastic"></a>
+<h2>#122 Cardboard → Plastic</h2><p>Confidence 36.3% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Cardboard/Cardboard_139.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Paper/Paper_58.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Paper/Paper_58.jpg" alt="Paper → Cardboard"></a>
+<h2>#123 Paper → Cardboard</h2><p>Confidence 36.1% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Paper/Paper_58.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_123.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_123.jpg" alt="Plastic → Metal"></a>
+<h2>#124 Plastic → Metal</h2><p>Confidence 36.0% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_123.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_488.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_488.jpg" alt="Plastic → Metal"></a>
+<h2>#125 Plastic → Metal</h2><p>Confidence 35.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_488.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_23.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_23.jpg" alt="Glass → Plastic"></a>
+<h2>#126 Glass → Plastic</h2><p>Confidence 35.4% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_23.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_800.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_800.jpg" alt="Plastic → Glass"></a>
+<h2>#127 Plastic → Glass</h2><p>Confidence 33.7% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_800.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_321.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_321.jpg" alt="Plastic → Metal"></a>
+<h2>#128 Plastic → Metal</h2><p>Confidence 33.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_321.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_34.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_34.jpg" alt="Glass → Metal"></a>
+<h2>#129 Glass → Metal</h2><p>Confidence 33.6% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_34.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_389.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_389.jpg" alt="Plastic → Miscellaneous Trash"></a>
+<h2>#130 Plastic → Miscellaneous Trash</h2><p>Confidence 33.2% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_389.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Glass/Glass_403.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Glass/Glass_403.jpg" alt="Glass → Metal"></a>
+<h2>#131 Glass → Metal</h2><p>Confidence 31.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Glass/Glass_403.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_129.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_129.jpg" alt="Miscellaneous Trash → Metal"></a>
+<h2>#132 Miscellaneous Trash → Metal</h2><p>Confidence 31.4% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_129.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_77.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_77.jpg" alt="Plastic → Miscellaneous Trash"></a>
+<h2>#133 Plastic → Miscellaneous Trash</h2><p>Confidence 31.3% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_77.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_349.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_349.jpg" alt="Miscellaneous Trash → Metal"></a>
+<h2>#134 Miscellaneous Trash → Metal</h2><p>Confidence 30.9% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_349.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_4.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_4.jpg" alt="Textile Trash → Paper"></a>
+<h2>#135 Textile Trash → Paper</h2><p>Confidence 30.7% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_4.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_3.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Food%20Organics/Food%20Organics_3.jpg" alt="Food Organics → Miscellaneous Trash"></a>
+<h2>#136 Food Organics → Miscellaneous Trash</h2><p>Confidence 29.4% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Food Organics/Food Organics_3.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Plastic/Plastic_74.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Plastic/Plastic_74.jpg" alt="Plastic → Miscellaneous Trash"></a>
+<h2>#137 Plastic → Miscellaneous Trash</h2><p>Confidence 28.1% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Plastic/Plastic_74.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_413.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_413.jpg" alt="Miscellaneous Trash → Plastic"></a>
+<h2>#138 Miscellaneous Trash → Plastic</h2><p>Confidence 27.4% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_413.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Metal/Metal_517.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Metal/Metal_517.jpg" alt="Metal → Vegetation"></a>
+<h2>#139 Metal → Vegetation</h2><p>Confidence 26.5% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Metal/Metal_517.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_98.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Textile%20Trash/Textile%20Trash_98.jpg" alt="Textile Trash → Miscellaneous Trash"></a>
+<h2>#140 Textile Trash → Miscellaneous Trash</h2><p>Confidence 25.8% ·
+Disposal correct</p>
+<p>data/realwaste-main/RealWaste/Textile Trash/Textile Trash_98.jpg</p></article>
+<article><a href="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_76.jpg"><img loading="lazy" src="../../data/realwaste-main/RealWaste/Miscellaneous%20Trash/Miscellaneous%20Trash_76.jpg" alt="Miscellaneous Trash → Glass"></a>
+<h2>#141 Miscellaneous Trash → Glass</h2><p>Confidence 25.5% ·
+Disposal WRONG</p>
+<p>data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_76.jpg</p></article></main></html>
