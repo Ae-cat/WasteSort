@@ -1,0 +1,55 @@
+{
+  "started_utc": "2026-10-25T18:14:51.168798+00:00",
+  "seed": 42,
+  "device": "cpu",
+  "epoch_budgets": [
+    5,
+    10
+  ],
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "class_weights": false,
+  "freeze_backbone": true,
+  "batchnorm_updates": true,
+  "pretrained_weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "train_images": 3323,
+  "validation_images": 710,
+  "test_used": false,
+  "selection": "Highest validation accuracy within each budget; ties keep earliest epoch",
+  "classes": [
+    "Cardboard",
+    "Food Organics",
+    "Glass",
+    "Metal",
+    "Miscellaneous Trash",
+    "Paper",
+    "Plastic",
+    "Textile Trash",
+    "Vegetation"
+  ],
+  "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "torch": "2.12.1",
+  "torchvision": "0.27.1",
+  "splits_sha256": "f9e7009d12ed25bac595b4ca82ea7d7d536def7e7ffca3da1be52a87514d6ba4",
+  "git_base_revision": "0767f5adef4006add74f23d05b1e440b5d404163",
+  "source_sha256": {
+    "ml/epoch_experiment.py": "eacfa50fe4b7c62c31ded52761cdacb57631861aaa90275f9683c4b5b543a2b8",
+    "ml/train.py": "282e76d8cb9fb5c881e3a1937d70dd796e5dd4dc3dc11d64b5e287c46a92fb4f",
+    "ml/model.py": "9c6317ca9c09986103660523c47dae8ac3abc43a44846729659fb51b7387e4bf",
+    "ml/dataset.py": "641422a768494035af4022a421f85915bb25e2bd72df4702935c83d16f5ceeb7"
+  },
+  "budget_5": {
+    "best_epoch": 5,
+    "val_accuracy": 0.7577464788732394
+  },
+  "budget_10": {
+    "best_epoch": 10,
+    "val_accuracy": 0.776056338028169
+  },
+  "finished_utc": "2026-10-25T18:34:41.877820+00:00",
+  "checkpoint_sha256": {
+    "best_10epochs.pt": "49e9e38820e7d6c1219b667eb10f1bd66ffec03aab00f26f09b7e21a2f3f3e73",
+    "best_5epochs.pt": "afef8b74e2a29d69ac90acfb11fb2efaabc9ea15d71edea9b85bf9637afd03f3"
+  }
+}

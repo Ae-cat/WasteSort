@@ -42,6 +42,19 @@ error rate. Leading directional confusions are Metal → Plastic (13), Paper →
 Cardboard (12), Plastic → Metal (12), Cardboard → Paper (9), and Miscellaneous
 Trash → Food Organics (9). The last pair also changes Landfill to Compost.
 
+The 46 disposal errors break down as follows:
+
+| Actual disposal category | Predicted category | Count |
+| --- | --- | ---: |
+| Landfill | Recyclable | 21 |
+| Landfill | Compost | 11 |
+| Recyclable | Landfill | 10 |
+| Compost | Landfill | 3 |
+| Recyclable | Compost | 1 |
+
+These counts use only the project's existing class-to-bin mapping; they are not
+independently labeled disposal judgments.
+
 The 12 highest-confidence errors were visually inspected. Printed/folded packaging
 and paper often have similar shapes; dark glossy plastic and bottles can have
 material cues resembling metal. A blue cloth-like example is labeled Miscellaneous
