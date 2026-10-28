@@ -2,14 +2,23 @@
 
 ## Bin-level accuracy
 
-`ml/evaluate.py` now also reports how often items land in the right bin (Recyclable / Compost / Landfill), using `DISPOSAL_MAP` from `ml/model.py`.
+`ml/evaluate.py` now also reports how often items land in the right bin (Recyclable / Compost / Landfill), using `DISPOSAL_MAP` from `ml/model.py`. All results are on the same 719-image held-out test set.
 
 | Model | Class accuracy | Bin accuracy |
 | --- | ---: | ---: |
-| Baseline (unweighted) | 80.389% | Pending: needs Frank's baseline checkpoint |
-| Class-weighted | 79.277% | 92.211% |
+| Baseline (5 epochs, unweighted) | 80.389% | 93.602% |
+| Class-weighted (5 epochs) | 79.277% | 92.211% |
+| 10-epoch candidate (Frank) | 81.64% | 94.02% |
 
-Bin confusion matrix, class-weighted model (rows = true bin, columns = predicted bin):
+Bin confusion matrix, baseline (rows = true bin, columns = predicted bin):
+
+| True ↓ / Predicted → | Recyclable | Compost | Landfill | Correct |
+| --- | ---: | ---: | ---: | ---: |
+| Recyclable (466) | 455 | 1 | 10 | 97.6% |
+| Compost (129) | 0 | 126 | 3 | 97.7% |
+| Landfill (124) | 21 | 11 | 92 | 74.2% |
+
+Bin confusion matrix, class-weighted model:
 
 | True ↓ / Predicted → | Recyclable | Compost | Landfill | Correct |
 | --- | ---: | ---: | ---: | ---: |
@@ -17,14 +26,15 @@ Bin confusion matrix, class-weighted model (rows = true bin, columns = predicted
 | Compost (129) | 1 | 124 | 4 | 96.1% |
 | Landfill (124) | 18 | 15 | 91 | 73.4% |
 
-- Landfill is the weak bin: 33 of 124 Landfill items go to the wrong bin, 18 into Recyclable and 15 into Compost. That is contamination, the costliest mistake for a sorter.
-- Miscellaneous Trash has the lowest bin accuracy (62.7%). Every other class is above 89%.
+- Landfill is the weak bin in both models (~74%). In the baseline, 32 of 124 Landfill items go to the wrong bin (21 into Recyclable, 11 into Compost). That is contamination, the costliest mistake for a sorter.
+- Class weighting lowered bin accuracy too (93.6% → 92.2%), which supports keeping the unweighted baseline.
+- Miscellaneous Trash has the lowest bin accuracy in both models (65.3% baseline, 62.7% weighted). Every other class is above 87%.
 
 ## Miscellaneous Trash → Food Organics errors
 
 Script: `ml/inspect_errors.py` (grid saved to `reports/weighted_misc_as_food.png`)
 
-11 test images of Miscellaneous Trash were predicted as Food Organics.
+Miscellaneous Trash predicted as Food Organics: 9 test images in the baseline, 11 in the class-weighted model. The analysis below uses the weighted model's 11.
 
 - **Mostly hard cases:** dirty, earthy, or wet items (soil-like lumps, soggy paper or film, a stained wrapper, a lint ball) that look organic.
 - **Possibly mislabeled or mixed:** `_325` looks like onion or garlic peel; `_465` and `_456` are a board covered in grass clippings.
@@ -36,7 +46,7 @@ Conclusion: these errors come mostly from what is in the Miscellaneous Trash cla
 
 ## Needs-review threshold
 
-Script: `ml/threshold_sweep.py`. The threshold was chosen on the validation set and confirmed on the test set.
+Script: `ml/threshold_sweep.py`. The threshold was chosen on the validation set and confirmed on the test set, using the class-weighted model.
 
 **General threshold (all predictions):** too costly. At 60%, it flags 33% of correct predictions (val). Keep any general threshold low (~40%: catches 36% of wrong-bin errors, flags 8% of correct).
 
@@ -50,4 +60,4 @@ Script: `ml/threshold_sweep.py`. The threshold was chosen on the validation set 
 
 **Recommendation:** show "Needs review" when the model predicts a Compost class (Food Organics or Vegetation) with less than 60% confidence. This catches most trash-into-compost errors while flagging about 1 in 10 real Compost items. The test catch rate is higher than validation mostly because of small numbers, so treat the validation figure (57%) as the realistic estimate.
 
-**Caveat:** these numbers are for the class-weighted model. Rerun `ml/threshold_sweep.py` on the final model before setting the threshold, since a more confident model will shift them.
+**Caveat:** these numbers are for the class-weighted model. Frank is rerunning `ml/threshold_sweep.py` on the 10-epoch candidate, since a more confident model shifts them; use his numbers for the final threshold.
