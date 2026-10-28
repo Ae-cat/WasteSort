@@ -48,3 +48,4 @@ Stratified 70/15/15 split with seed 42, saved in `ml/splits.csv`: 3,323 train, 7
 - Material labels don't always match disposal rules (food-soiled cardboard, glass shards, scrap metal).
 - Miscellaneous Trash is a mixed "everything else" class. It is the weakest class (57% test accuracy) and is often predicted as Food Organics, which would send it to compost.
 - Similar-angle photos of the same object would not be caught by the duplicate check.
+- Some objects appear twice from different angles (e.g., Miscellaneous Trash `_465`/`_456` and `_393`/`_423`); the duplicate check does not catch these, so similar shots may span train and test and slightly inflate accuracy.
