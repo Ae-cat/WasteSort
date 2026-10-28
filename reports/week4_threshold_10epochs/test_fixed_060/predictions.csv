@@ -1,0 +1,720 @@
+image_path,true_label,predicted_label,true_bin,predicted_bin,confidence,needs_review
+data/realwaste-main/RealWaste/Cardboard/Cardboard_188.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.46767938137054443,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_365.jpg,Cardboard,Metal,Recyclable,Recyclable,0.3897055685520172,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_266.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.6355487108230591,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_384.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9627580642700195,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_389.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9303536415100098,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_234.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7606850266456604,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_353.jpg,Cardboard,Paper,Recyclable,Recyclable,0.7998568415641785,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_135.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7794232368469238,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_273.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7287432551383972,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_156.jpg,Cardboard,Plastic,Recyclable,Recyclable,0.519618570804596,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_346.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9738189578056335,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_310.jpg,Cardboard,Paper,Recyclable,Recyclable,0.5597596764564514,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_435.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8135890960693359,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_119.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.5518230199813843,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_220.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9746472835540771,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_378.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7516300678253174,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_258.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7595399618148804,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_264.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8276510834693909,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_143.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.5460367202758789,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_274.jpg,Cardboard,Paper,Recyclable,Recyclable,0.4273204505443573,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_82.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.557685136795044,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_90.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.982188880443573,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_254.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9511604309082031,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_450.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9722466468811035,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_199.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8761991262435913,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_170.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.6693319082260132,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_68.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9826436638832092,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_256.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.705100953578949,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_85.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9989701509475708,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_420.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9072505235671997,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_172.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9455310702323914,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_55.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8450469374656677,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_449.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9258847832679749,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_101.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9918327331542969,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_57.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8185120224952698,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_227.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.5303245782852173,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_370.jpg,Cardboard,Paper,Recyclable,Recyclable,0.5513644814491272,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_305.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.3984060287475586,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_20.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.5195863842964172,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_292.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7532110810279846,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_88.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.5647516250610352,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_422.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8301258683204651,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_399.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9639316201210022,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_429.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9715155959129333,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_190.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9338838458061218,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_358.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.844733715057373,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_110.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.42115411162376404,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_377.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9377014636993408,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_331.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9195910692214966,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_206.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8870381712913513,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_2.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7941077947616577,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_141.jpg,Cardboard,Plastic,Recyclable,Recyclable,0.5188916325569153,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_112.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9792124032974243,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_113.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9687657952308655,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_294.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.7214935421943665,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_371.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8200226426124573,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_139.jpg,Cardboard,Plastic,Recyclable,Recyclable,0.4351845979690552,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_350.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9057227969169617,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_96.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.4079621732234955,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_410.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9564321041107178,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_146.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9195777773857117,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_439.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.753008246421814,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_163.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.5829848647117615,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_201.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.8325485587120056,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_211.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9298869967460632,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_225.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.6852537393569946,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_440.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.701699435710907,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_11.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.9922763705253601,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_150.jpg,Cardboard,Cardboard,Recyclable,Recyclable,0.4978858530521393,False
+data/realwaste-main/RealWaste/Cardboard/Cardboard_394.jpg,Cardboard,Paper,Recyclable,Recyclable,0.5215198397636414,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_404.jpg,Food Organics,Food Organics,Compost,Compost,0.9877170920372009,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_66.jpg,Food Organics,Food Organics,Compost,Compost,0.8343638181686401,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_387.jpg,Food Organics,Food Organics,Compost,Compost,0.8711020946502686,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_77.jpg,Food Organics,Food Organics,Compost,Compost,0.20268209278583527,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_405.jpg,Food Organics,Food Organics,Compost,Compost,0.36107951402664185,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_84.jpg,Food Organics,Food Organics,Compost,Compost,0.9867023825645447,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_298.jpg,Food Organics,Miscellaneous Trash,Compost,Landfill,0.5420658588409424,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_267.jpg,Food Organics,Food Organics,Compost,Compost,0.8157711029052734,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_19.jpg,Food Organics,Metal,Compost,Recyclable,0.45511308312416077,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_408.jpg,Food Organics,Food Organics,Compost,Compost,0.8800486326217651,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_45.jpg,Food Organics,Food Organics,Compost,Compost,0.9433905482292175,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_347.jpg,Food Organics,Food Organics,Compost,Compost,0.572544276714325,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_339.jpg,Food Organics,Food Organics,Compost,Compost,0.5876462459564209,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_1.jpg,Food Organics,Food Organics,Compost,Compost,0.9972047209739685,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_64.jpg,Food Organics,Food Organics,Compost,Compost,0.8538510799407959,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_55.jpg,Food Organics,Food Organics,Compost,Compost,0.9947224855422974,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_119.jpg,Food Organics,Food Organics,Compost,Compost,0.9881600141525269,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_216.jpg,Food Organics,Food Organics,Compost,Compost,0.6462286710739136,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_187.jpg,Food Organics,Food Organics,Compost,Compost,0.9912238121032715,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_365.jpg,Food Organics,Food Organics,Compost,Compost,0.8704512119293213,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_277.jpg,Food Organics,Food Organics,Compost,Compost,0.8915018439292908,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_75.jpg,Food Organics,Plastic,Compost,Recyclable,0.343962699174881,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_334.jpg,Food Organics,Food Organics,Compost,Compost,0.6824225187301636,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_379.jpg,Food Organics,Food Organics,Compost,Compost,0.969245195388794,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_30.jpg,Food Organics,Food Organics,Compost,Compost,0.720772385597229,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_243.jpg,Food Organics,Food Organics,Compost,Compost,0.9611184000968933,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_65.jpg,Food Organics,Food Organics,Compost,Compost,0.9712003469467163,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_258.jpg,Food Organics,Food Organics,Compost,Compost,0.9532701969146729,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_3.jpg,Food Organics,Miscellaneous Trash,Compost,Landfill,0.2739734649658203,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_374.jpg,Food Organics,Food Organics,Compost,Compost,0.9647796154022217,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_149.jpg,Food Organics,Food Organics,Compost,Compost,0.8970199823379517,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_98.jpg,Food Organics,Food Organics,Compost,Compost,0.911847710609436,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_220.jpg,Food Organics,Food Organics,Compost,Compost,0.7694379687309265,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_367.jpg,Food Organics,Food Organics,Compost,Compost,0.9528003931045532,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_181.jpg,Food Organics,Food Organics,Compost,Compost,0.9663196206092834,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_219.jpg,Food Organics,Food Organics,Compost,Compost,0.8546406030654907,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_152.jpg,Food Organics,Food Organics,Compost,Compost,0.5247921943664551,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_111.jpg,Food Organics,Food Organics,Compost,Compost,0.5174674987792969,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_251.jpg,Food Organics,Food Organics,Compost,Compost,0.9926424622535706,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_346.jpg,Food Organics,Food Organics,Compost,Compost,0.9622482657432556,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_411.jpg,Food Organics,Vegetation,Compost,Compost,0.6103461384773254,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_87.jpg,Food Organics,Food Organics,Compost,Compost,0.9717153906822205,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_333.jpg,Food Organics,Food Organics,Compost,Compost,0.8087235689163208,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_395.jpg,Food Organics,Food Organics,Compost,Compost,0.8117915987968445,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_93.jpg,Food Organics,Food Organics,Compost,Compost,0.6023658514022827,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_85.jpg,Food Organics,Vegetation,Compost,Compost,0.7588597536087036,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_130.jpg,Food Organics,Food Organics,Compost,Compost,0.6725978255271912,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_227.jpg,Food Organics,Food Organics,Compost,Compost,0.9904093742370605,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_250.jpg,Food Organics,Food Organics,Compost,Compost,0.9905778169631958,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_283.jpg,Food Organics,Food Organics,Compost,Compost,0.4635811150074005,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_188.jpg,Food Organics,Food Organics,Compost,Compost,0.9895272254943848,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_402.jpg,Food Organics,Food Organics,Compost,Compost,0.36060333251953125,True
+data/realwaste-main/RealWaste/Food Organics/Food Organics_11.jpg,Food Organics,Food Organics,Compost,Compost,0.9103818535804749,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_201.jpg,Food Organics,Food Organics,Compost,Compost,0.9277795553207397,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_203.jpg,Food Organics,Food Organics,Compost,Compost,0.9696440696716309,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_24.jpg,Food Organics,Food Organics,Compost,Compost,0.6436959505081177,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_260.jpg,Food Organics,Food Organics,Compost,Compost,0.976525068283081,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_310.jpg,Food Organics,Food Organics,Compost,Compost,0.7949120402336121,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_191.jpg,Food Organics,Food Organics,Compost,Compost,0.9367327094078064,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_200.jpg,Food Organics,Food Organics,Compost,Compost,0.9620329737663269,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_315.jpg,Food Organics,Food Organics,Compost,Compost,0.9861189126968384,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_116.jpg,Food Organics,Food Organics,Compost,Compost,0.9630041718482971,False
+data/realwaste-main/RealWaste/Food Organics/Food Organics_275.jpg,Food Organics,Food Organics,Compost,Compost,0.8824288845062256,False
+data/realwaste-main/RealWaste/Glass/Glass_209.jpg,Glass,Glass,Recyclable,Recyclable,0.9603859186172485,False
+data/realwaste-main/RealWaste/Glass/Glass_171.jpg,Glass,Metal,Recyclable,Recyclable,0.5364097356796265,False
+data/realwaste-main/RealWaste/Glass/Glass_136.jpg,Glass,Glass,Recyclable,Recyclable,0.8929400444030762,False
+data/realwaste-main/RealWaste/Glass/Glass_403.jpg,Glass,Metal,Recyclable,Recyclable,0.4212315082550049,False
+data/realwaste-main/RealWaste/Glass/Glass_220.jpg,Glass,Glass,Recyclable,Recyclable,0.9940500855445862,False
+data/realwaste-main/RealWaste/Glass/Glass_197.jpg,Glass,Glass,Recyclable,Recyclable,0.9874237179756165,False
+data/realwaste-main/RealWaste/Glass/Glass_388.jpg,Glass,Glass,Recyclable,Recyclable,0.5882475972175598,False
+data/realwaste-main/RealWaste/Glass/Glass_195.jpg,Glass,Glass,Recyclable,Recyclable,0.9877910614013672,False
+data/realwaste-main/RealWaste/Glass/Glass_144.jpg,Glass,Glass,Recyclable,Recyclable,0.8975982666015625,False
+data/realwaste-main/RealWaste/Glass/Glass_380.jpg,Glass,Glass,Recyclable,Recyclable,0.8722318410873413,False
+data/realwaste-main/RealWaste/Glass/Glass_126.jpg,Glass,Glass,Recyclable,Recyclable,0.8849930763244629,False
+data/realwaste-main/RealWaste/Glass/Glass_385.jpg,Glass,Glass,Recyclable,Recyclable,0.7816326022148132,False
+data/realwaste-main/RealWaste/Glass/Glass_361.jpg,Glass,Glass,Recyclable,Recyclable,0.707146406173706,False
+data/realwaste-main/RealWaste/Glass/Glass_24.jpg,Glass,Glass,Recyclable,Recyclable,0.5248128175735474,False
+data/realwaste-main/RealWaste/Glass/Glass_297.jpg,Glass,Glass,Recyclable,Recyclable,0.8161439299583435,False
+data/realwaste-main/RealWaste/Glass/Glass_370.jpg,Glass,Glass,Recyclable,Recyclable,0.8144081830978394,False
+data/realwaste-main/RealWaste/Glass/Glass_236.jpg,Glass,Glass,Recyclable,Recyclable,0.9445044994354248,False
+data/realwaste-main/RealWaste/Glass/Glass_302.jpg,Glass,Glass,Recyclable,Recyclable,0.9865736961364746,False
+data/realwaste-main/RealWaste/Glass/Glass_306.jpg,Glass,Glass,Recyclable,Recyclable,0.7195269465446472,False
+data/realwaste-main/RealWaste/Glass/Glass_274.jpg,Glass,Glass,Recyclable,Recyclable,0.9804319143295288,False
+data/realwaste-main/RealWaste/Glass/Glass_34.jpg,Glass,Glass,Recyclable,Recyclable,0.550316572189331,False
+data/realwaste-main/RealWaste/Glass/Glass_202.jpg,Glass,Glass,Recyclable,Recyclable,0.9916707277297974,False
+data/realwaste-main/RealWaste/Glass/Glass_384.jpg,Glass,Glass,Recyclable,Recyclable,0.8783169984817505,False
+data/realwaste-main/RealWaste/Glass/Glass_374.jpg,Glass,Metal,Recyclable,Recyclable,0.5315073132514954,False
+data/realwaste-main/RealWaste/Glass/Glass_379.jpg,Glass,Glass,Recyclable,Recyclable,0.56875079870224,False
+data/realwaste-main/RealWaste/Glass/Glass_291.jpg,Glass,Glass,Recyclable,Recyclable,0.8872985243797302,False
+data/realwaste-main/RealWaste/Glass/Glass_356.jpg,Glass,Glass,Recyclable,Recyclable,0.999143123626709,False
+data/realwaste-main/RealWaste/Glass/Glass_153.jpg,Glass,Glass,Recyclable,Recyclable,0.9971206784248352,False
+data/realwaste-main/RealWaste/Glass/Glass_213.jpg,Glass,Glass,Recyclable,Recyclable,0.9886519312858582,False
+data/realwaste-main/RealWaste/Glass/Glass_138.jpg,Glass,Glass,Recyclable,Recyclable,0.9961994290351868,False
+data/realwaste-main/RealWaste/Glass/Glass_239.jpg,Glass,Glass,Recyclable,Recyclable,0.8227530121803284,False
+data/realwaste-main/RealWaste/Glass/Glass_359.jpg,Glass,Glass,Recyclable,Recyclable,0.9952983260154724,False
+data/realwaste-main/RealWaste/Glass/Glass_168.jpg,Glass,Glass,Recyclable,Recyclable,0.7987080812454224,False
+data/realwaste-main/RealWaste/Glass/Glass_169.jpg,Glass,Glass,Recyclable,Recyclable,0.9957528114318848,False
+data/realwaste-main/RealWaste/Glass/Glass_99.jpg,Glass,Glass,Recyclable,Recyclable,0.9989169836044312,False
+data/realwaste-main/RealWaste/Glass/Glass_415.jpg,Glass,Glass,Recyclable,Recyclable,0.7115979194641113,False
+data/realwaste-main/RealWaste/Glass/Glass_39.jpg,Glass,Glass,Recyclable,Recyclable,0.8023189902305603,False
+data/realwaste-main/RealWaste/Glass/Glass_365.jpg,Glass,Glass,Recyclable,Recyclable,0.9961491823196411,False
+data/realwaste-main/RealWaste/Glass/Glass_132.jpg,Glass,Glass,Recyclable,Recyclable,0.9783740043640137,False
+data/realwaste-main/RealWaste/Glass/Glass_92.jpg,Glass,Glass,Recyclable,Recyclable,0.9406988620758057,False
+data/realwaste-main/RealWaste/Glass/Glass_284.jpg,Glass,Glass,Recyclable,Recyclable,0.989283561706543,False
+data/realwaste-main/RealWaste/Glass/Glass_129.jpg,Glass,Glass,Recyclable,Recyclable,0.4566148817539215,False
+data/realwaste-main/RealWaste/Glass/Glass_151.jpg,Glass,Glass,Recyclable,Recyclable,0.896562397480011,False
+data/realwaste-main/RealWaste/Glass/Glass_319.jpg,Glass,Glass,Recyclable,Recyclable,0.9149502515792847,False
+data/realwaste-main/RealWaste/Glass/Glass_215.jpg,Glass,Glass,Recyclable,Recyclable,0.9962282180786133,False
+data/realwaste-main/RealWaste/Glass/Glass_122.jpg,Glass,Cardboard,Recyclable,Recyclable,0.4584161639213562,False
+data/realwaste-main/RealWaste/Glass/Glass_184.jpg,Glass,Glass,Recyclable,Recyclable,0.5282003879547119,False
+data/realwaste-main/RealWaste/Glass/Glass_256.jpg,Glass,Glass,Recyclable,Recyclable,0.7337657809257507,False
+data/realwaste-main/RealWaste/Glass/Glass_301.jpg,Glass,Glass,Recyclable,Recyclable,0.9147980809211731,False
+data/realwaste-main/RealWaste/Glass/Glass_32.jpg,Glass,Glass,Recyclable,Recyclable,0.9589008092880249,False
+data/realwaste-main/RealWaste/Glass/Glass_315.jpg,Glass,Plastic,Recyclable,Recyclable,0.6268889904022217,False
+data/realwaste-main/RealWaste/Glass/Glass_23.jpg,Glass,Plastic,Recyclable,Recyclable,0.6262032985687256,False
+data/realwaste-main/RealWaste/Glass/Glass_363.jpg,Glass,Glass,Recyclable,Recyclable,0.48873624205589294,False
+data/realwaste-main/RealWaste/Glass/Glass_104.jpg,Glass,Glass,Recyclable,Recyclable,0.9479780197143555,False
+data/realwaste-main/RealWaste/Glass/Glass_146.jpg,Glass,Glass,Recyclable,Recyclable,0.9892805218696594,False
+data/realwaste-main/RealWaste/Glass/Glass_325.jpg,Glass,Glass,Recyclable,Recyclable,0.9608553051948547,False
+data/realwaste-main/RealWaste/Glass/Glass_68.jpg,Glass,Metal,Recyclable,Recyclable,0.818153440952301,False
+data/realwaste-main/RealWaste/Glass/Glass_393.jpg,Glass,Metal,Recyclable,Recyclable,0.6451314091682434,False
+data/realwaste-main/RealWaste/Glass/Glass_157.jpg,Glass,Glass,Recyclable,Recyclable,0.9773564338684082,False
+data/realwaste-main/RealWaste/Glass/Glass_420.jpg,Glass,Glass,Recyclable,Recyclable,0.8789435029029846,False
+data/realwaste-main/RealWaste/Glass/Glass_233.jpg,Glass,Glass,Recyclable,Recyclable,0.9992054104804993,False
+data/realwaste-main/RealWaste/Glass/Glass_354.jpg,Glass,Glass,Recyclable,Recyclable,0.7073594331741333,False
+data/realwaste-main/RealWaste/Glass/Glass_123.jpg,Glass,Glass,Recyclable,Recyclable,0.8954567909240723,False
+data/realwaste-main/RealWaste/Metal/Metal_488.jpg,Metal,Metal,Recyclable,Recyclable,0.8528015613555908,False
+data/realwaste-main/RealWaste/Metal/Metal_215.jpg,Metal,Miscellaneous Trash,Recyclable,Landfill,0.6227280497550964,False
+data/realwaste-main/RealWaste/Metal/Metal_147.jpg,Metal,Metal,Recyclable,Recyclable,0.6673159003257751,False
+data/realwaste-main/RealWaste/Metal/Metal_343.jpg,Metal,Metal,Recyclable,Recyclable,0.5597810745239258,False
+data/realwaste-main/RealWaste/Metal/Metal_772.jpg,Metal,Metal,Recyclable,Recyclable,0.816588819026947,False
+data/realwaste-main/RealWaste/Metal/Metal_113.jpg,Metal,Metal,Recyclable,Recyclable,0.9041389226913452,False
+data/realwaste-main/RealWaste/Metal/Metal_398.jpg,Metal,Metal,Recyclable,Recyclable,0.661622166633606,False
+data/realwaste-main/RealWaste/Metal/Metal_641.jpg,Metal,Metal,Recyclable,Recyclable,0.9890650510787964,False
+data/realwaste-main/RealWaste/Metal/Metal_318.jpg,Metal,Plastic,Recyclable,Recyclable,0.8944919109344482,False
+data/realwaste-main/RealWaste/Metal/Metal_429.jpg,Metal,Metal,Recyclable,Recyclable,0.9608660936355591,False
+data/realwaste-main/RealWaste/Metal/Metal_112.jpg,Metal,Metal,Recyclable,Recyclable,0.9655846357345581,False
+data/realwaste-main/RealWaste/Metal/Metal_22.jpg,Metal,Metal,Recyclable,Recyclable,0.8958977460861206,False
+data/realwaste-main/RealWaste/Metal/Metal_122.jpg,Metal,Metal,Recyclable,Recyclable,0.7886074185371399,False
+data/realwaste-main/RealWaste/Metal/Metal_708.jpg,Metal,Metal,Recyclable,Recyclable,0.7453679442405701,False
+data/realwaste-main/RealWaste/Metal/Metal_20.jpg,Metal,Metal,Recyclable,Recyclable,0.8714357018470764,False
+data/realwaste-main/RealWaste/Metal/Metal_26.jpg,Metal,Metal,Recyclable,Recyclable,0.8934316039085388,False
+data/realwaste-main/RealWaste/Metal/Metal_33.jpg,Metal,Metal,Recyclable,Recyclable,0.6179821491241455,False
+data/realwaste-main/RealWaste/Metal/Metal_770.jpg,Metal,Metal,Recyclable,Recyclable,0.9708172678947449,False
+data/realwaste-main/RealWaste/Metal/Metal_219.jpg,Metal,Plastic,Recyclable,Recyclable,0.4947807490825653,False
+data/realwaste-main/RealWaste/Metal/Metal_232.jpg,Metal,Glass,Recyclable,Recyclable,0.4378775358200073,False
+data/realwaste-main/RealWaste/Metal/Metal_354.jpg,Metal,Metal,Recyclable,Recyclable,0.8786797523498535,False
+data/realwaste-main/RealWaste/Metal/Metal_100.jpg,Metal,Plastic,Recyclable,Recyclable,0.7797811627388,False
+data/realwaste-main/RealWaste/Metal/Metal_649.jpg,Metal,Metal,Recyclable,Recyclable,0.5495327115058899,False
+data/realwaste-main/RealWaste/Metal/Metal_235.jpg,Metal,Metal,Recyclable,Recyclable,0.9826897382736206,False
+data/realwaste-main/RealWaste/Metal/Metal_401.jpg,Metal,Metal,Recyclable,Recyclable,0.966666579246521,False
+data/realwaste-main/RealWaste/Metal/Metal_313.jpg,Metal,Cardboard,Recyclable,Recyclable,0.5359436869621277,False
+data/realwaste-main/RealWaste/Metal/Metal_299.jpg,Metal,Metal,Recyclable,Recyclable,0.40057066082954407,False
+data/realwaste-main/RealWaste/Metal/Metal_64.jpg,Metal,Plastic,Recyclable,Recyclable,0.5292631387710571,False
+data/realwaste-main/RealWaste/Metal/Metal_290.jpg,Metal,Metal,Recyclable,Recyclable,0.9588131308555603,False
+data/realwaste-main/RealWaste/Metal/Metal_61.jpg,Metal,Metal,Recyclable,Recyclable,0.6883304119110107,False
+data/realwaste-main/RealWaste/Metal/Metal_162.jpg,Metal,Metal,Recyclable,Recyclable,0.7168014049530029,False
+data/realwaste-main/RealWaste/Metal/Metal_289.jpg,Metal,Plastic,Recyclable,Recyclable,0.4698382019996643,False
+data/realwaste-main/RealWaste/Metal/Metal_62.jpg,Metal,Metal,Recyclable,Recyclable,0.9270145297050476,False
+data/realwaste-main/RealWaste/Metal/Metal_214.jpg,Metal,Miscellaneous Trash,Recyclable,Landfill,0.5149297714233398,False
+data/realwaste-main/RealWaste/Metal/Metal_323.jpg,Metal,Metal,Recyclable,Recyclable,0.8581421971321106,False
+data/realwaste-main/RealWaste/Metal/Metal_406.jpg,Metal,Metal,Recyclable,Recyclable,0.7100415229797363,False
+data/realwaste-main/RealWaste/Metal/Metal_145.jpg,Metal,Metal,Recyclable,Recyclable,0.6345580816268921,False
+data/realwaste-main/RealWaste/Metal/Metal_118.jpg,Metal,Metal,Recyclable,Recyclable,0.8596377968788147,False
+data/realwaste-main/RealWaste/Metal/Metal_65.jpg,Metal,Glass,Recyclable,Recyclable,0.7021427750587463,False
+data/realwaste-main/RealWaste/Metal/Metal_689.jpg,Metal,Metal,Recyclable,Recyclable,0.9501063823699951,False
+data/realwaste-main/RealWaste/Metal/Metal_691.jpg,Metal,Metal,Recyclable,Recyclable,0.9681517481803894,False
+data/realwaste-main/RealWaste/Metal/Metal_295.jpg,Metal,Metal,Recyclable,Recyclable,0.5387457609176636,False
+data/realwaste-main/RealWaste/Metal/Metal_71.jpg,Metal,Metal,Recyclable,Recyclable,0.4670279622077942,False
+data/realwaste-main/RealWaste/Metal/Metal_183.jpg,Metal,Metal,Recyclable,Recyclable,0.5141640305519104,False
+data/realwaste-main/RealWaste/Metal/Metal_99.jpg,Metal,Metal,Recyclable,Recyclable,0.8340291976928711,False
+data/realwaste-main/RealWaste/Metal/Metal_211.jpg,Metal,Plastic,Recyclable,Recyclable,0.4873349666595459,False
+data/realwaste-main/RealWaste/Metal/Metal_274.jpg,Metal,Metal,Recyclable,Recyclable,0.9060184955596924,False
+data/realwaste-main/RealWaste/Metal/Metal_353.jpg,Metal,Metal,Recyclable,Recyclable,0.9516168236732483,False
+data/realwaste-main/RealWaste/Metal/Metal_466.jpg,Metal,Metal,Recyclable,Recyclable,0.6488643288612366,False
+data/realwaste-main/RealWaste/Metal/Metal_155.jpg,Metal,Metal,Recyclable,Recyclable,0.886680006980896,False
+data/realwaste-main/RealWaste/Metal/Metal_43.jpg,Metal,Metal,Recyclable,Recyclable,0.9838215112686157,False
+data/realwaste-main/RealWaste/Metal/Metal_694.jpg,Metal,Metal,Recyclable,Recyclable,0.9964057207107544,False
+data/realwaste-main/RealWaste/Metal/Metal_600.jpg,Metal,Metal,Recyclable,Recyclable,0.9853134751319885,False
+data/realwaste-main/RealWaste/Metal/Metal_438.jpg,Metal,Metal,Recyclable,Recyclable,0.9920178651809692,False
+data/realwaste-main/RealWaste/Metal/Metal_731.jpg,Metal,Plastic,Recyclable,Recyclable,0.6680260896682739,False
+data/realwaste-main/RealWaste/Metal/Metal_765.jpg,Metal,Metal,Recyclable,Recyclable,0.9476295113563538,False
+data/realwaste-main/RealWaste/Metal/Metal_433.jpg,Metal,Metal,Recyclable,Recyclable,0.9698566198348999,False
+data/realwaste-main/RealWaste/Metal/Metal_316.jpg,Metal,Metal,Recyclable,Recyclable,0.5513952374458313,False
+data/realwaste-main/RealWaste/Metal/Metal_509.jpg,Metal,Metal,Recyclable,Recyclable,0.7878965139389038,False
+data/realwaste-main/RealWaste/Metal/Metal_508.jpg,Metal,Metal,Recyclable,Recyclable,0.5821081399917603,False
+data/realwaste-main/RealWaste/Metal/Metal_3.jpg,Metal,Metal,Recyclable,Recyclable,0.768799901008606,False
+data/realwaste-main/RealWaste/Metal/Metal_773.jpg,Metal,Metal,Recyclable,Recyclable,0.9279360771179199,False
+data/realwaste-main/RealWaste/Metal/Metal_735.jpg,Metal,Metal,Recyclable,Recyclable,0.653444766998291,False
+data/realwaste-main/RealWaste/Metal/Metal_129.jpg,Metal,Metal,Recyclable,Recyclable,0.7186970710754395,False
+data/realwaste-main/RealWaste/Metal/Metal_357.jpg,Metal,Metal,Recyclable,Recyclable,0.987604022026062,False
+data/realwaste-main/RealWaste/Metal/Metal_475.jpg,Metal,Metal,Recyclable,Recyclable,0.44562920928001404,False
+data/realwaste-main/RealWaste/Metal/Metal_667.jpg,Metal,Metal,Recyclable,Recyclable,0.9758821725845337,False
+data/realwaste-main/RealWaste/Metal/Metal_550.jpg,Metal,Metal,Recyclable,Recyclable,0.971370279788971,False
+data/realwaste-main/RealWaste/Metal/Metal_190.jpg,Metal,Metal,Recyclable,Recyclable,0.9608863592147827,False
+data/realwaste-main/RealWaste/Metal/Metal_702.jpg,Metal,Metal,Recyclable,Recyclable,0.6408851146697998,False
+data/realwaste-main/RealWaste/Metal/Metal_481.jpg,Metal,Metal,Recyclable,Recyclable,0.8606511354446411,False
+data/realwaste-main/RealWaste/Metal/Metal_241.jpg,Metal,Metal,Recyclable,Recyclable,0.9174068570137024,False
+data/realwaste-main/RealWaste/Metal/Metal_640.jpg,Metal,Metal,Recyclable,Recyclable,0.9728323817253113,False
+data/realwaste-main/RealWaste/Metal/Metal_486.jpg,Metal,Metal,Recyclable,Recyclable,0.9906598925590515,False
+data/realwaste-main/RealWaste/Metal/Metal_598.jpg,Metal,Metal,Recyclable,Recyclable,0.4193982183933258,False
+data/realwaste-main/RealWaste/Metal/Metal_741.jpg,Metal,Metal,Recyclable,Recyclable,0.5933766961097717,False
+data/realwaste-main/RealWaste/Metal/Metal_717.jpg,Metal,Metal,Recyclable,Recyclable,0.9939613342285156,False
+data/realwaste-main/RealWaste/Metal/Metal_440.jpg,Metal,Metal,Recyclable,Recyclable,0.8800334930419922,False
+data/realwaste-main/RealWaste/Metal/Metal_517.jpg,Metal,Miscellaneous Trash,Recyclable,Landfill,0.21301144361495972,False
+data/realwaste-main/RealWaste/Metal/Metal_457.jpg,Metal,Metal,Recyclable,Recyclable,0.7867891788482666,False
+data/realwaste-main/RealWaste/Metal/Metal_223.jpg,Metal,Metal,Recyclable,Recyclable,0.8431018590927124,False
+data/realwaste-main/RealWaste/Metal/Metal_595.jpg,Metal,Metal,Recyclable,Recyclable,0.9016303420066833,False
+data/realwaste-main/RealWaste/Metal/Metal_315.jpg,Metal,Metal,Recyclable,Recyclable,0.6878271102905273,False
+data/realwaste-main/RealWaste/Metal/Metal_189.jpg,Metal,Metal,Recyclable,Recyclable,0.4988400936126709,False
+data/realwaste-main/RealWaste/Metal/Metal_205.jpg,Metal,Metal,Recyclable,Recyclable,0.9835489392280579,False
+data/realwaste-main/RealWaste/Metal/Metal_553.jpg,Metal,Metal,Recyclable,Recyclable,0.9508644342422485,False
+data/realwaste-main/RealWaste/Metal/Metal_38.jpg,Metal,Metal,Recyclable,Recyclable,0.7487871646881104,False
+data/realwaste-main/RealWaste/Metal/Metal_133.jpg,Metal,Glass,Recyclable,Recyclable,0.6259104609489441,False
+data/realwaste-main/RealWaste/Metal/Metal_140.jpg,Metal,Plastic,Recyclable,Recyclable,0.7247462272644043,False
+data/realwaste-main/RealWaste/Metal/Metal_228.jpg,Metal,Metal,Recyclable,Recyclable,0.8298768997192383,False
+data/realwaste-main/RealWaste/Metal/Metal_206.jpg,Metal,Metal,Recyclable,Recyclable,0.9087309241294861,False
+data/realwaste-main/RealWaste/Metal/Metal_476.jpg,Metal,Metal,Recyclable,Recyclable,0.5490801930427551,False
+data/realwaste-main/RealWaste/Metal/Metal_698.jpg,Metal,Metal,Recyclable,Recyclable,0.6512218117713928,False
+data/realwaste-main/RealWaste/Metal/Metal_378.jpg,Metal,Metal,Recyclable,Recyclable,0.9689661264419556,False
+data/realwaste-main/RealWaste/Metal/Metal_745.jpg,Metal,Metal,Recyclable,Recyclable,0.8122367858886719,False
+data/realwaste-main/RealWaste/Metal/Metal_527.jpg,Metal,Metal,Recyclable,Recyclable,0.8356702327728271,False
+data/realwaste-main/RealWaste/Metal/Metal_685.jpg,Metal,Plastic,Recyclable,Recyclable,0.5420218110084534,False
+data/realwaste-main/RealWaste/Metal/Metal_157.jpg,Metal,Metal,Recyclable,Recyclable,0.8355371356010437,False
+data/realwaste-main/RealWaste/Metal/Metal_697.jpg,Metal,Metal,Recyclable,Recyclable,0.9830016493797302,False
+data/realwaste-main/RealWaste/Metal/Metal_302.jpg,Metal,Plastic,Recyclable,Recyclable,0.7539480328559875,False
+data/realwaste-main/RealWaste/Metal/Metal_661.jpg,Metal,Metal,Recyclable,Recyclable,0.7656513452529907,False
+data/realwaste-main/RealWaste/Metal/Metal_400.jpg,Metal,Metal,Recyclable,Recyclable,0.9990173578262329,False
+data/realwaste-main/RealWaste/Metal/Metal_616.jpg,Metal,Metal,Recyclable,Recyclable,0.6910468339920044,False
+data/realwaste-main/RealWaste/Metal/Metal_670.jpg,Metal,Plastic,Recyclable,Recyclable,0.4526924192905426,False
+data/realwaste-main/RealWaste/Metal/Metal_121.jpg,Metal,Metal,Recyclable,Recyclable,0.90291428565979,False
+data/realwaste-main/RealWaste/Metal/Metal_533.jpg,Metal,Metal,Recyclable,Recyclable,0.9090647101402283,False
+data/realwaste-main/RealWaste/Metal/Metal_314.jpg,Metal,Metal,Recyclable,Recyclable,0.9105764627456665,False
+data/realwaste-main/RealWaste/Metal/Metal_721.jpg,Metal,Metal,Recyclable,Recyclable,0.9897760152816772,False
+data/realwaste-main/RealWaste/Metal/Metal_199.jpg,Metal,Metal,Recyclable,Recyclable,0.5280605554580688,False
+data/realwaste-main/RealWaste/Metal/Metal_441.jpg,Metal,Metal,Recyclable,Recyclable,0.9905603528022766,False
+data/realwaste-main/RealWaste/Metal/Metal_688.jpg,Metal,Metal,Recyclable,Recyclable,0.8774324059486389,False
+data/realwaste-main/RealWaste/Metal/Metal_450.jpg,Metal,Metal,Recyclable,Recyclable,0.9915328621864319,False
+data/realwaste-main/RealWaste/Metal/Metal_638.jpg,Metal,Metal,Recyclable,Recyclable,0.9971203804016113,False
+data/realwaste-main/RealWaste/Metal/Metal_340.jpg,Metal,Glass,Recyclable,Recyclable,0.6844571828842163,False
+data/realwaste-main/RealWaste/Metal/Metal_97.jpg,Metal,Metal,Recyclable,Recyclable,0.9911515116691589,False
+data/realwaste-main/RealWaste/Metal/Metal_79.jpg,Metal,Metal,Recyclable,Recyclable,0.5055053234100342,False
+data/realwaste-main/RealWaste/Metal/Metal_719.jpg,Metal,Metal,Recyclable,Recyclable,0.97687166929245,False
+data/realwaste-main/RealWaste/Metal/Metal_439.jpg,Metal,Metal,Recyclable,Recyclable,0.9365188479423523,False
+data/realwaste-main/RealWaste/Metal/Metal_518.jpg,Metal,Metal,Recyclable,Recyclable,0.8271040320396423,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_289.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7763434648513794,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_341.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.46312034130096436,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_32.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.4310970604419708,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_430.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.8701441287994385,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_43.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.4500589966773987,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_282.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.5031543970108032,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_241.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6740847229957581,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_7.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6516672968864441,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_77.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.4516594707965851,True
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_90.jpg,Miscellaneous Trash,Glass,Landfill,Recyclable,0.6990272998809814,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_159.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.585989236831665,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_353.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.3045242130756378,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_47.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7978752255439758,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_314.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.9553013443946838,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_269.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6026793122291565,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_363.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6795324683189392,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_354.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.3056357204914093,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_265.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.5877941846847534,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_110.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.9765228033065796,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_326.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.8763232827186584,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_463.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6745404601097107,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_208.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.5030713081359863,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_163.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.5106658935546875,True
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_464.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6659340262413025,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_86.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7975899577140808,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_85.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.597199559211731,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_201.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.5221059918403625,True
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_333.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7095082402229309,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_266.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.8878779411315918,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_465.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.45533472299575806,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_18.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.4797864258289337,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_393.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.5346209406852722,True
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_421.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.9006822109222412,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_70.jpg,Miscellaneous Trash,Metal,Landfill,Recyclable,0.5087199211120605,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_427.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.2609167993068695,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_171.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.4279485046863556,True
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_491.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.3499980568885803,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_237.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7055058479309082,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_64.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.4627992808818817,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_232.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.5586122274398804,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_349.jpg,Miscellaneous Trash,Metal,Landfill,Recyclable,0.3281548321247101,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_352.jpg,Miscellaneous Trash,Cardboard,Landfill,Recyclable,0.4158838987350464,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_129.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.45573076605796814,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_426.jpg,Miscellaneous Trash,Metal,Landfill,Recyclable,0.44204553961753845,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_259.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7539224624633789,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_406.jpg,Miscellaneous Trash,Paper,Landfill,Recyclable,0.5915567874908447,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_246.jpg,Miscellaneous Trash,Metal,Landfill,Recyclable,0.6463663578033447,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_489.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.7208614945411682,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_413.jpg,Miscellaneous Trash,Plastic,Landfill,Recyclable,0.3504478335380554,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_472.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.3866752088069916,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_139.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.5377694964408875,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_303.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.8572332859039307,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_428.jpg,Miscellaneous Trash,Metal,Landfill,Recyclable,0.6580559611320496,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_68.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.7234016060829163,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_179.jpg,Miscellaneous Trash,Metal,Landfill,Recyclable,0.5203837752342224,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_307.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.8096712827682495,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_132.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.5888400673866272,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_492.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.8702249526977539,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_161.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.578005850315094,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_155.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6205486059188843,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_191.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.6338531374931335,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_325.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.661644458770752,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_76.jpg,Miscellaneous Trash,Glass,Landfill,Recyclable,0.4858032763004303,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_419.jpg,Miscellaneous Trash,Plastic,Landfill,Recyclable,0.7179736495018005,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_230.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.7103440761566162,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_381.jpg,Miscellaneous Trash,Vegetation,Landfill,Compost,0.7009642720222473,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_198.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.6335326433181763,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_304.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.32479536533355713,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_423.jpg,Miscellaneous Trash,Food Organics,Landfill,Compost,0.5560302138328552,True
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_219.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.9648643732070923,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_456.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.32508766651153564,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_22.jpg,Miscellaneous Trash,Miscellaneous Trash,Landfill,Landfill,0.462296724319458,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_153.jpg,Miscellaneous Trash,Textile Trash,Landfill,Landfill,0.4661572575569153,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_358.jpg,Miscellaneous Trash,Plastic,Landfill,Recyclable,0.5926569700241089,False
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_74.jpg,Miscellaneous Trash,Plastic,Landfill,Recyclable,0.7016198635101318,False
+data/realwaste-main/RealWaste/Paper/Paper_92.jpg,Paper,Cardboard,Recyclable,Recyclable,0.5639895796775818,False
+data/realwaste-main/RealWaste/Paper/Paper_192.jpg,Paper,Cardboard,Recyclable,Recyclable,0.908266544342041,False
+data/realwaste-main/RealWaste/Paper/Paper_331.jpg,Paper,Metal,Recyclable,Recyclable,0.5740218162536621,False
+data/realwaste-main/RealWaste/Paper/Paper_351.jpg,Paper,Paper,Recyclable,Recyclable,0.8521814942359924,False
+data/realwaste-main/RealWaste/Paper/Paper_481.jpg,Paper,Paper,Recyclable,Recyclable,0.8863720893859863,False
+data/realwaste-main/RealWaste/Paper/Paper_86.jpg,Paper,Paper,Recyclable,Recyclable,0.6548507809638977,False
+data/realwaste-main/RealWaste/Paper/Paper_150.jpg,Paper,Paper,Recyclable,Recyclable,0.8152211904525757,False
+data/realwaste-main/RealWaste/Paper/Paper_359.jpg,Paper,Paper,Recyclable,Recyclable,0.9752296209335327,False
+data/realwaste-main/RealWaste/Paper/Paper_134.jpg,Paper,Paper,Recyclable,Recyclable,0.4909983277320862,False
+data/realwaste-main/RealWaste/Paper/Paper_266.jpg,Paper,Paper,Recyclable,Recyclable,0.6084792613983154,False
+data/realwaste-main/RealWaste/Paper/Paper_75.jpg,Paper,Paper,Recyclable,Recyclable,0.9868143796920776,False
+data/realwaste-main/RealWaste/Paper/Paper_342.jpg,Paper,Paper,Recyclable,Recyclable,0.5693483352661133,False
+data/realwaste-main/RealWaste/Paper/Paper_304.jpg,Paper,Paper,Recyclable,Recyclable,0.5418532490730286,False
+data/realwaste-main/RealWaste/Paper/Paper_341.jpg,Paper,Paper,Recyclable,Recyclable,0.9083225131034851,False
+data/realwaste-main/RealWaste/Paper/Paper_136.jpg,Paper,Paper,Recyclable,Recyclable,0.6432259678840637,False
+data/realwaste-main/RealWaste/Paper/Paper_462.jpg,Paper,Paper,Recyclable,Recyclable,0.8698710203170776,False
+data/realwaste-main/RealWaste/Paper/Paper_374.jpg,Paper,Cardboard,Recyclable,Recyclable,0.4228627681732178,False
+data/realwaste-main/RealWaste/Paper/Paper_447.jpg,Paper,Paper,Recyclable,Recyclable,0.7844308614730835,False
+data/realwaste-main/RealWaste/Paper/Paper_412.jpg,Paper,Paper,Recyclable,Recyclable,0.618076503276825,False
+data/realwaste-main/RealWaste/Paper/Paper_212.jpg,Paper,Paper,Recyclable,Recyclable,0.7874842286109924,False
+data/realwaste-main/RealWaste/Paper/Paper_450.jpg,Paper,Paper,Recyclable,Recyclable,0.9720659255981445,False
+data/realwaste-main/RealWaste/Paper/Paper_2.jpg,Paper,Paper,Recyclable,Recyclable,0.967524528503418,False
+data/realwaste-main/RealWaste/Paper/Paper_48.jpg,Paper,Metal,Recyclable,Recyclable,0.4127448797225952,False
+data/realwaste-main/RealWaste/Paper/Paper_405.jpg,Paper,Paper,Recyclable,Recyclable,0.37493425607681274,False
+data/realwaste-main/RealWaste/Paper/Paper_469.jpg,Paper,Paper,Recyclable,Recyclable,0.9202317595481873,False
+data/realwaste-main/RealWaste/Paper/Paper_347.jpg,Paper,Paper,Recyclable,Recyclable,0.63454669713974,False
+data/realwaste-main/RealWaste/Paper/Paper_448.jpg,Paper,Paper,Recyclable,Recyclable,0.934681236743927,False
+data/realwaste-main/RealWaste/Paper/Paper_316.jpg,Paper,Paper,Recyclable,Recyclable,0.5936746001243591,False
+data/realwaste-main/RealWaste/Paper/Paper_352.jpg,Paper,Paper,Recyclable,Recyclable,0.9634842276573181,False
+data/realwaste-main/RealWaste/Paper/Paper_422.jpg,Paper,Cardboard,Recyclable,Recyclable,0.4192129671573639,False
+data/realwaste-main/RealWaste/Paper/Paper_290.jpg,Paper,Paper,Recyclable,Recyclable,0.5152742862701416,False
+data/realwaste-main/RealWaste/Paper/Paper_271.jpg,Paper,Paper,Recyclable,Recyclable,0.7724260687828064,False
+data/realwaste-main/RealWaste/Paper/Paper_379.jpg,Paper,Paper,Recyclable,Recyclable,0.9084174036979675,False
+data/realwaste-main/RealWaste/Paper/Paper_443.jpg,Paper,Paper,Recyclable,Recyclable,0.41578298807144165,False
+data/realwaste-main/RealWaste/Paper/Paper_308.jpg,Paper,Paper,Recyclable,Recyclable,0.9741629958152771,False
+data/realwaste-main/RealWaste/Paper/Paper_17.jpg,Paper,Metal,Recyclable,Recyclable,0.629717230796814,False
+data/realwaste-main/RealWaste/Paper/Paper_319.jpg,Paper,Paper,Recyclable,Recyclable,0.9848291277885437,False
+data/realwaste-main/RealWaste/Paper/Paper_160.jpg,Paper,Paper,Recyclable,Recyclable,0.886423647403717,False
+data/realwaste-main/RealWaste/Paper/Paper_20.jpg,Paper,Cardboard,Recyclable,Recyclable,0.6268841624259949,False
+data/realwaste-main/RealWaste/Paper/Paper_200.jpg,Paper,Cardboard,Recyclable,Recyclable,0.6947340369224548,False
+data/realwaste-main/RealWaste/Paper/Paper_382.jpg,Paper,Paper,Recyclable,Recyclable,0.8713133931159973,False
+data/realwaste-main/RealWaste/Paper/Paper_269.jpg,Paper,Paper,Recyclable,Recyclable,0.5877601504325867,False
+data/realwaste-main/RealWaste/Paper/Paper_235.jpg,Paper,Paper,Recyclable,Recyclable,0.9775828123092651,False
+data/realwaste-main/RealWaste/Paper/Paper_394.jpg,Paper,Cardboard,Recyclable,Recyclable,0.5132827758789062,False
+data/realwaste-main/RealWaste/Paper/Paper_84.jpg,Paper,Paper,Recyclable,Recyclable,0.86586993932724,False
+data/realwaste-main/RealWaste/Paper/Paper_417.jpg,Paper,Cardboard,Recyclable,Recyclable,0.4675051271915436,False
+data/realwaste-main/RealWaste/Paper/Paper_242.jpg,Paper,Paper,Recyclable,Recyclable,0.7362260222434998,False
+data/realwaste-main/RealWaste/Paper/Paper_454.jpg,Paper,Paper,Recyclable,Recyclable,0.93909752368927,False
+data/realwaste-main/RealWaste/Paper/Paper_423.jpg,Paper,Paper,Recyclable,Recyclable,0.9072000980377197,False
+data/realwaste-main/RealWaste/Paper/Paper_58.jpg,Paper,Plastic,Recyclable,Recyclable,0.31049320101737976,False
+data/realwaste-main/RealWaste/Paper/Paper_61.jpg,Paper,Paper,Recyclable,Recyclable,0.9538716673851013,False
+data/realwaste-main/RealWaste/Paper/Paper_74.jpg,Paper,Paper,Recyclable,Recyclable,0.7443768978118896,False
+data/realwaste-main/RealWaste/Paper/Paper_330.jpg,Paper,Paper,Recyclable,Recyclable,0.47930973768234253,False
+data/realwaste-main/RealWaste/Paper/Paper_415.jpg,Paper,Cardboard,Recyclable,Recyclable,0.5783015489578247,False
+data/realwaste-main/RealWaste/Paper/Paper_286.jpg,Paper,Paper,Recyclable,Recyclable,0.6063153147697449,False
+data/realwaste-main/RealWaste/Paper/Paper_172.jpg,Paper,Cardboard,Recyclable,Recyclable,0.7908174395561218,False
+data/realwaste-main/RealWaste/Paper/Paper_240.jpg,Paper,Paper,Recyclable,Recyclable,0.9484961628913879,False
+data/realwaste-main/RealWaste/Paper/Paper_313.jpg,Paper,Paper,Recyclable,Recyclable,0.4778939485549927,False
+data/realwaste-main/RealWaste/Paper/Paper_153.jpg,Paper,Paper,Recyclable,Recyclable,0.5521681904792786,False
+data/realwaste-main/RealWaste/Paper/Paper_406.jpg,Paper,Paper,Recyclable,Recyclable,0.5531752705574036,False
+data/realwaste-main/RealWaste/Paper/Paper_127.jpg,Paper,Paper,Recyclable,Recyclable,0.7501785755157471,False
+data/realwaste-main/RealWaste/Paper/Paper_207.jpg,Paper,Paper,Recyclable,Recyclable,0.486839234828949,False
+data/realwaste-main/RealWaste/Paper/Paper_418.jpg,Paper,Paper,Recyclable,Recyclable,0.49372807145118713,False
+data/realwaste-main/RealWaste/Paper/Paper_265.jpg,Paper,Paper,Recyclable,Recyclable,0.9804586172103882,False
+data/realwaste-main/RealWaste/Paper/Paper_40.jpg,Paper,Paper,Recyclable,Recyclable,0.5784831047058105,False
+data/realwaste-main/RealWaste/Paper/Paper_219.jpg,Paper,Cardboard,Recyclable,Recyclable,0.7000362873077393,False
+data/realwaste-main/RealWaste/Paper/Paper_103.jpg,Paper,Paper,Recyclable,Recyclable,0.9244174957275391,False
+data/realwaste-main/RealWaste/Paper/Paper_363.jpg,Paper,Paper,Recyclable,Recyclable,0.8653992414474487,False
+data/realwaste-main/RealWaste/Paper/Paper_432.jpg,Paper,Paper,Recyclable,Recyclable,0.5264105796813965,False
+data/realwaste-main/RealWaste/Paper/Paper_368.jpg,Paper,Paper,Recyclable,Recyclable,0.5753436088562012,False
+data/realwaste-main/RealWaste/Paper/Paper_238.jpg,Paper,Paper,Recyclable,Recyclable,0.6680472493171692,False
+data/realwaste-main/RealWaste/Paper/Paper_250.jpg,Paper,Paper,Recyclable,Recyclable,0.902925431728363,False
+data/realwaste-main/RealWaste/Paper/Paper_89.jpg,Paper,Paper,Recyclable,Recyclable,0.7329621315002441,False
+data/realwaste-main/RealWaste/Paper/Paper_221.jpg,Paper,Cardboard,Recyclable,Recyclable,0.5183097720146179,False
+data/realwaste-main/RealWaste/Paper/Paper_446.jpg,Paper,Paper,Recyclable,Recyclable,0.9654756784439087,False
+data/realwaste-main/RealWaste/Plastic/Plastic_920.jpg,Plastic,Glass,Recyclable,Recyclable,0.7436566352844238,False
+data/realwaste-main/RealWaste/Plastic/Plastic_167.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9764066338539124,False
+data/realwaste-main/RealWaste/Plastic/Plastic_447.jpg,Plastic,Plastic,Recyclable,Recyclable,0.704558789730072,False
+data/realwaste-main/RealWaste/Plastic/Plastic_49.jpg,Plastic,Metal,Recyclable,Recyclable,0.5676196813583374,False
+data/realwaste-main/RealWaste/Plastic/Plastic_759.jpg,Plastic,Plastic,Recyclable,Recyclable,0.41510963439941406,False
+data/realwaste-main/RealWaste/Plastic/Plastic_240.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7021801471710205,False
+data/realwaste-main/RealWaste/Plastic/Plastic_706.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8476362824440002,False
+data/realwaste-main/RealWaste/Plastic/Plastic_331.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5113056302070618,False
+data/realwaste-main/RealWaste/Plastic/Plastic_321.jpg,Plastic,Miscellaneous Trash,Recyclable,Landfill,0.31975701451301575,False
+data/realwaste-main/RealWaste/Plastic/Plastic_379.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8835018277168274,False
+data/realwaste-main/RealWaste/Plastic/Plastic_842.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8397407531738281,False
+data/realwaste-main/RealWaste/Plastic/Plastic_892.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8560749292373657,False
+data/realwaste-main/RealWaste/Plastic/Plastic_56.jpg,Plastic,Cardboard,Recyclable,Recyclable,0.6564902663230896,False
+data/realwaste-main/RealWaste/Plastic/Plastic_72.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6749588251113892,False
+data/realwaste-main/RealWaste/Plastic/Plastic_476.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9686873555183411,False
+data/realwaste-main/RealWaste/Plastic/Plastic_162.jpg,Plastic,Metal,Recyclable,Recyclable,0.40293583273887634,False
+data/realwaste-main/RealWaste/Plastic/Plastic_738.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9046154618263245,False
+data/realwaste-main/RealWaste/Plastic/Plastic_845.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5417067408561707,False
+data/realwaste-main/RealWaste/Plastic/Plastic_502.jpg,Plastic,Glass,Recyclable,Recyclable,0.7764074206352234,False
+data/realwaste-main/RealWaste/Plastic/Plastic_292.jpg,Plastic,Miscellaneous Trash,Recyclable,Landfill,0.6782441735267639,False
+data/realwaste-main/RealWaste/Plastic/Plastic_752.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6803503036499023,False
+data/realwaste-main/RealWaste/Plastic/Plastic_524.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7127431631088257,False
+data/realwaste-main/RealWaste/Plastic/Plastic_77.jpg,Plastic,Plastic,Recyclable,Recyclable,0.4903614819049835,False
+data/realwaste-main/RealWaste/Plastic/Plastic_123.jpg,Plastic,Metal,Recyclable,Recyclable,0.41458645462989807,False
+data/realwaste-main/RealWaste/Plastic/Plastic_606.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7196182608604431,False
+data/realwaste-main/RealWaste/Plastic/Plastic_807.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9725550413131714,False
+data/realwaste-main/RealWaste/Plastic/Plastic_728.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9279736280441284,False
+data/realwaste-main/RealWaste/Plastic/Plastic_265.jpg,Plastic,Metal,Recyclable,Recyclable,0.5475227236747742,False
+data/realwaste-main/RealWaste/Plastic/Plastic_601.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5569524765014648,False
+data/realwaste-main/RealWaste/Plastic/Plastic_645.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9287497401237488,False
+data/realwaste-main/RealWaste/Plastic/Plastic_283.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9633505344390869,False
+data/realwaste-main/RealWaste/Plastic/Plastic_619.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7355595231056213,False
+data/realwaste-main/RealWaste/Plastic/Plastic_203.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6442404389381409,False
+data/realwaste-main/RealWaste/Plastic/Plastic_435.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9026214480400085,False
+data/realwaste-main/RealWaste/Plastic/Plastic_461.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8428905010223389,False
+data/realwaste-main/RealWaste/Plastic/Plastic_823.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5470510125160217,False
+data/realwaste-main/RealWaste/Plastic/Plastic_358.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6500269770622253,False
+data/realwaste-main/RealWaste/Plastic/Plastic_446.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9047154784202576,False
+data/realwaste-main/RealWaste/Plastic/Plastic_4.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9559597373008728,False
+data/realwaste-main/RealWaste/Plastic/Plastic_899.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8949741721153259,False
+data/realwaste-main/RealWaste/Plastic/Plastic_82.jpg,Plastic,Metal,Recyclable,Recyclable,0.6294134259223938,False
+data/realwaste-main/RealWaste/Plastic/Plastic_63.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9889968633651733,False
+data/realwaste-main/RealWaste/Plastic/Plastic_551.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9941708445549011,False
+data/realwaste-main/RealWaste/Plastic/Plastic_683.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9516623020172119,False
+data/realwaste-main/RealWaste/Plastic/Plastic_858.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9945235252380371,False
+data/realwaste-main/RealWaste/Plastic/Plastic_777.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9557663202285767,False
+data/realwaste-main/RealWaste/Plastic/Plastic_904.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7769972681999207,False
+data/realwaste-main/RealWaste/Plastic/Plastic_393.jpg,Plastic,Plastic,Recyclable,Recyclable,0.837982177734375,False
+data/realwaste-main/RealWaste/Plastic/Plastic_466.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9611862897872925,False
+data/realwaste-main/RealWaste/Plastic/Plastic_262.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6361138224601746,False
+data/realwaste-main/RealWaste/Plastic/Plastic_389.jpg,Plastic,Miscellaneous Trash,Recyclable,Landfill,0.44984403252601624,False
+data/realwaste-main/RealWaste/Plastic/Plastic_540.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9991539716720581,False
+data/realwaste-main/RealWaste/Plastic/Plastic_284.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9418860077857971,False
+data/realwaste-main/RealWaste/Plastic/Plastic_74.jpg,Plastic,Miscellaneous Trash,Recyclable,Landfill,0.29439473152160645,False
+data/realwaste-main/RealWaste/Plastic/Plastic_655.jpg,Plastic,Plastic,Recyclable,Recyclable,0.342752605676651,False
+data/realwaste-main/RealWaste/Plastic/Plastic_395.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5442359447479248,False
+data/realwaste-main/RealWaste/Plastic/Plastic_376.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6320151686668396,False
+data/realwaste-main/RealWaste/Plastic/Plastic_224.jpg,Plastic,Metal,Recyclable,Recyclable,0.6047477722167969,False
+data/realwaste-main/RealWaste/Plastic/Plastic_873.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7876338958740234,False
+data/realwaste-main/RealWaste/Plastic/Plastic_7.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8447214961051941,False
+data/realwaste-main/RealWaste/Plastic/Plastic_851.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9976048469543457,False
+data/realwaste-main/RealWaste/Plastic/Plastic_496.jpg,Plastic,Glass,Recyclable,Recyclable,0.5597782731056213,False
+data/realwaste-main/RealWaste/Plastic/Plastic_407.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8207387328147888,False
+data/realwaste-main/RealWaste/Plastic/Plastic_504.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9413957595825195,False
+data/realwaste-main/RealWaste/Plastic/Plastic_402.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5638641715049744,False
+data/realwaste-main/RealWaste/Plastic/Plastic_840.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9943218231201172,False
+data/realwaste-main/RealWaste/Plastic/Plastic_894.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9570900201797485,False
+data/realwaste-main/RealWaste/Plastic/Plastic_671.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9956508278846741,False
+data/realwaste-main/RealWaste/Plastic/Plastic_405.jpg,Plastic,Glass,Recyclable,Recyclable,0.5112019181251526,False
+data/realwaste-main/RealWaste/Plastic/Plastic_464.jpg,Plastic,Plastic,Recyclable,Recyclable,0.618705689907074,False
+data/realwaste-main/RealWaste/Plastic/Plastic_104.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7096478939056396,False
+data/realwaste-main/RealWaste/Plastic/Plastic_38.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7371986508369446,False
+data/realwaste-main/RealWaste/Plastic/Plastic_223.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8306657671928406,False
+data/realwaste-main/RealWaste/Plastic/Plastic_198.jpg,Plastic,Paper,Recyclable,Recyclable,0.3495030105113983,False
+data/realwaste-main/RealWaste/Plastic/Plastic_520.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6890649795532227,False
+data/realwaste-main/RealWaste/Plastic/Plastic_28.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9200714826583862,False
+data/realwaste-main/RealWaste/Plastic/Plastic_668.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8757582306861877,False
+data/realwaste-main/RealWaste/Plastic/Plastic_647.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9692615866661072,False
+data/realwaste-main/RealWaste/Plastic/Plastic_556.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8927990794181824,False
+data/realwaste-main/RealWaste/Plastic/Plastic_676.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9049730896949768,False
+data/realwaste-main/RealWaste/Plastic/Plastic_764.jpg,Plastic,Paper,Recyclable,Recyclable,0.5243289470672607,False
+data/realwaste-main/RealWaste/Plastic/Plastic_326.jpg,Plastic,Plastic,Recyclable,Recyclable,0.44558727741241455,False
+data/realwaste-main/RealWaste/Plastic/Plastic_330.jpg,Plastic,Metal,Recyclable,Recyclable,0.6130664348602295,False
+data/realwaste-main/RealWaste/Plastic/Plastic_431.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9256756901741028,False
+data/realwaste-main/RealWaste/Plastic/Plastic_17.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7321028113365173,False
+data/realwaste-main/RealWaste/Plastic/Plastic_820.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9436880350112915,False
+data/realwaste-main/RealWaste/Plastic/Plastic_545.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8495088219642639,False
+data/realwaste-main/RealWaste/Plastic/Plastic_375.jpg,Plastic,Plastic,Recyclable,Recyclable,0.42087534070014954,False
+data/realwaste-main/RealWaste/Plastic/Plastic_488.jpg,Plastic,Metal,Recyclable,Recyclable,0.42279738187789917,False
+data/realwaste-main/RealWaste/Plastic/Plastic_353.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5550943613052368,False
+data/realwaste-main/RealWaste/Plastic/Plastic_50.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5773872137069702,False
+data/realwaste-main/RealWaste/Plastic/Plastic_253.jpg,Plastic,Metal,Recyclable,Recyclable,0.7353819608688354,False
+data/realwaste-main/RealWaste/Plastic/Plastic_157.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7757633328437805,False
+data/realwaste-main/RealWaste/Plastic/Plastic_233.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6317081451416016,False
+data/realwaste-main/RealWaste/Plastic/Plastic_553.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8441302180290222,False
+data/realwaste-main/RealWaste/Plastic/Plastic_346.jpg,Plastic,Glass,Recyclable,Recyclable,0.4928087294101715,False
+data/realwaste-main/RealWaste/Plastic/Plastic_377.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5886440873146057,False
+data/realwaste-main/RealWaste/Plastic/Plastic_347.jpg,Plastic,Plastic,Recyclable,Recyclable,0.657487154006958,False
+data/realwaste-main/RealWaste/Plastic/Plastic_227.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9661575555801392,False
+data/realwaste-main/RealWaste/Plastic/Plastic_907.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9641147255897522,False
+data/realwaste-main/RealWaste/Plastic/Plastic_45.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9898322820663452,False
+data/realwaste-main/RealWaste/Plastic/Plastic_730.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9718780517578125,False
+data/realwaste-main/RealWaste/Plastic/Plastic_255.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9336145520210266,False
+data/realwaste-main/RealWaste/Plastic/Plastic_58.jpg,Plastic,Cardboard,Recyclable,Recyclable,0.853542149066925,False
+data/realwaste-main/RealWaste/Plastic/Plastic_626.jpg,Plastic,Glass,Recyclable,Recyclable,0.7461443543434143,False
+data/realwaste-main/RealWaste/Plastic/Plastic_322.jpg,Plastic,Miscellaneous Trash,Recyclable,Landfill,0.5905996561050415,False
+data/realwaste-main/RealWaste/Plastic/Plastic_614.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7492799162864685,False
+data/realwaste-main/RealWaste/Plastic/Plastic_768.jpg,Plastic,Metal,Recyclable,Recyclable,0.8027128577232361,False
+data/realwaste-main/RealWaste/Plastic/Plastic_177.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6426661610603333,False
+data/realwaste-main/RealWaste/Plastic/Plastic_817.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9235371351242065,False
+data/realwaste-main/RealWaste/Plastic/Plastic_457.jpg,Plastic,Plastic,Recyclable,Recyclable,0.4166630506515503,False
+data/realwaste-main/RealWaste/Plastic/Plastic_480.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9500294327735901,False
+data/realwaste-main/RealWaste/Plastic/Plastic_368.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9069451689720154,False
+data/realwaste-main/RealWaste/Plastic/Plastic_11.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8967796564102173,False
+data/realwaste-main/RealWaste/Plastic/Plastic_454.jpg,Plastic,Plastic,Recyclable,Recyclable,0.42966440320014954,False
+data/realwaste-main/RealWaste/Plastic/Plastic_896.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9255056977272034,False
+data/realwaste-main/RealWaste/Plastic/Plastic_399.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5825877785682678,False
+data/realwaste-main/RealWaste/Plastic/Plastic_822.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5388999581336975,False
+data/realwaste-main/RealWaste/Plastic/Plastic_650.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6039154529571533,False
+data/realwaste-main/RealWaste/Plastic/Plastic_65.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9892488718032837,False
+data/realwaste-main/RealWaste/Plastic/Plastic_185.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9720473289489746,False
+data/realwaste-main/RealWaste/Plastic/Plastic_61.jpg,Plastic,Cardboard,Recyclable,Recyclable,0.4888215661048889,False
+data/realwaste-main/RealWaste/Plastic/Plastic_425.jpg,Plastic,Plastic,Recyclable,Recyclable,0.867321252822876,False
+data/realwaste-main/RealWaste/Plastic/Plastic_181.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6979007720947266,False
+data/realwaste-main/RealWaste/Plastic/Plastic_122.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6211832165718079,False
+data/realwaste-main/RealWaste/Plastic/Plastic_194.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6410742402076721,False
+data/realwaste-main/RealWaste/Plastic/Plastic_475.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9945297837257385,False
+data/realwaste-main/RealWaste/Plastic/Plastic_571.jpg,Plastic,Plastic,Recyclable,Recyclable,0.9681172370910645,False
+data/realwaste-main/RealWaste/Plastic/Plastic_610.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7039074301719666,False
+data/realwaste-main/RealWaste/Plastic/Plastic_612.jpg,Plastic,Plastic,Recyclable,Recyclable,0.6856303811073303,False
+data/realwaste-main/RealWaste/Plastic/Plastic_512.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8467656970024109,False
+data/realwaste-main/RealWaste/Plastic/Plastic_497.jpg,Plastic,Glass,Recyclable,Recyclable,0.5055790543556213,False
+data/realwaste-main/RealWaste/Plastic/Plastic_271.jpg,Plastic,Plastic,Recyclable,Recyclable,0.4146483540534973,False
+data/realwaste-main/RealWaste/Plastic/Plastic_18.jpg,Plastic,Plastic,Recyclable,Recyclable,0.5439969301223755,False
+data/realwaste-main/RealWaste/Plastic/Plastic_220.jpg,Plastic,Plastic,Recyclable,Recyclable,0.8063226938247681,False
+data/realwaste-main/RealWaste/Plastic/Plastic_193.jpg,Plastic,Miscellaneous Trash,Recyclable,Landfill,0.46936270594596863,False
+data/realwaste-main/RealWaste/Plastic/Plastic_348.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7422630190849304,False
+data/realwaste-main/RealWaste/Plastic/Plastic_800.jpg,Plastic,Glass,Recyclable,Recyclable,0.46765488386154175,False
+data/realwaste-main/RealWaste/Plastic/Plastic_430.jpg,Plastic,Plastic,Recyclable,Recyclable,0.7484170198440552,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_8.jpg,Textile Trash,Metal,Landfill,Recyclable,0.6813080310821533,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_93.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9055259823799133,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_140.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.6640334129333496,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_116.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.45255401730537415,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_39.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.988643229007721,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_18.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.4150679409503937,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_241.jpg,Textile Trash,Metal,Landfill,Recyclable,0.3326399028301239,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_4.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.49894091486930847,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_186.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9205302596092224,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_164.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.5617142915725708,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_261.jpg,Textile Trash,Miscellaneous Trash,Landfill,Landfill,0.6124370694160461,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_111.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.5871414542198181,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_80.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.7544978260993958,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_245.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9663833975791931,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_208.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.8778244256973267,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_180.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.36304962635040283,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_179.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.817709743976593,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_262.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9908396601676941,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_90.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9468770027160645,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_86.jpg,Textile Trash,Miscellaneous Trash,Landfill,Landfill,0.4262765645980835,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_124.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9554734826087952,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_59.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9081571102142334,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_221.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9576929807662964,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_21.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.6462534070014954,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_212.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9291927218437195,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_145.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.424600213766098,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_172.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9366775751113892,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_206.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.7316886782646179,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_98.jpg,Textile Trash,Miscellaneous Trash,Landfill,Landfill,0.26396676898002625,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_57.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.7573148608207703,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_316.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9049319624900818,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_125.jpg,Textile Trash,Plastic,Landfill,Recyclable,0.37074196338653564,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_228.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.8235069513320923,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_112.jpg,Textile Trash,Miscellaneous Trash,Landfill,Landfill,0.5104442238807678,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_20.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.8957770466804504,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_246.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9775585532188416,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_110.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9427779316902161,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_182.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9320313930511475,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_223.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9901673793792725,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_278.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9036925435066223,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_247.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9585558772087097,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_44.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9156932234764099,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_73.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.6082783937454224,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_258.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9856767654418945,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_36.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.8996939659118652,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_63.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.48087021708488464,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_33.jpg,Textile Trash,Paper,Landfill,Recyclable,0.7160906195640564,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_264.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9457266926765442,False
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_275.jpg,Textile Trash,Textile Trash,Landfill,Landfill,0.9308138489723206,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_186.jpg,Vegetation,Food Organics,Compost,Compost,0.4976326823234558,True
+data/realwaste-main/RealWaste/Vegetation/Vegetation_14.jpg,Vegetation,Vegetation,Compost,Compost,0.9845538139343262,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_397.jpg,Vegetation,Vegetation,Compost,Compost,0.9993392825126648,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_378.jpg,Vegetation,Vegetation,Compost,Compost,0.9659111499786377,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_291.jpg,Vegetation,Vegetation,Compost,Compost,0.9844486713409424,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_435.jpg,Vegetation,Vegetation,Compost,Compost,0.9952131509780884,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_6.jpg,Vegetation,Vegetation,Compost,Compost,0.9453539848327637,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_247.jpg,Vegetation,Vegetation,Compost,Compost,0.7015061974525452,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_302.jpg,Vegetation,Vegetation,Compost,Compost,0.9496737718582153,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_237.jpg,Vegetation,Vegetation,Compost,Compost,0.7079969048500061,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_160.jpg,Vegetation,Vegetation,Compost,Compost,0.9994369149208069,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_203.jpg,Vegetation,Vegetation,Compost,Compost,0.707125186920166,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_144.jpg,Vegetation,Vegetation,Compost,Compost,0.9846131801605225,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_414.jpg,Vegetation,Vegetation,Compost,Compost,0.982240617275238,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_42.jpg,Vegetation,Vegetation,Compost,Compost,0.6621062159538269,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_325.jpg,Vegetation,Textile Trash,Compost,Landfill,0.37595659494400024,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_228.jpg,Vegetation,Vegetation,Compost,Compost,0.9985879063606262,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_242.jpg,Vegetation,Vegetation,Compost,Compost,0.8617615103721619,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_239.jpg,Vegetation,Vegetation,Compost,Compost,0.5934730172157288,True
+data/realwaste-main/RealWaste/Vegetation/Vegetation_254.jpg,Vegetation,Vegetation,Compost,Compost,0.991436779499054,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_108.jpg,Vegetation,Vegetation,Compost,Compost,0.8297944664955139,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_270.jpg,Vegetation,Vegetation,Compost,Compost,0.9644516706466675,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_222.jpg,Vegetation,Vegetation,Compost,Compost,0.9253673553466797,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_318.jpg,Vegetation,Vegetation,Compost,Compost,0.9803538918495178,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_5.jpg,Vegetation,Vegetation,Compost,Compost,0.8840171694755554,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_121.jpg,Vegetation,Vegetation,Compost,Compost,0.9695916175842285,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_208.jpg,Vegetation,Vegetation,Compost,Compost,0.7083836197853088,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_417.jpg,Vegetation,Vegetation,Compost,Compost,0.9997566342353821,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_251.jpg,Vegetation,Vegetation,Compost,Compost,0.9403850436210632,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_281.jpg,Vegetation,Miscellaneous Trash,Compost,Landfill,0.5479100346565247,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_76.jpg,Vegetation,Vegetation,Compost,Compost,0.9738828539848328,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_284.jpg,Vegetation,Vegetation,Compost,Compost,0.9905965328216553,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_419.jpg,Vegetation,Vegetation,Compost,Compost,0.9370606541633606,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_412.jpg,Vegetation,Vegetation,Compost,Compost,0.9392008781433105,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_78.jpg,Vegetation,Vegetation,Compost,Compost,0.9052299857139587,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_384.jpg,Vegetation,Vegetation,Compost,Compost,0.6635940670967102,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_165.jpg,Vegetation,Vegetation,Compost,Compost,0.9493482112884521,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_285.jpg,Vegetation,Vegetation,Compost,Compost,0.9400010704994202,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_226.jpg,Vegetation,Vegetation,Compost,Compost,0.9824938178062439,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_179.jpg,Vegetation,Vegetation,Compost,Compost,0.9991781115531921,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_116.jpg,Vegetation,Vegetation,Compost,Compost,0.9701743721961975,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_317.jpg,Vegetation,Vegetation,Compost,Compost,0.7100773453712463,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_38.jpg,Vegetation,Vegetation,Compost,Compost,0.9857914447784424,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_362.jpg,Vegetation,Vegetation,Compost,Compost,0.939276397228241,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_322.jpg,Vegetation,Vegetation,Compost,Compost,0.9943424463272095,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_400.jpg,Vegetation,Vegetation,Compost,Compost,0.9949682354927063,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_276.jpg,Vegetation,Vegetation,Compost,Compost,0.9474191069602966,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_220.jpg,Vegetation,Vegetation,Compost,Compost,0.9799364805221558,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_289.jpg,Vegetation,Vegetation,Compost,Compost,0.9962671399116516,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_258.jpg,Vegetation,Vegetation,Compost,Compost,0.9697599411010742,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_346.jpg,Vegetation,Vegetation,Compost,Compost,0.9591344594955444,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_230.jpg,Vegetation,Vegetation,Compost,Compost,0.9709148406982422,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_69.jpg,Vegetation,Vegetation,Compost,Compost,0.8638505935668945,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_91.jpg,Vegetation,Vegetation,Compost,Compost,0.9768754243850708,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_66.jpg,Vegetation,Vegetation,Compost,Compost,0.4689156413078308,True
+data/realwaste-main/RealWaste/Vegetation/Vegetation_359.jpg,Vegetation,Food Organics,Compost,Compost,0.5986865758895874,True
+data/realwaste-main/RealWaste/Vegetation/Vegetation_148.jpg,Vegetation,Vegetation,Compost,Compost,0.9540103077888489,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_145.jpg,Vegetation,Vegetation,Compost,Compost,0.9162626266479492,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_56.jpg,Vegetation,Vegetation,Compost,Compost,0.9955945611000061,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_368.jpg,Vegetation,Vegetation,Compost,Compost,0.851396918296814,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_370.jpg,Vegetation,Vegetation,Compost,Compost,0.9704356789588928,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_360.jpg,Vegetation,Vegetation,Compost,Compost,0.8300962448120117,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_167.jpg,Vegetation,Food Organics,Compost,Compost,0.4788713753223419,True
+data/realwaste-main/RealWaste/Vegetation/Vegetation_168.jpg,Vegetation,Vegetation,Compost,Compost,0.9674773216247559,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_290.jpg,Vegetation,Vegetation,Compost,Compost,0.9678070545196533,False
+data/realwaste-main/RealWaste/Vegetation/Vegetation_150.jpg,Vegetation,Vegetation,Compost,Compost,0.9542982578277588,False

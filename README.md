@@ -35,3 +35,6 @@ It prints the input format, predicted ImageNet label, and confidence.
 The first prediction downloads model weights if they are not cached.
 This baseline uses ImageNet labels, not waste disposal categories.
 Run without `--image` to keep the existing dataset sampling workflow.
+
+The 10-epoch candidate's validation-selected Compost review threshold and fixed
+test confirmation are documented in [Week 4 threshold results](docs/week4_10epoch_threshold.md).

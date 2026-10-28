@@ -1,0 +1,12 @@
+{
+  "selected_on": "val",
+  "checkpoint": "models/week4_epochs_seed42/best_10epochs.pt",
+  "threshold": 0.6,
+  "scope": "predicted Compost only",
+  "comparison": "confidence < threshold",
+  "confidence": "maximum nine-class softmax",
+  "selection_rationale": "Among John's 0.4-0.9 grid, maximize wrong-Compost catches while flagging no more than 10% of correctly predicted Compost validation cases. This is a proposed engineering tradeoff, not a team-approved deployment requirement.",
+  "validation_wrong_caught": "8/17",
+  "validation_correct_flagged": "8/126",
+  "status": "locked before test confirmation; candidate for team approval, not deployed"
+}
