@@ -1,0 +1,10 @@
+{
+  "selected_budget_by_validation": 10,
+  "seed": 42,
+  "validation_accuracy_gain_pp": 1.8309859154929553,
+  "test_accuracy_gain_pp": 2.6425591098748202,
+  "paired_test_errors_fixed": 44,
+  "paired_test_new_errors": 25,
+  "test_correct_gain": 19,
+  "training_seconds": 910.8627472509979
+}

@@ -1,0 +1,29 @@
+{
+  "split": "test",
+  "checkpoint": "models/week4_epochs_seed42/best_10epochs.pt",
+  "checkpoint_sha256": "49e9e38820e7d6c1219b667eb10f1bd66ffec03aab00f26f09b7e21a2f3f3e73",
+  "splits_sha256": "f9e7009d12ed25bac595b4ca82ea7d7d536def7e7ffca3da1be52a87514d6ba4",
+  "timestamp_utc": "2026-10-28T14:08:39.712744+00:00",
+  "device": "cpu",
+  "confidence": "maximum class softmax, not summed Compost probability",
+  "rule": "predicted bin == Compost and confidence < threshold",
+  "metrics": [
+    {
+      "threshold": 0.6,
+      "images": 719,
+      "flagged": 19,
+      "wrong_compost": 10,
+      "wrong_compost_caught": 6,
+      "wrong_compost_remaining": 4,
+      "correct_compost": 123,
+      "correct_compost_flagged": 13,
+      "catch_rate": 0.6,
+      "correct_compost_flag_rate": 0.10569105691056911,
+      "coverage": 0.9735744089012517,
+      "raw_bin_accuracy": 0.9401947148817803,
+      "accepted_bin_accuracy": 0.9471428571428572,
+      "true_compost_total": 129,
+      "true_compost_flagged": 13
+    }
+  ]
+}
