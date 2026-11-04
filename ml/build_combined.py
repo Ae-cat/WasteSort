@@ -92,8 +92,15 @@ def main():
     parser.add_argument("--out-dir", type=Path, default=Path("data/combined"))
     parser.add_argument("--out-csv", type=Path, default=Path("ml/splits_combined.csv"))
     parser.add_argument("--dropped-csv", type=Path, default=Path("reports/combined_dropped.csv"))
+    parser.add_argument("--include-trash", action="store_true",
+    help="also map TrashNet and Garbage12 'trash' folders to Miscellaneous Trash")
     args = parser.parse_args()
     rng = random.Random(SEED)
+    if args.include_trash:
+        # TrashNet only: its "trash" photos are real wrappers, film, and tissues.
+        # Garbage12 "trash" was checked and excluded: mostly stock photos of masks,
+        # toothbrushes (incl. electric), and diapers, not representative of real trash.
+        SOURCES[0][3]["trash"] = ("Miscellaneous Trash", None)
     dropped = []  # (source, file, reason)
 
     # 1. RealWaste: every row, every split (test included) is used for duplicate checks
