@@ -93,6 +93,9 @@ def main():
     parser.add_argument("--out-csv", type=Path, default=Path("ml/splits_combined.csv"))
     parser.add_argument("--dropped-csv", type=Path, default=Path("reports/combined_dropped.csv"))
     args = parser.parse_args()
+    missing_sources = [str(root) for _, root, _, _ in SOURCES if not root.is_dir()]
+    if missing_sources:
+        raise SystemExit('Missing required dataset directories: ' + ', '.join(missing_sources))
     rng = random.Random(SEED)
     dropped = []  # (source, file, reason)
 
