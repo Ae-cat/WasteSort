@@ -62,6 +62,7 @@ def main():
     print(f"checkpoint={args.checkpoint} split={args.split}")
     sweep("All predictions", rows)
     sweep("Predicted Compost only", [r for r in rows if r[1] == "Compost"])
+    sweep("Predicted Recyclable only", [r for r in rows if r[1] == "Recyclable"])
 
 
 if __name__ == "__main__":
