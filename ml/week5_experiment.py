@@ -22,7 +22,7 @@ def digest(path):
 def preflight(splits=Path('ml/splits_combined.csv'), data_root=Path('data/combined')):
     from PIL import Image
     original, combined = rows('ml/splits.csv'), rows(splits)
-    expected = {'train': {'splits.csv': 3323, 'splits_combined.csv': 11426, 'splits_combined_trash.csv': 11563}[Path(splits).name], 'val': 710, 'test': 719}
+    expected = {'train': {'splits.csv': 3323, 'splits_combined.csv': 11426, 'splits_combined_trash.csv': 11563, 'splits_combined_taco.csv': 5314}[Path(splits).name], 'val': 710, 'test': 719}
     if dict(collections.Counter(r['split'] for r in combined)) != expected:
         raise ValueError('Combined split counts differ from John baseline')
     keys = lambda rs, s: [(r['label'], Path(r['path']).name) for r in rs if r['split'] == s]
