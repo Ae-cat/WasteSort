@@ -144,6 +144,9 @@ def main():
     parser.add_argument("--sources", default="trashnet,garbage12",
                         help="comma-separated: " + ",".join(src["key"] for src in SOURCES))
     args = parser.parse_args()
+    missing_sources = [str(root) for _, root, _, _ in SOURCES if not root.is_dir()]
+    if missing_sources:
+        raise SystemExit('Missing required dataset directories: ' + ', '.join(missing_sources))
     rng = random.Random(SEED)
     wanted = [k.strip() for k in args.sources.split(",") if k.strip()]
     unknown_keys = set(wanted) - {src["key"] for src in SOURCES}

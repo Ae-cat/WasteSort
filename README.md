@@ -13,6 +13,14 @@ Evaluate a trained checkpoint on the held-out test split with:
 ```bash
 python3 ml/evaluate.py
 ```
+
+Week 3 prediction logs, reproduced held-out results, and the independent external
+image collection/test workflow are in
+[`docs/week3_carryover_results.md`](docs/week3_carryover_results.md).
+
+Week 4 work:
+- [Baseline error gallery and visual review](docs/week4_error_analysis.md)
+- [Controlled 5-versus-10-epoch experiment](docs/week4_epoch_experiment.md)
 ## Predict from an image file
 
 Install the dependencies, then provide an image path:
@@ -27,3 +35,6 @@ It prints the input format, predicted ImageNet label, and confidence.
 The first prediction downloads model weights if they are not cached.
 This baseline uses ImageNet labels, not waste disposal categories.
 Run without `--image` to keep the existing dataset sampling workflow.
+
+The 10-epoch candidate's validation-selected Compost review threshold and fixed
+test confirmation are documented in [Week 4 threshold results](docs/week4_10epoch_threshold.md).

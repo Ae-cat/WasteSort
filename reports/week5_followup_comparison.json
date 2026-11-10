@@ -1,0 +1,488 @@
+{
+  "RealWaste only": {
+    "test_images": 719,
+    "accuracy": 0.8720445062586927,
+    "bin_accuracy": 0.9652294853963839,
+    "per_class": {
+      "Cardboard": 0.9571428571428572,
+      "Food Organics": 0.8571428571428571,
+      "Glass": 0.9682539682539683,
+      "Metal": 0.865546218487395,
+      "Miscellaneous Trash": 0.7866666666666666,
+      "Paper": 0.88,
+      "Plastic": 0.8057553956834532,
+      "Textile Trash": 0.8979591836734694,
+      "Vegetation": 0.9242424242424242
+    },
+    "per_class_bin_accuracy": {
+      "Cardboard": 0.9714285714285714,
+      "Food Organics": 0.9682539682539683,
+      "Glass": 1.0,
+      "Metal": 0.9663865546218487,
+      "Miscellaneous Trash": 0.9333333333333333,
+      "Paper": 0.96,
+      "Plastic": 0.9640287769784173,
+      "Textile Trash": 0.9795918367346939,
+      "Vegetation": 0.9545454545454546
+    },
+    "confusion_matrix": [
+      [
+        67,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        54,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        61,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        3,
+        103,
+        2,
+        1,
+        5,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        59,
+        1,
+        1,
+        11,
+        1
+      ],
+      [
+        5,
+        0,
+        0,
+        1,
+        0,
+        66,
+        0,
+        3,
+        0
+      ],
+      [
+        5,
+        0,
+        7,
+        5,
+        4,
+        5,
+        112,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        44,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        61
+      ]
+    ],
+    "bin_confusion_matrix": [
+      [
+        452,
+        1,
+        13
+      ],
+      [
+        0,
+        124,
+        5
+      ],
+      [
+        4,
+        2,
+        118
+      ]
+    ],
+    "classes": [
+      "Cardboard",
+      "Food Organics",
+      "Glass",
+      "Metal",
+      "Miscellaneous Trash",
+      "Paper",
+      "Plastic",
+      "Textile Trash",
+      "Vegetation"
+    ],
+    "best_epoch": 5,
+    "checkpoint_sha256": "01538fa040b74d7b70620edccf8bc345a7e54db442aab5972b948d5e6ef208a8",
+    "landfill_correct": 118,
+    "landfill_total": 124,
+    "recyclable_to_landfill": 13,
+    "recyclable_total": 466
+  },
+  "Combined": {
+    "test_images": 719,
+    "accuracy": 0.8595271210013908,
+    "bin_accuracy": 0.9513212795549374,
+    "per_class": {
+      "Cardboard": 0.8714285714285714,
+      "Food Organics": 0.9047619047619048,
+      "Glass": 0.9841269841269841,
+      "Metal": 0.8151260504201681,
+      "Miscellaneous Trash": 0.7333333333333333,
+      "Paper": 0.8933333333333333,
+      "Plastic": 0.8345323741007195,
+      "Textile Trash": 0.7959183673469388,
+      "Vegetation": 0.9696969696969697
+    },
+    "per_class_bin_accuracy": {
+      "Cardboard": 0.9857142857142858,
+      "Food Organics": 0.9682539682539683,
+      "Glass": 1.0,
+      "Metal": 0.9915966386554622,
+      "Miscellaneous Trash": 0.7733333333333333,
+      "Paper": 0.9733333333333334,
+      "Plastic": 0.9712230215827338,
+      "Textile Trash": 0.8571428571428571,
+      "Vegetation": 0.9848484848484849
+    },
+    "confusion_matrix": [
+      [
+        61,
+        0,
+        2,
+        1,
+        0,
+        2,
+        3,
+        1,
+        0
+      ],
+      [
+        0,
+        57,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        62,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        10,
+        97,
+        0,
+        1,
+        8,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        3,
+        55,
+        4,
+        4,
+        3,
+        2
+      ],
+      [
+        4,
+        0,
+        0,
+        2,
+        0,
+        67,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        11,
+        7,
+        4,
+        1,
+        116,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        3,
+        2,
+        1,
+        39,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        64
+      ]
+    ],
+    "bin_confusion_matrix": [
+      [
+        458,
+        0,
+        8
+      ],
+      [
+        2,
+        126,
+        1
+      ],
+      [
+        21,
+        3,
+        100
+      ]
+    ],
+    "classes": [
+      "Cardboard",
+      "Food Organics",
+      "Glass",
+      "Metal",
+      "Miscellaneous Trash",
+      "Paper",
+      "Plastic",
+      "Textile Trash",
+      "Vegetation"
+    ],
+    "best_epoch": 4,
+    "checkpoint_sha256": "7b7d2ff430b6107247baafc77ab63a4aa2c18872497fcadb7ce707dea12a2d52",
+    "landfill_correct": 100,
+    "landfill_total": 124,
+    "recyclable_to_landfill": 8,
+    "recyclable_total": 466
+  },
+  "Combined +137 trash": {
+    "test_images": 719,
+    "accuracy": 0.8484005563282336,
+    "bin_accuracy": 0.9457579972183588,
+    "per_class": {
+      "Cardboard": 0.9714285714285714,
+      "Food Organics": 0.746031746031746,
+      "Glass": 0.9365079365079365,
+      "Metal": 0.8151260504201681,
+      "Miscellaneous Trash": 0.7466666666666667,
+      "Paper": 0.8133333333333334,
+      "Plastic": 0.8201438848920863,
+      "Textile Trash": 0.9387755102040817,
+      "Vegetation": 0.9393939393939394
+    },
+    "per_class_bin_accuracy": {
+      "Cardboard": 0.9857142857142858,
+      "Food Organics": 0.8253968253968254,
+      "Glass": 1.0,
+      "Metal": 0.9831932773109243,
+      "Miscellaneous Trash": 0.8666666666666667,
+      "Paper": 0.9466666666666667,
+      "Plastic": 0.9424460431654677,
+      "Textile Trash": 0.9795918367346939,
+      "Vegetation": 0.9696969696969697
+    },
+    "confusion_matrix": [
+      [
+        68,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        47,
+        0,
+        1,
+        4,
+        0,
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        0,
+        59,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        3,
+        97,
+        2,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        56,
+        1,
+        5,
+        9,
+        2
+      ],
+      [
+        9,
+        0,
+        0,
+        1,
+        3,
+        61,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        1,
+        3,
+        5,
+        5,
+        1,
+        114,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        46,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        62
+      ]
+    ],
+    "bin_confusion_matrix": [
+      [
+        451,
+        1,
+        14
+      ],
+      [
+        7,
+        116,
+        6
+      ],
+      [
+        8,
+        3,
+        113
+      ]
+    ],
+    "classes": [
+      "Cardboard",
+      "Food Organics",
+      "Glass",
+      "Metal",
+      "Miscellaneous Trash",
+      "Paper",
+      "Plastic",
+      "Textile Trash",
+      "Vegetation"
+    ],
+    "best_epoch": 4,
+    "checkpoint_sha256": "efffa3d258aad19544ab1ff9ceba748b6282d1755f4ebbdca43dcce4cdd18b28",
+    "landfill_correct": 113,
+    "landfill_total": 124,
+    "recyclable_to_landfill": 14,
+    "recyclable_total": 466
+  }
+}

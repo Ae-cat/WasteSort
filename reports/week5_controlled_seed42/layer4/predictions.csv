@@ -1,0 +1,720 @@
+image_path,true_label,predicted_label
+data/combined/Cardboard/Cardboard_188.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_365.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_266.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_384.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_389.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_234.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_353.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_135.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_273.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_156.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_346.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_310.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_435.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_119.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_220.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_378.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_258.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_264.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_143.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_274.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_82.jpg,Cardboard,Metal
+data/combined/Cardboard/Cardboard_90.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_254.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_450.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_199.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_170.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_68.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_256.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_85.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_420.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_172.jpg,Cardboard,Plastic
+data/combined/Cardboard/Cardboard_55.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_449.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_101.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_57.jpg,Cardboard,Plastic
+data/combined/Cardboard/Cardboard_227.jpg,Cardboard,Glass
+data/combined/Cardboard/Cardboard_370.jpg,Cardboard,Paper
+data/combined/Cardboard/Cardboard_305.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_20.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_292.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_88.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_422.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_399.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_429.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_190.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_358.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_110.jpg,Cardboard,Plastic
+data/combined/Cardboard/Cardboard_377.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_331.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_206.jpg,Cardboard,Glass
+data/combined/Cardboard/Cardboard_2.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_141.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_112.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_113.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_294.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_371.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_139.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_350.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_96.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_410.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_146.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_439.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_163.jpg,Cardboard,Textile Trash
+data/combined/Cardboard/Cardboard_201.jpg,Cardboard,Paper
+data/combined/Cardboard/Cardboard_211.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_225.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_440.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_11.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_150.jpg,Cardboard,Cardboard
+data/combined/Cardboard/Cardboard_394.jpg,Cardboard,Cardboard
+data/combined/Food Organics/Food Organics_404.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_66.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_387.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_77.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_405.jpg,Food Organics,Glass
+data/combined/Food Organics/Food Organics_84.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_298.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_267.jpg,Food Organics,Vegetation
+data/combined/Food Organics/Food Organics_19.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_408.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_45.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_347.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_339.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_1.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_64.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_55.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_119.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_216.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_187.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_365.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_277.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_75.jpg,Food Organics,Plastic
+data/combined/Food Organics/Food Organics_334.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_379.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_30.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_243.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_65.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_258.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_3.jpg,Food Organics,Vegetation
+data/combined/Food Organics/Food Organics_374.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_149.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_98.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_220.jpg,Food Organics,Vegetation
+data/combined/Food Organics/Food Organics_367.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_181.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_219.jpg,Food Organics,Vegetation
+data/combined/Food Organics/Food Organics_152.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_111.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_251.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_346.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_411.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_87.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_333.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_395.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_93.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_85.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_130.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_227.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_250.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_283.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_188.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_402.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_11.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_201.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_203.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_24.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_260.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_310.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_191.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_200.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_315.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_116.jpg,Food Organics,Food Organics
+data/combined/Food Organics/Food Organics_275.jpg,Food Organics,Food Organics
+data/combined/Glass/Glass_209.jpg,Glass,Glass
+data/combined/Glass/Glass_171.jpg,Glass,Glass
+data/combined/Glass/Glass_136.jpg,Glass,Glass
+data/combined/Glass/Glass_403.jpg,Glass,Glass
+data/combined/Glass/Glass_220.jpg,Glass,Glass
+data/combined/Glass/Glass_197.jpg,Glass,Glass
+data/combined/Glass/Glass_388.jpg,Glass,Glass
+data/combined/Glass/Glass_195.jpg,Glass,Glass
+data/combined/Glass/Glass_144.jpg,Glass,Glass
+data/combined/Glass/Glass_380.jpg,Glass,Glass
+data/combined/Glass/Glass_126.jpg,Glass,Glass
+data/combined/Glass/Glass_385.jpg,Glass,Glass
+data/combined/Glass/Glass_361.jpg,Glass,Glass
+data/combined/Glass/Glass_24.jpg,Glass,Glass
+data/combined/Glass/Glass_297.jpg,Glass,Glass
+data/combined/Glass/Glass_370.jpg,Glass,Glass
+data/combined/Glass/Glass_236.jpg,Glass,Glass
+data/combined/Glass/Glass_302.jpg,Glass,Glass
+data/combined/Glass/Glass_306.jpg,Glass,Glass
+data/combined/Glass/Glass_274.jpg,Glass,Glass
+data/combined/Glass/Glass_34.jpg,Glass,Glass
+data/combined/Glass/Glass_202.jpg,Glass,Glass
+data/combined/Glass/Glass_384.jpg,Glass,Glass
+data/combined/Glass/Glass_374.jpg,Glass,Glass
+data/combined/Glass/Glass_379.jpg,Glass,Glass
+data/combined/Glass/Glass_291.jpg,Glass,Glass
+data/combined/Glass/Glass_356.jpg,Glass,Glass
+data/combined/Glass/Glass_153.jpg,Glass,Glass
+data/combined/Glass/Glass_213.jpg,Glass,Glass
+data/combined/Glass/Glass_138.jpg,Glass,Glass
+data/combined/Glass/Glass_239.jpg,Glass,Glass
+data/combined/Glass/Glass_359.jpg,Glass,Glass
+data/combined/Glass/Glass_168.jpg,Glass,Glass
+data/combined/Glass/Glass_169.jpg,Glass,Glass
+data/combined/Glass/Glass_99.jpg,Glass,Glass
+data/combined/Glass/Glass_415.jpg,Glass,Glass
+data/combined/Glass/Glass_39.jpg,Glass,Glass
+data/combined/Glass/Glass_365.jpg,Glass,Glass
+data/combined/Glass/Glass_132.jpg,Glass,Glass
+data/combined/Glass/Glass_92.jpg,Glass,Glass
+data/combined/Glass/Glass_284.jpg,Glass,Glass
+data/combined/Glass/Glass_129.jpg,Glass,Glass
+data/combined/Glass/Glass_151.jpg,Glass,Glass
+data/combined/Glass/Glass_319.jpg,Glass,Glass
+data/combined/Glass/Glass_215.jpg,Glass,Glass
+data/combined/Glass/Glass_122.jpg,Glass,Glass
+data/combined/Glass/Glass_184.jpg,Glass,Glass
+data/combined/Glass/Glass_256.jpg,Glass,Glass
+data/combined/Glass/Glass_301.jpg,Glass,Glass
+data/combined/Glass/Glass_32.jpg,Glass,Glass
+data/combined/Glass/Glass_315.jpg,Glass,Glass
+data/combined/Glass/Glass_23.jpg,Glass,Glass
+data/combined/Glass/Glass_363.jpg,Glass,Glass
+data/combined/Glass/Glass_104.jpg,Glass,Glass
+data/combined/Glass/Glass_146.jpg,Glass,Glass
+data/combined/Glass/Glass_325.jpg,Glass,Glass
+data/combined/Glass/Glass_68.jpg,Glass,Glass
+data/combined/Glass/Glass_393.jpg,Glass,Plastic
+data/combined/Glass/Glass_157.jpg,Glass,Glass
+data/combined/Glass/Glass_420.jpg,Glass,Glass
+data/combined/Glass/Glass_233.jpg,Glass,Glass
+data/combined/Glass/Glass_354.jpg,Glass,Glass
+data/combined/Glass/Glass_123.jpg,Glass,Glass
+data/combined/Metal/Metal_488.jpg,Metal,Metal
+data/combined/Metal/Metal_215.jpg,Metal,Textile Trash
+data/combined/Metal/Metal_147.jpg,Metal,Metal
+data/combined/Metal/Metal_343.jpg,Metal,Metal
+data/combined/Metal/Metal_772.jpg,Metal,Metal
+data/combined/Metal/Metal_113.jpg,Metal,Metal
+data/combined/Metal/Metal_398.jpg,Metal,Metal
+data/combined/Metal/Metal_641.jpg,Metal,Metal
+data/combined/Metal/Metal_318.jpg,Metal,Plastic
+data/combined/Metal/Metal_429.jpg,Metal,Metal
+data/combined/Metal/Metal_112.jpg,Metal,Metal
+data/combined/Metal/Metal_22.jpg,Metal,Metal
+data/combined/Metal/Metal_122.jpg,Metal,Paper
+data/combined/Metal/Metal_708.jpg,Metal,Metal
+data/combined/Metal/Metal_20.jpg,Metal,Metal
+data/combined/Metal/Metal_26.jpg,Metal,Metal
+data/combined/Metal/Metal_33.jpg,Metal,Metal
+data/combined/Metal/Metal_770.jpg,Metal,Metal
+data/combined/Metal/Metal_219.jpg,Metal,Plastic
+data/combined/Metal/Metal_232.jpg,Metal,Glass
+data/combined/Metal/Metal_354.jpg,Metal,Metal
+data/combined/Metal/Metal_100.jpg,Metal,Plastic
+data/combined/Metal/Metal_649.jpg,Metal,Metal
+data/combined/Metal/Metal_235.jpg,Metal,Metal
+data/combined/Metal/Metal_401.jpg,Metal,Metal
+data/combined/Metal/Metal_313.jpg,Metal,Cardboard
+data/combined/Metal/Metal_299.jpg,Metal,Metal
+data/combined/Metal/Metal_64.jpg,Metal,Metal
+data/combined/Metal/Metal_290.jpg,Metal,Metal
+data/combined/Metal/Metal_61.jpg,Metal,Metal
+data/combined/Metal/Metal_162.jpg,Metal,Metal
+data/combined/Metal/Metal_289.jpg,Metal,Glass
+data/combined/Metal/Metal_62.jpg,Metal,Glass
+data/combined/Metal/Metal_214.jpg,Metal,Plastic
+data/combined/Metal/Metal_323.jpg,Metal,Metal
+data/combined/Metal/Metal_406.jpg,Metal,Metal
+data/combined/Metal/Metal_145.jpg,Metal,Metal
+data/combined/Metal/Metal_118.jpg,Metal,Metal
+data/combined/Metal/Metal_65.jpg,Metal,Glass
+data/combined/Metal/Metal_689.jpg,Metal,Metal
+data/combined/Metal/Metal_691.jpg,Metal,Metal
+data/combined/Metal/Metal_295.jpg,Metal,Metal
+data/combined/Metal/Metal_71.jpg,Metal,Metal
+data/combined/Metal/Metal_183.jpg,Metal,Metal
+data/combined/Metal/Metal_99.jpg,Metal,Metal
+data/combined/Metal/Metal_211.jpg,Metal,Plastic
+data/combined/Metal/Metal_274.jpg,Metal,Metal
+data/combined/Metal/Metal_353.jpg,Metal,Metal
+data/combined/Metal/Metal_466.jpg,Metal,Metal
+data/combined/Metal/Metal_155.jpg,Metal,Glass
+data/combined/Metal/Metal_43.jpg,Metal,Metal
+data/combined/Metal/Metal_694.jpg,Metal,Metal
+data/combined/Metal/Metal_600.jpg,Metal,Metal
+data/combined/Metal/Metal_438.jpg,Metal,Metal
+data/combined/Metal/Metal_731.jpg,Metal,Metal
+data/combined/Metal/Metal_765.jpg,Metal,Metal
+data/combined/Metal/Metal_433.jpg,Metal,Metal
+data/combined/Metal/Metal_316.jpg,Metal,Metal
+data/combined/Metal/Metal_509.jpg,Metal,Metal
+data/combined/Metal/Metal_508.jpg,Metal,Metal
+data/combined/Metal/Metal_3.jpg,Metal,Metal
+data/combined/Metal/Metal_773.jpg,Metal,Metal
+data/combined/Metal/Metal_735.jpg,Metal,Metal
+data/combined/Metal/Metal_129.jpg,Metal,Metal
+data/combined/Metal/Metal_357.jpg,Metal,Metal
+data/combined/Metal/Metal_475.jpg,Metal,Glass
+data/combined/Metal/Metal_667.jpg,Metal,Metal
+data/combined/Metal/Metal_550.jpg,Metal,Metal
+data/combined/Metal/Metal_190.jpg,Metal,Metal
+data/combined/Metal/Metal_702.jpg,Metal,Metal
+data/combined/Metal/Metal_481.jpg,Metal,Metal
+data/combined/Metal/Metal_241.jpg,Metal,Metal
+data/combined/Metal/Metal_640.jpg,Metal,Metal
+data/combined/Metal/Metal_486.jpg,Metal,Metal
+data/combined/Metal/Metal_598.jpg,Metal,Metal
+data/combined/Metal/Metal_741.jpg,Metal,Metal
+data/combined/Metal/Metal_717.jpg,Metal,Metal
+data/combined/Metal/Metal_440.jpg,Metal,Metal
+data/combined/Metal/Metal_517.jpg,Metal,Metal
+data/combined/Metal/Metal_457.jpg,Metal,Metal
+data/combined/Metal/Metal_223.jpg,Metal,Metal
+data/combined/Metal/Metal_595.jpg,Metal,Metal
+data/combined/Metal/Metal_315.jpg,Metal,Metal
+data/combined/Metal/Metal_189.jpg,Metal,Metal
+data/combined/Metal/Metal_205.jpg,Metal,Metal
+data/combined/Metal/Metal_553.jpg,Metal,Metal
+data/combined/Metal/Metal_38.jpg,Metal,Plastic
+data/combined/Metal/Metal_133.jpg,Metal,Metal
+data/combined/Metal/Metal_140.jpg,Metal,Cardboard
+data/combined/Metal/Metal_228.jpg,Metal,Glass
+data/combined/Metal/Metal_206.jpg,Metal,Metal
+data/combined/Metal/Metal_476.jpg,Metal,Plastic
+data/combined/Metal/Metal_698.jpg,Metal,Metal
+data/combined/Metal/Metal_378.jpg,Metal,Metal
+data/combined/Metal/Metal_745.jpg,Metal,Metal
+data/combined/Metal/Metal_527.jpg,Metal,Metal
+data/combined/Metal/Metal_685.jpg,Metal,Metal
+data/combined/Metal/Metal_157.jpg,Metal,Metal
+data/combined/Metal/Metal_697.jpg,Metal,Metal
+data/combined/Metal/Metal_302.jpg,Metal,Plastic
+data/combined/Metal/Metal_661.jpg,Metal,Metal
+data/combined/Metal/Metal_400.jpg,Metal,Metal
+data/combined/Metal/Metal_616.jpg,Metal,Glass
+data/combined/Metal/Metal_670.jpg,Metal,Metal
+data/combined/Metal/Metal_121.jpg,Metal,Metal
+data/combined/Metal/Metal_533.jpg,Metal,Metal
+data/combined/Metal/Metal_314.jpg,Metal,Glass
+data/combined/Metal/Metal_721.jpg,Metal,Metal
+data/combined/Metal/Metal_199.jpg,Metal,Metal
+data/combined/Metal/Metal_441.jpg,Metal,Metal
+data/combined/Metal/Metal_688.jpg,Metal,Metal
+data/combined/Metal/Metal_450.jpg,Metal,Metal
+data/combined/Metal/Metal_638.jpg,Metal,Metal
+data/combined/Metal/Metal_340.jpg,Metal,Glass
+data/combined/Metal/Metal_97.jpg,Metal,Metal
+data/combined/Metal/Metal_79.jpg,Metal,Metal
+data/combined/Metal/Metal_719.jpg,Metal,Metal
+data/combined/Metal/Metal_439.jpg,Metal,Metal
+data/combined/Metal/Metal_518.jpg,Metal,Metal
+data/combined/Miscellaneous Trash/Miscellaneous Trash_289.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_341.jpg,Miscellaneous Trash,Paper
+data/combined/Miscellaneous Trash/Miscellaneous Trash_32.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_430.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_43.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_282.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_241.jpg,Miscellaneous Trash,Plastic
+data/combined/Miscellaneous Trash/Miscellaneous Trash_7.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_77.jpg,Miscellaneous Trash,Paper
+data/combined/Miscellaneous Trash/Miscellaneous Trash_90.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_159.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_353.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_47.jpg,Miscellaneous Trash,Metal
+data/combined/Miscellaneous Trash/Miscellaneous Trash_314.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_269.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_363.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_354.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_265.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_110.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_326.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_463.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_208.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_163.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_464.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_86.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_85.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_201.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_333.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_266.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_465.jpg,Miscellaneous Trash,Cardboard
+data/combined/Miscellaneous Trash/Miscellaneous Trash_18.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_393.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_421.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_70.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_427.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_171.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_491.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_237.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_64.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_232.jpg,Miscellaneous Trash,Plastic
+data/combined/Miscellaneous Trash/Miscellaneous Trash_349.jpg,Miscellaneous Trash,Paper
+data/combined/Miscellaneous Trash/Miscellaneous Trash_352.jpg,Miscellaneous Trash,Cardboard
+data/combined/Miscellaneous Trash/Miscellaneous Trash_129.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_426.jpg,Miscellaneous Trash,Plastic
+data/combined/Miscellaneous Trash/Miscellaneous Trash_259.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_406.jpg,Miscellaneous Trash,Textile Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_246.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_489.jpg,Miscellaneous Trash,Textile Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_413.jpg,Miscellaneous Trash,Glass
+data/combined/Miscellaneous Trash/Miscellaneous Trash_472.jpg,Miscellaneous Trash,Vegetation
+data/combined/Miscellaneous Trash/Miscellaneous Trash_139.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_303.jpg,Miscellaneous Trash,Food Organics
+data/combined/Miscellaneous Trash/Miscellaneous Trash_428.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_68.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_179.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_307.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_132.jpg,Miscellaneous Trash,Metal
+data/combined/Miscellaneous Trash/Miscellaneous Trash_492.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_161.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_155.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_191.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_325.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_76.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_419.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_230.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_381.jpg,Miscellaneous Trash,Vegetation
+data/combined/Miscellaneous Trash/Miscellaneous Trash_198.jpg,Miscellaneous Trash,Paper
+data/combined/Miscellaneous Trash/Miscellaneous Trash_304.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_423.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_219.jpg,Miscellaneous Trash,Textile Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_456.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_22.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_153.jpg,Miscellaneous Trash,Miscellaneous Trash
+data/combined/Miscellaneous Trash/Miscellaneous Trash_358.jpg,Miscellaneous Trash,Metal
+data/combined/Miscellaneous Trash/Miscellaneous Trash_74.jpg,Miscellaneous Trash,Plastic
+data/combined/Paper/Paper_92.jpg,Paper,Paper
+data/combined/Paper/Paper_192.jpg,Paper,Paper
+data/combined/Paper/Paper_331.jpg,Paper,Paper
+data/combined/Paper/Paper_351.jpg,Paper,Paper
+data/combined/Paper/Paper_481.jpg,Paper,Paper
+data/combined/Paper/Paper_86.jpg,Paper,Cardboard
+data/combined/Paper/Paper_150.jpg,Paper,Paper
+data/combined/Paper/Paper_359.jpg,Paper,Paper
+data/combined/Paper/Paper_134.jpg,Paper,Paper
+data/combined/Paper/Paper_266.jpg,Paper,Paper
+data/combined/Paper/Paper_75.jpg,Paper,Paper
+data/combined/Paper/Paper_342.jpg,Paper,Paper
+data/combined/Paper/Paper_304.jpg,Paper,Paper
+data/combined/Paper/Paper_341.jpg,Paper,Paper
+data/combined/Paper/Paper_136.jpg,Paper,Paper
+data/combined/Paper/Paper_462.jpg,Paper,Paper
+data/combined/Paper/Paper_374.jpg,Paper,Paper
+data/combined/Paper/Paper_447.jpg,Paper,Paper
+data/combined/Paper/Paper_412.jpg,Paper,Paper
+data/combined/Paper/Paper_212.jpg,Paper,Paper
+data/combined/Paper/Paper_450.jpg,Paper,Paper
+data/combined/Paper/Paper_2.jpg,Paper,Paper
+data/combined/Paper/Paper_48.jpg,Paper,Paper
+data/combined/Paper/Paper_405.jpg,Paper,Textile Trash
+data/combined/Paper/Paper_469.jpg,Paper,Paper
+data/combined/Paper/Paper_347.jpg,Paper,Paper
+data/combined/Paper/Paper_448.jpg,Paper,Paper
+data/combined/Paper/Paper_316.jpg,Paper,Paper
+data/combined/Paper/Paper_352.jpg,Paper,Paper
+data/combined/Paper/Paper_422.jpg,Paper,Paper
+data/combined/Paper/Paper_290.jpg,Paper,Paper
+data/combined/Paper/Paper_271.jpg,Paper,Paper
+data/combined/Paper/Paper_379.jpg,Paper,Paper
+data/combined/Paper/Paper_443.jpg,Paper,Paper
+data/combined/Paper/Paper_308.jpg,Paper,Paper
+data/combined/Paper/Paper_17.jpg,Paper,Metal
+data/combined/Paper/Paper_319.jpg,Paper,Paper
+data/combined/Paper/Paper_160.jpg,Paper,Paper
+data/combined/Paper/Paper_20.jpg,Paper,Paper
+data/combined/Paper/Paper_200.jpg,Paper,Paper
+data/combined/Paper/Paper_382.jpg,Paper,Paper
+data/combined/Paper/Paper_269.jpg,Paper,Paper
+data/combined/Paper/Paper_235.jpg,Paper,Paper
+data/combined/Paper/Paper_394.jpg,Paper,Paper
+data/combined/Paper/Paper_84.jpg,Paper,Paper
+data/combined/Paper/Paper_417.jpg,Paper,Paper
+data/combined/Paper/Paper_242.jpg,Paper,Paper
+data/combined/Paper/Paper_454.jpg,Paper,Paper
+data/combined/Paper/Paper_423.jpg,Paper,Paper
+data/combined/Paper/Paper_58.jpg,Paper,Cardboard
+data/combined/Paper/Paper_61.jpg,Paper,Paper
+data/combined/Paper/Paper_74.jpg,Paper,Paper
+data/combined/Paper/Paper_330.jpg,Paper,Paper
+data/combined/Paper/Paper_415.jpg,Paper,Paper
+data/combined/Paper/Paper_286.jpg,Paper,Cardboard
+data/combined/Paper/Paper_172.jpg,Paper,Paper
+data/combined/Paper/Paper_240.jpg,Paper,Paper
+data/combined/Paper/Paper_313.jpg,Paper,Paper
+data/combined/Paper/Paper_153.jpg,Paper,Paper
+data/combined/Paper/Paper_406.jpg,Paper,Textile Trash
+data/combined/Paper/Paper_127.jpg,Paper,Paper
+data/combined/Paper/Paper_207.jpg,Paper,Paper
+data/combined/Paper/Paper_418.jpg,Paper,Paper
+data/combined/Paper/Paper_265.jpg,Paper,Paper
+data/combined/Paper/Paper_40.jpg,Paper,Paper
+data/combined/Paper/Paper_219.jpg,Paper,Paper
+data/combined/Paper/Paper_103.jpg,Paper,Paper
+data/combined/Paper/Paper_363.jpg,Paper,Paper
+data/combined/Paper/Paper_432.jpg,Paper,Paper
+data/combined/Paper/Paper_368.jpg,Paper,Paper
+data/combined/Paper/Paper_238.jpg,Paper,Paper
+data/combined/Paper/Paper_250.jpg,Paper,Metal
+data/combined/Paper/Paper_89.jpg,Paper,Paper
+data/combined/Paper/Paper_221.jpg,Paper,Cardboard
+data/combined/Paper/Paper_446.jpg,Paper,Paper
+data/combined/Plastic/Plastic_920.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_167.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_447.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_49.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_759.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_240.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_706.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_331.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_321.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_379.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_842.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_892.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_56.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_72.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_476.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_162.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_738.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_845.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_502.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_292.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_752.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_524.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_77.jpg,Plastic,Miscellaneous Trash
+data/combined/Plastic/Plastic_123.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_606.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_807.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_728.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_265.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_601.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_645.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_283.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_619.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_203.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_435.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_461.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_823.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_358.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_446.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_4.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_899.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_82.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_63.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_551.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_683.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_858.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_777.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_904.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_393.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_466.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_262.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_389.jpg,Plastic,Miscellaneous Trash
+data/combined/Plastic/Plastic_540.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_284.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_74.jpg,Plastic,Miscellaneous Trash
+data/combined/Plastic/Plastic_655.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_395.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_376.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_224.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_873.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_7.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_851.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_496.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_407.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_504.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_402.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_840.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_894.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_671.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_405.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_464.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_104.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_38.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_223.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_198.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_520.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_28.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_668.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_647.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_556.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_676.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_764.jpg,Plastic,Paper
+data/combined/Plastic/Plastic_326.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_330.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_431.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_17.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_820.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_545.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_375.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_488.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_353.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_50.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_253.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_157.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_233.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_553.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_346.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_377.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_347.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_227.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_907.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_45.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_730.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_255.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_58.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_626.jpg,Plastic,Glass
+data/combined/Plastic/Plastic_322.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_614.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_768.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_177.jpg,Plastic,Miscellaneous Trash
+data/combined/Plastic/Plastic_817.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_457.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_480.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_368.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_11.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_454.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_896.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_399.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_822.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_650.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_65.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_185.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_61.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_425.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_181.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_122.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_194.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_475.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_571.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_610.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_612.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_512.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_497.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_271.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_18.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_220.jpg,Plastic,Metal
+data/combined/Plastic/Plastic_193.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_348.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_800.jpg,Plastic,Plastic
+data/combined/Plastic/Plastic_430.jpg,Plastic,Glass
+data/combined/Textile Trash/Textile Trash_8.jpg,Textile Trash,Metal
+data/combined/Textile Trash/Textile Trash_93.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_140.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_116.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_39.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_18.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_241.jpg,Textile Trash,Plastic
+data/combined/Textile Trash/Textile Trash_4.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_186.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_164.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_261.jpg,Textile Trash,Metal
+data/combined/Textile Trash/Textile Trash_111.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_80.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_245.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_208.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_180.jpg,Textile Trash,Metal
+data/combined/Textile Trash/Textile Trash_179.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_262.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_90.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_86.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_124.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_59.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_221.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_21.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_212.jpg,Textile Trash,Metal
+data/combined/Textile Trash/Textile Trash_145.jpg,Textile Trash,Miscellaneous Trash
+data/combined/Textile Trash/Textile Trash_172.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_206.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_98.jpg,Textile Trash,Miscellaneous Trash
+data/combined/Textile Trash/Textile Trash_57.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_316.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_125.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_228.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_112.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_20.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_246.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_110.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_182.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_223.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_278.jpg,Textile Trash,Paper
+data/combined/Textile Trash/Textile Trash_247.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_44.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_73.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_258.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_36.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_63.jpg,Textile Trash,Miscellaneous Trash
+data/combined/Textile Trash/Textile Trash_33.jpg,Textile Trash,Paper
+data/combined/Textile Trash/Textile Trash_264.jpg,Textile Trash,Textile Trash
+data/combined/Textile Trash/Textile Trash_275.jpg,Textile Trash,Textile Trash
+data/combined/Vegetation/Vegetation_186.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_14.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_397.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_378.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_291.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_435.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_6.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_247.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_302.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_237.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_160.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_203.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_144.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_414.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_42.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_325.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_228.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_242.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_239.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_254.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_108.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_270.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_222.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_318.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_5.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_121.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_208.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_417.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_251.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_281.jpg,Vegetation,Miscellaneous Trash
+data/combined/Vegetation/Vegetation_76.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_284.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_419.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_412.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_78.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_384.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_165.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_285.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_226.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_179.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_116.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_317.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_38.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_362.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_322.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_400.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_276.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_220.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_289.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_258.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_346.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_230.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_69.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_91.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_66.jpg,Vegetation,Food Organics
+data/combined/Vegetation/Vegetation_359.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_148.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_145.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_56.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_368.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_370.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_360.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_167.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_168.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_290.jpg,Vegetation,Vegetation
+data/combined/Vegetation/Vegetation_150.jpg,Vegetation,Vegetation

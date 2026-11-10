@@ -1,0 +1,13 @@
+rank,image_path,true_label,predicted_label,confidence,visual_observation
+1,data/realwaste-main/RealWaste/Plastic/Plastic_58.jpg,Plastic,Cardboard,0.938215970993042,Orange printed flexible package; packaging silhouette/printing may resemble cardboard. Material not reliably confirmed from one photo.
+2,data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_219.jpg,Miscellaneous Trash,Textile Trash,0.9064232110977173,Blue cloth-like item despite Miscellaneous Trash source label. Review class boundary with dataset documentation; do not change test labels.
+3,data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_303.jpg,Miscellaneous Trash,Food Organics,0.8966094255447388,Dark irregular clump; material ambiguous visually. Food/soil/non-food ambiguity is a hypothesis.
+4,data/realwaste-main/RealWaste/Glass/Glass_379.jpg,Glass,Metal,0.8247659802436829,Brown labeled bottle; reflective surface and bottle shape may be shared with metal containers.
+5,data/realwaste-main/RealWaste/Metal/Metal_318.jpg,Metal,Plastic,0.8200753331184387,Crushed printed cylindrical container; plastic/metal visual ambiguity.
+6,data/realwaste-main/RealWaste/Paper/Paper_192.jpg,Paper,Cardboard,0.818979024887085,Folded printed paper bundle; thickness/shape resembles cardboard.
+7,data/realwaste-main/RealWaste/Paper/Paper_20.jpg,Paper,Cardboard,0.7916952967643738,Printed folded page; paper/cardboard visual overlap.
+8,data/realwaste-main/RealWaste/Plastic/Plastic_768.jpg,Plastic,Metal,0.7876397371292114,Dark glossy molded container; reflection/shape may resemble metal.
+9,data/realwaste-main/RealWaste/Paper/Paper_219.jpg,Paper,Cardboard,0.7737856507301331,Folded white paper; material and thickness hard to infer.
+10,data/realwaste-main/RealWaste/Textile Trash/Textile Trash_33.jpg,Textile Trash,Paper,0.7725849747657776,White fabric strips; texture is subtle and outline resembles torn paper.
+11,data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_352.jpg,Miscellaneous Trash,Cardboard,0.7703949809074402,Red book-like object labeled Miscellaneous Trash; mixed-material/class-boundary case to review.
+12,data/realwaste-main/RealWaste/Glass/Glass_68.jpg,Glass,Metal,0.7700037360191345,Clear bottle base with reflection; glass/metal material cues ambiguous.

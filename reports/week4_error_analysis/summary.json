@@ -1,0 +1,216 @@
+{
+  "total": 719,
+  "errors": 141,
+  "disposal_errors": 46,
+  "confidence_at_least_90pct_errors": 2,
+  "by_class": {
+    "Cardboard": {
+      "support": 70,
+      "errors": 13
+    },
+    "Food Organics": {
+      "support": 63,
+      "errors": 6
+    },
+    "Glass": {
+      "support": 63,
+      "errors": 11
+    },
+    "Metal": {
+      "support": 119,
+      "errors": 17
+    },
+    "Miscellaneous Trash": {
+      "support": 75,
+      "errors": 32
+    },
+    "Paper": {
+      "support": 75,
+      "errors": 14
+    },
+    "Plastic": {
+      "support": 139,
+      "errors": 36
+    },
+    "Textile Trash": {
+      "support": 49,
+      "errors": 11
+    },
+    "Vegetation": {
+      "support": 66,
+      "errors": 1
+    }
+  },
+  "confusion_pairs": [
+    {
+      "true_label": "Metal",
+      "predicted_label": "Plastic",
+      "count": 13
+    },
+    {
+      "true_label": "Paper",
+      "predicted_label": "Cardboard",
+      "count": 12
+    },
+    {
+      "true_label": "Plastic",
+      "predicted_label": "Metal",
+      "count": 12
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Food Organics",
+      "count": 9
+    },
+    {
+      "true_label": "Cardboard",
+      "predicted_label": "Paper",
+      "count": 9
+    },
+    {
+      "true_label": "Plastic",
+      "predicted_label": "Glass",
+      "count": 7
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Textile Trash",
+      "count": 6
+    },
+    {
+      "true_label": "Glass",
+      "predicted_label": "Metal",
+      "count": 6
+    },
+    {
+      "true_label": "Plastic",
+      "predicted_label": "Miscellaneous Trash",
+      "count": 6
+    },
+    {
+      "true_label": "Plastic",
+      "predicted_label": "Paper",
+      "count": 5
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Metal",
+      "count": 5
+    },
+    {
+      "true_label": "Textile Trash",
+      "predicted_label": "Miscellaneous Trash",
+      "count": 5
+    },
+    {
+      "true_label": "Plastic",
+      "predicted_label": "Cardboard",
+      "count": 4
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Plastic",
+      "count": 4
+    },
+    {
+      "true_label": "Food Organics",
+      "predicted_label": "Vegetation",
+      "count": 4
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Paper",
+      "count": 4
+    },
+    {
+      "true_label": "Glass",
+      "predicted_label": "Plastic",
+      "count": 4
+    },
+    {
+      "true_label": "Cardboard",
+      "predicted_label": "Plastic",
+      "count": 3
+    },
+    {
+      "true_label": "Textile Trash",
+      "predicted_label": "Paper",
+      "count": 2
+    },
+    {
+      "true_label": "Paper",
+      "predicted_label": "Metal",
+      "count": 2
+    },
+    {
+      "true_label": "Textile Trash",
+      "predicted_label": "Metal",
+      "count": 2
+    },
+    {
+      "true_label": "Metal",
+      "predicted_label": "Miscellaneous Trash",
+      "count": 2
+    },
+    {
+      "true_label": "Food Organics",
+      "predicted_label": "Miscellaneous Trash",
+      "count": 2
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Glass",
+      "count": 2
+    },
+    {
+      "true_label": "Plastic",
+      "predicted_label": "Textile Trash",
+      "count": 2
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Cardboard",
+      "count": 1
+    },
+    {
+      "true_label": "Miscellaneous Trash",
+      "predicted_label": "Vegetation",
+      "count": 1
+    },
+    {
+      "true_label": "Metal",
+      "predicted_label": "Cardboard",
+      "count": 1
+    },
+    {
+      "true_label": "Glass",
+      "predicted_label": "Cardboard",
+      "count": 1
+    },
+    {
+      "true_label": "Textile Trash",
+      "predicted_label": "Vegetation",
+      "count": 1
+    },
+    {
+      "true_label": "Vegetation",
+      "predicted_label": "Miscellaneous Trash",
+      "count": 1
+    },
+    {
+      "true_label": "Cardboard",
+      "predicted_label": "Metal",
+      "count": 1
+    },
+    {
+      "true_label": "Textile Trash",
+      "predicted_label": "Plastic",
+      "count": 1
+    },
+    {
+      "true_label": "Metal",
+      "predicted_label": "Vegetation",
+      "count": 1
+    }
+  ]
+}

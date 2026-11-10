@@ -1,0 +1,70 @@
+image_path,true_label,prediction_5epochs,confidence_5epochs,prediction_10epochs,confidence_10epochs,change
+data/realwaste-main/RealWaste/Cardboard/Cardboard_365.jpg,Cardboard,Cardboard,0.31303825974464417,Metal,0.3897055685520172,regressed
+data/realwaste-main/RealWaste/Cardboard/Cardboard_310.jpg,Cardboard,Cardboard,0.5099758505821228,Paper,0.5597596764564514,regressed
+data/realwaste-main/RealWaste/Cardboard/Cardboard_370.jpg,Cardboard,Cardboard,0.6306716799736023,Paper,0.5513644814491272,regressed
+data/realwaste-main/RealWaste/Cardboard/Cardboard_150.jpg,Cardboard,Vegetation,0.2716137170791626,Cardboard,0.4978858530521393,fixed
+data/realwaste-main/RealWaste/Cardboard/Cardboard_394.jpg,Cardboard,Cardboard,0.5172680020332336,Paper,0.5215198397636414,regressed
+data/realwaste-main/RealWaste/Food Organics/Food Organics_19.jpg,Food Organics,Food Organics,0.7443360686302185,Metal,0.45511308312416077,regressed
+data/realwaste-main/RealWaste/Food Organics/Food Organics_347.jpg,Food Organics,Vegetation,0.42595258355140686,Food Organics,0.572544276714325,fixed
+data/realwaste-main/RealWaste/Food Organics/Food Organics_339.jpg,Food Organics,Vegetation,0.5023581385612488,Food Organics,0.5876462459564209,fixed
+data/realwaste-main/RealWaste/Glass/Glass_388.jpg,Glass,Plastic,0.7505192756652832,Glass,0.5882475972175598,fixed
+data/realwaste-main/RealWaste/Glass/Glass_385.jpg,Glass,Plastic,0.42410334944725037,Glass,0.7816326022148132,fixed
+data/realwaste-main/RealWaste/Glass/Glass_361.jpg,Glass,Food Organics,0.37341007590293884,Glass,0.707146406173706,fixed
+data/realwaste-main/RealWaste/Glass/Glass_24.jpg,Glass,Metal,0.25672435760498047,Glass,0.5248128175735474,fixed
+data/realwaste-main/RealWaste/Glass/Glass_297.jpg,Glass,Plastic,0.4930061995983124,Glass,0.8161439299583435,fixed
+data/realwaste-main/RealWaste/Glass/Glass_370.jpg,Glass,Plastic,0.48206889629364014,Glass,0.8144081830978394,fixed
+data/realwaste-main/RealWaste/Glass/Glass_34.jpg,Glass,Plastic,0.5033998489379883,Glass,0.550316572189331,fixed
+data/realwaste-main/RealWaste/Glass/Glass_384.jpg,Glass,Metal,0.5469861030578613,Glass,0.8783169984817505,fixed
+data/realwaste-main/RealWaste/Glass/Glass_379.jpg,Glass,Metal,0.6708531975746155,Glass,0.56875079870224,fixed
+data/realwaste-main/RealWaste/Glass/Glass_291.jpg,Glass,Plastic,0.438389390707016,Glass,0.8872985243797302,fixed
+data/realwaste-main/RealWaste/Glass/Glass_39.jpg,Glass,Plastic,0.44536545872688293,Glass,0.8023189902305603,fixed
+data/realwaste-main/RealWaste/Glass/Glass_129.jpg,Glass,Metal,0.3900831341743469,Glass,0.4566148817539215,fixed
+data/realwaste-main/RealWaste/Glass/Glass_184.jpg,Glass,Plastic,0.7340242266654968,Glass,0.5282003879547119,fixed
+data/realwaste-main/RealWaste/Glass/Glass_256.jpg,Glass,Plastic,0.4964604675769806,Glass,0.7337657809257507,fixed
+data/realwaste-main/RealWaste/Glass/Glass_363.jpg,Glass,Plastic,0.5905283689498901,Glass,0.48873624205589294,fixed
+data/realwaste-main/RealWaste/Metal/Metal_299.jpg,Metal,Plastic,0.44484564661979675,Metal,0.40057066082954407,fixed
+data/realwaste-main/RealWaste/Metal/Metal_65.jpg,Metal,Metal,0.4372982382774353,Glass,0.7021427750587463,regressed
+data/realwaste-main/RealWaste/Metal/Metal_295.jpg,Metal,Plastic,0.41096988320350647,Metal,0.5387457609176636,fixed
+data/realwaste-main/RealWaste/Metal/Metal_71.jpg,Metal,Plastic,0.5381326675415039,Metal,0.4670279622077942,fixed
+data/realwaste-main/RealWaste/Metal/Metal_183.jpg,Metal,Plastic,0.581189751625061,Metal,0.5141640305519104,fixed
+data/realwaste-main/RealWaste/Metal/Metal_316.jpg,Metal,Plastic,0.3317369520664215,Metal,0.5513952374458313,fixed
+data/realwaste-main/RealWaste/Metal/Metal_598.jpg,Metal,Plastic,0.3438791334629059,Metal,0.4193982183933258,fixed
+data/realwaste-main/RealWaste/Metal/Metal_741.jpg,Metal,Plastic,0.6631590127944946,Metal,0.5933766961097717,fixed
+data/realwaste-main/RealWaste/Metal/Metal_133.jpg,Metal,Metal,0.46029016375541687,Glass,0.6259104609489441,regressed
+data/realwaste-main/RealWaste/Metal/Metal_199.jpg,Metal,Plastic,0.5229518413543701,Metal,0.5280605554580688,fixed
+data/realwaste-main/RealWaste/Metal/Metal_340.jpg,Metal,Metal,0.4388327896595001,Glass,0.6844571828842163,regressed
+data/realwaste-main/RealWaste/Metal/Metal_79.jpg,Metal,Plastic,0.4702379107475281,Metal,0.5055053234100342,fixed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_353.jpg,Miscellaneous Trash,Paper,0.35531356930732727,Miscellaneous Trash,0.3045242130756378,fixed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_354.jpg,Miscellaneous Trash,Miscellaneous Trash,0.46335369348526,Textile Trash,0.3056357204914093,regressed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_265.jpg,Miscellaneous Trash,Plastic,0.41666415333747864,Miscellaneous Trash,0.5877941846847534,fixed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_70.jpg,Miscellaneous Trash,Miscellaneous Trash,0.4544163644313812,Metal,0.5087199211120605,regressed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_129.jpg,Miscellaneous Trash,Plastic,0.3225318193435669,Miscellaneous Trash,0.45573076605796814,fixed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_246.jpg,Miscellaneous Trash,Miscellaneous Trash,0.622078001499176,Metal,0.6463663578033447,regressed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_472.jpg,Miscellaneous Trash,Vegetation,0.6012658476829529,Miscellaneous Trash,0.3866752088069916,fixed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_456.jpg,Miscellaneous Trash,Food Organics,0.2971901595592499,Miscellaneous Trash,0.32508766651153564,fixed
+data/realwaste-main/RealWaste/Miscellaneous Trash/Miscellaneous Trash_22.jpg,Miscellaneous Trash,Food Organics,0.3646625578403473,Miscellaneous Trash,0.462296724319458,fixed
+data/realwaste-main/RealWaste/Paper/Paper_134.jpg,Paper,Cardboard,0.4878181517124176,Paper,0.4909983277320862,fixed
+data/realwaste-main/RealWaste/Paper/Paper_58.jpg,Paper,Paper,0.27894389629364014,Plastic,0.31049320101737976,regressed
+data/realwaste-main/RealWaste/Paper/Paper_313.jpg,Paper,Cardboard,0.5163359045982361,Paper,0.4778939485549927,fixed
+data/realwaste-main/RealWaste/Paper/Paper_207.jpg,Paper,Cardboard,0.45435765385627747,Paper,0.486839234828949,fixed
+data/realwaste-main/RealWaste/Plastic/Plastic_49.jpg,Plastic,Plastic,0.4955405294895172,Metal,0.5676196813583374,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_123.jpg,Plastic,Plastic,0.48960304260253906,Metal,0.41458645462989807,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_265.jpg,Plastic,Plastic,0.5992254018783569,Metal,0.5475227236747742,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_405.jpg,Plastic,Plastic,0.49028339982032776,Glass,0.5112019181251526,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_330.jpg,Plastic,Plastic,0.549949049949646,Metal,0.6130664348602295,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_488.jpg,Plastic,Plastic,0.4286514222621918,Metal,0.42279738187789917,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_346.jpg,Plastic,Plastic,0.6202898621559143,Glass,0.4928087294101715,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_626.jpg,Plastic,Plastic,0.38480767607688904,Glass,0.7461443543434143,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_454.jpg,Plastic,Paper,0.40864330530166626,Plastic,0.42966440320014954,fixed
+data/realwaste-main/RealWaste/Plastic/Plastic_497.jpg,Plastic,Plastic,0.6905786991119385,Glass,0.5055790543556213,regressed
+data/realwaste-main/RealWaste/Plastic/Plastic_271.jpg,Plastic,Miscellaneous Trash,0.33169570565223694,Plastic,0.4146483540534973,fixed
+data/realwaste-main/RealWaste/Plastic/Plastic_800.jpg,Plastic,Plastic,0.42302316427230835,Glass,0.46765488386154175,regressed
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_116.jpg,Textile Trash,Miscellaneous Trash,0.481924831867218,Textile Trash,0.45255401730537415,fixed
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_18.jpg,Textile Trash,Paper,0.2693411707878113,Textile Trash,0.4150679409503937,fixed
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_4.jpg,Textile Trash,Paper,0.32547879219055176,Textile Trash,0.49894091486930847,fixed
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_111.jpg,Textile Trash,Miscellaneous Trash,0.38361355662345886,Textile Trash,0.5871414542198181,fixed
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_180.jpg,Textile Trash,Miscellaneous Trash,0.3933557868003845,Textile Trash,0.36304962635040283,fixed
+data/realwaste-main/RealWaste/Textile Trash/Textile Trash_145.jpg,Textile Trash,Miscellaneous Trash,0.3272249698638916,Textile Trash,0.424600213766098,fixed
+data/realwaste-main/RealWaste/Vegetation/Vegetation_186.jpg,Vegetation,Vegetation,0.6220914125442505,Food Organics,0.4976326823234558,regressed
+data/realwaste-main/RealWaste/Vegetation/Vegetation_325.jpg,Vegetation,Vegetation,0.36816737055778503,Textile Trash,0.37595659494400024,regressed
+data/realwaste-main/RealWaste/Vegetation/Vegetation_167.jpg,Vegetation,Vegetation,0.48835980892181396,Food Organics,0.4788713753223419,regressed
