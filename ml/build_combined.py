@@ -1,4 +1,7 @@
-"""Build the combined training set: RealWaste + filtered TrashNet + filtered Garbage Classification (12 classes).
+"""Build a combined training set: RealWaste + any of TrashNet, Garbage Classification (12 classes),
+and Recyclable and Household Waste Classification (real_world photos only).
+
+Pick sources with --sources (default: trashnet,garbage12, which reproduces ml/splits_combined.csv).
 
 - Validation and test rows from ml/splits.csv are kept exactly as they are; new images go to train only.
 - New images are mapped to our 9 classes; unmatched folders (battery, trash) are skipped.
@@ -28,29 +31,73 @@ DIST_REALWASTE = 4     # perceptual-hash distance counted as "same photo" vs Rea
 DIST_SAME_SOURCE = 2   # same, between two new images from the same dataset
 DIST_CROSS_SOURCE = 4  # looser between datasets, since a re-uploaded copy may be resized or recompressed
 
-# (name, root folder, filename prefix, {source folder: (our class, cap or None)})
+# Each source: key (for --sources), display name, root folder, filename prefix,
+# optional image subfolder inside each class folder, whether the class-folder name goes into the
+# copied filename (needed when different folders reuse the same filenames), and the folder mapping.
+# Mapping: {source folder: (our class, cap or None)}. Folders not listed are skipped.
 SOURCES = [
-    ("TrashNet", Path("data/trashnet/dataset-resized"), "tn_", {
-        "cardboard": ("Cardboard", None),
-        "glass": ("Glass", None),
-        "metal": ("Metal", None),
-        "paper": ("Paper", None),
-        "plastic": ("Plastic", None),
-        # "trash" skipped: catch-all class, does not clearly match Miscellaneous Trash
-    }),
-    ("Garbage12", Path("data/garbage12/garbage_classification"), "g12_", {
-        "biological": ("Food Organics", None),
-        "cardboard": ("Cardboard", None),
-        "paper": ("Paper", None),
-        "plastic": ("Plastic", None),
-        "metal": ("Metal", None),
-        "white-glass": ("Glass", None),
-        "green-glass": ("Glass", None),
-        "brown-glass": ("Glass", None),
-        "clothes": ("Textile Trash", 800),
-        "shoes": ("Textile Trash", 800),
-        # "battery" and "trash" skipped: no matching class
-    }),
+    dict(key="trashnet", name="TrashNet", root=Path("data/trashnet/dataset-resized"), prefix="tn_",
+         subdir=None, folder_in_name=False, mapping={
+             "cardboard": ("Cardboard", None),
+             "glass": ("Glass", None),
+             "metal": ("Metal", None),
+             "paper": ("Paper", None),
+             "plastic": ("Plastic", None),
+             # "trash" only with --include-trash
+         }),
+    dict(key="garbage12", name="Garbage12", root=Path("data/garbage12/garbage_classification"), prefix="g12_",
+         subdir=None, folder_in_name=False, mapping={
+             "biological": ("Food Organics", None),
+             "cardboard": ("Cardboard", None),
+             "paper": ("Paper", None),
+             "plastic": ("Plastic", None),
+             "metal": ("Metal", None),
+             "white-glass": ("Glass", None),
+             "green-glass": ("Glass", None),
+             "brown-glass": ("Glass", None),
+             "clothes": ("Textile Trash", 800),
+             "shoes": ("Textile Trash", 800),
+             # "battery" and "trash" skipped: no matching class (trash was checked: mostly stock photos)
+         }),
+    dict(key="household30", name="Household30", root=Path("data/household30/images/images"), prefix="h30_",
+         subdir="real_world", folder_in_name=True, mapping={
+             # real_world photos only; the "default" studio half is not used
+             "food_waste": ("Food Organics", None),
+             "eggshells": ("Food Organics", None),
+             "coffee_grounds": ("Food Organics", None),
+             "tea_bags": ("Food Organics", None),
+             "clothing": ("Textile Trash", None),
+             "shoes": ("Textile Trash", None),
+             "styrofoam_cups": ("Miscellaneous Trash", None),
+             "styrofoam_food_containers": ("Miscellaneous Trash", None),
+             "disposable_plastic_cutlery": ("Miscellaneous Trash", None),
+             "plastic_straws": ("Miscellaneous Trash", None),
+             "plastic_trash_bags": ("Miscellaneous Trash", None),
+             "plastic_shopping_bags": ("Miscellaneous Trash", None),
+             "aerosol_cans": ("Metal", None),
+             "aluminum_food_cans": ("Metal", None),
+             "aluminum_soda_cans": ("Metal", None),
+             "steel_food_cans": ("Metal", None),
+             "glass_beverage_bottles": ("Glass", None),
+             "glass_food_jars": ("Glass", None),
+             "glass_cosmetic_containers": ("Glass", None),
+             "plastic_water_bottles": ("Plastic", None),
+             "plastic_soda_bottles": ("Plastic", None),
+             "plastic_detergent_bottles": ("Plastic", None),
+             "plastic_food_containers": ("Plastic", None),
+             "office_paper": ("Paper", None),
+             "newspaper": ("Paper", None),
+             "magazines": ("Paper", None),
+             "cardboard_boxes": ("Cardboard", None),
+             "cardboard_packaging": ("Cardboard", None),
+             # skipped: paper_cups (plastic-lined, disposal varies), plastic_cup_lids (often not recyclable)
+         }),
+    # TACO crops made by ml/build_taco.py, already sorted into our class names
+    dict(key="taco", name="TACO", root=Path("data/taco_crops"), prefix="",
+         subdir=None, folder_in_name=False, mapping={
+             c: (c, None) for c in ["Cardboard", "Food Organics", "Glass", "Metal", "Miscellaneous Trash",
+                                    "Paper", "Plastic", "Textile Trash", "Vegetation"]
+         }),
 ]
 
 
@@ -93,17 +140,26 @@ def main():
     parser.add_argument("--out-csv", type=Path, default=Path("ml/splits_combined.csv"))
     parser.add_argument("--dropped-csv", type=Path, default=Path("reports/combined_dropped.csv"))
     parser.add_argument("--include-trash", action="store_true",
-    help="also map TrashNet and Garbage12 'trash' folders to Miscellaneous Trash")
+                        help="also map TrashNet 'trash' to Miscellaneous Trash")
+    parser.add_argument("--sources", default="trashnet,garbage12",
+                        help="comma-separated: " + ",".join(src["key"] for src in SOURCES))
     args = parser.parse_args()
     missing_sources = [str(root) for _, root, _, _ in SOURCES if not root.is_dir()]
     if missing_sources:
         raise SystemExit('Missing required dataset directories: ' + ', '.join(missing_sources))
     rng = random.Random(SEED)
+    wanted = [k.strip() for k in args.sources.split(",") if k.strip()]
+    unknown_keys = set(wanted) - {src["key"] for src in SOURCES}
+    if unknown_keys:
+        raise SystemExit(f"Unknown --sources: {unknown_keys}")
+    sources = [src for src in SOURCES if src["key"] in wanted]  # fixed order, so dedupe is deterministic
     if args.include_trash:
         # TrashNet only: its "trash" photos are real wrappers, film, and tissues.
         # Garbage12 "trash" was checked and excluded: mostly stock photos of masks,
         # toothbrushes (incl. electric), and diapers, not representative of real trash.
-        SOURCES[0][3]["trash"] = ("Miscellaneous Trash", None)
+        for src in sources:
+            if src["key"] == "trashnet":
+                src["mapping"]["trash"] = ("Miscellaneous Trash", None)
     dropped = []  # (source, file, reason)
 
     # 1. RealWaste: every row, every split (test included) is used for duplicate checks
@@ -120,30 +176,34 @@ def main():
     rw_hashes = np.array(rw_hashes, dtype=np.uint64)
 
     rw_classes = {r["label"] for r in rw_rows}
-    for _, _, _, mapping in SOURCES:
-        unknown = {label for label, _ in mapping.values()} - rw_classes
+    for src in sources:
+        unknown = {label for label, _ in src["mapping"].values()} - rw_classes
         if unknown:  # a new class would change the label numbering and break the model
             raise SystemExit(f"Mapping uses classes not in RealWaste: {unknown}")
 
     # 2. Collect candidate new images
     candidates = []  # dict(source, src_path, label, folder, cap, hash)
-    for name, root, prefix, mapping in SOURCES:
+    for src in sources:
+        name, root, mapping = src["name"], src["root"], src["mapping"]
         if not root.is_dir():
-            print(f"WARNING: {root} not found, skipping {name}")
-            continue
+            raise SystemExit(f"{root} not found - unzip {name} there first")
         for folder in sorted(p for p in root.iterdir() if p.is_dir()):
             if folder.name not in mapping:
                 print(f"  {name}/{folder.name}: skipped (no matching class)")
                 continue
             label, cap = mapping[folder.name]
-            files = sorted(p for p in folder.iterdir() if p.suffix.lower() in IMAGE_SUFFIXES)
+            image_dir = folder / src["subdir"] if src["subdir"] else folder
+            if not image_dir.is_dir():
+                raise SystemExit(f"Expected {image_dir} to exist")
+            files = sorted(p for p in image_dir.iterdir() if p.suffix.lower() in IMAGE_SUFFIXES)
             print(f"  {name}/{folder.name} -> {label}: hashing {len(files)} images...")
             for p in files:
                 h = phash_bits(p)
                 if h is None:
                     dropped.append((name, str(p), "unreadable or too small"))
                     continue
-                candidates.append(dict(source=name, prefix=prefix, src=p, label=label,
+                dest_name = src["prefix"] + (f"{folder.name}_" if src["folder_in_name"] else "") + p.name
+                candidates.append(dict(source=name, src=p, dest_name=dest_name, label=label,
                                        folder=f"{name}/{folder.name}", cap=cap, hash=h))
 
     # 3. Drop anything that matches a RealWaste image (any split)
@@ -178,7 +238,7 @@ def main():
                 dropped.append((candidates[i]["source"], str(candidates[i]["src"]),
                                 "duplicate with a different label"))
         else:
-            keep_idx.add(members[0])  # TrashNet comes first, so its copy is kept
+            keep_idx.add(members[0])  # sources are processed in a fixed order, so the earlier copy is kept
             for i in members[1:]:
                 dropped.append((candidates[i]["source"], str(candidates[i]["src"]),
                                 "duplicate of another new image"))
@@ -210,7 +270,7 @@ def main():
             shutil.copy2(args.realwaste_root / row["label"] / name, dest)
         out_rows.append([dest.as_posix(), row["label"], row["split"]])
     for c in final:
-        dest = args.out_dir / c["label"] / f"{c['prefix']}{c['src'].name}"
+        dest = args.out_dir / c["label"] / c["dest_name"]
         dest.parent.mkdir(parents=True, exist_ok=True)
         if not dest.exists():
             shutil.copy2(c["src"], dest)
@@ -232,8 +292,8 @@ def main():
     for c in final:
         added[c["source"]][c["label"]] += 1
     classes = sorted(rw_classes)
-    names = [s[0] for s in SOURCES]
-    print(f"\n{'class':22s}{'RealWaste':>10s}" + "".join(f"{n:>11s}" for n in names) + f"{'train total':>13s}")
+    names = [src["name"] for src in sources]
+    print(f"\n{'class':22s}{'RealWaste':>10s}" + "".join(f"{n:>12s}" for n in names) + f"{'train total':>13s}")
     totals = Counter()
     for cls in classes:
         row_total = rw_train[cls] + sum(added[n][cls] for n in names)
@@ -241,8 +301,8 @@ def main():
         for n in names:
             totals[n] += added[n][cls]
         totals["all"] += row_total
-        print(f"{cls:22s}{rw_train[cls]:>10d}" + "".join(f"{added[n][cls]:>11d}" for n in names) + f"{row_total:>13d}")
-    print(f"{'TOTAL':22s}{totals['rw']:>10d}" + "".join(f"{totals[n]:>11d}" for n in names) + f"{totals['all']:>13d}")
+        print(f"{cls:22s}{rw_train[cls]:>10d}" + "".join(f"{added[n][cls]:>12d}" for n in names) + f"{row_total:>13d}")
+    print(f"{'TOTAL':22s}{totals['rw']:>10d}" + "".join(f"{totals[n]:>12d}" for n in names) + f"{totals['all']:>13d}")
 
     split_counts = Counter(r[2] for r in out_rows)
     orig_counts = Counter(r["split"] for r in rw_rows)

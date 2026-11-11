@@ -106,3 +106,7 @@ Validation (710) and test (719) are unchanged from `ml/splits.csv`. All new imag
 - Class imbalance is larger than before: Glass has 2,286 training images, Vegetation 305 and Miscellaneous Trash 346 (no new sources). Watch Miscellaneous Trash and Landfill bin accuracy after retraining.
 - Garbage12 images are web-scraped; many Textile Trash images are clean product photos rather than worn items. ODbL covers the dataset, not the copyright of individual images, so do not reuse individual images in posters or slides.
 - To rebuild `data/combined/` on another machine: unzip TrashNet to `data/trashnet/` and the Kaggle archive to `data/garbage12/`, then run `python ml/build_combined.py`. It produces the identical file.
+
+## Findings: more data (TACO)
+
+To get closer to 20k images, we added 1,991 cropped real-litter photos from TACO (CC BY 4.0) to RealWaste and trained both versions with identical settings (layer4 + fc, seed 42, same machine and starting weights). RealWaste-only scored 86.4% (bin 96.4%); RealWaste + TACO scored 84.6% (bin 94.7%). TACO caught 8 more trash items but sent 12 more recyclables to Landfill (6 to 18 of 466), and Misc Trash recall fell (80% to 73%). Like the earlier added datasets, extra off-domain images did not improve our test set, so we kept the RealWaste-only model. A second candidate dataset (Recyclable and Household Waste Classification) was rejected before training: ~18% exact duplicates and mostly web-search images rather than waste. Results: reports/john_realwaste_layer4_seed42/ and reports/john_taco_layer4_seed42/.

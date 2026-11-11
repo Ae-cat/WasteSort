@@ -1,0 +1,160 @@
+{
+  "layer4": {
+    "test_images": 719,
+    "accuracy": 0.8456189151599444,
+    "bin_accuracy": 0.9471488178025035,
+    "per_class": {
+      "Cardboard": 0.8142857142857143,
+      "Food Organics": 0.8095238095238095,
+      "Glass": 0.9841269841269841,
+      "Metal": 0.7478991596638656,
+      "Miscellaneous Trash": 0.7333333333333333,
+      "Paper": 0.8533333333333334,
+      "Plastic": 0.8561151079136691,
+      "Textile Trash": 0.9591836734693877,
+      "Vegetation": 0.9696969696969697
+    },
+    "per_class_bin_accuracy": {
+      "Cardboard": 0.9571428571428572,
+      "Food Organics": 0.8888888888888888,
+      "Glass": 1.0,
+      "Metal": 0.9831932773109243,
+      "Miscellaneous Trash": 0.8666666666666667,
+      "Paper": 0.92,
+      "Plastic": 0.935251798561151,
+      "Textile Trash": 1.0,
+      "Vegetation": 0.9848484848484849
+    },
+    "confusion_matrix": [
+      [
+        57,
+        0,
+        1,
+        0,
+        0,
+        9,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        51,
+        1,
+        0,
+        4,
+        0,
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        0,
+        62,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        12,
+        89,
+        1,
+        2,
+        13,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2,
+        55,
+        1,
+        4,
+        10,
+        1
+      ],
+      [
+        4,
+        0,
+        0,
+        1,
+        4,
+        64,
+        0,
+        2,
+        0
+      ],
+      [
+        4,
+        1,
+        5,
+        1,
+        6,
+        1,
+        119,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        47,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        64
+      ]
+    ],
+    "bin_confusion_matrix": [
+      [
+        446,
+        2,
+        18
+      ],
+      [
+        2,
+        121,
+        6
+      ],
+      [
+        7,
+        3,
+        114
+      ]
+    ],
+    "classes": [
+      "Cardboard",
+      "Food Organics",
+      "Glass",
+      "Metal",
+      "Miscellaneous Trash",
+      "Paper",
+      "Plastic",
+      "Textile Trash",
+      "Vegetation"
+    ],
+    "best_epoch": 4,
+    "checkpoint_sha256": "35587c2a7aa0c15ba0c0ae24354449e1a1196a092a235f6cac4c1edee1d3012f"
+  }
+}

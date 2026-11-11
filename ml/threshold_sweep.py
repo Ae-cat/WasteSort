@@ -98,6 +98,7 @@ def main():
     if args.threshold is None:
         sweep("All predictions", rows)
         sweep("Predicted Compost only", [r for r in rows if r[1] == "Compost"])
+        sweep("Predicted Recyclable only", [r for r in rows if r[1] == "Recyclable"])
     else:
         print(json.dumps(metrics[0], indent=2))
     if args.output_dir:

@@ -19,10 +19,10 @@ def digest(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
-def preflight():
+def preflight(splits=Path('ml/splits_combined.csv'), data_root=Path('data/combined')):
     from PIL import Image
-    original, combined = rows('ml/splits.csv'), rows('ml/splits_combined.csv')
-    expected = {'train': 11426, 'val': 710, 'test': 719}
+    original, combined = rows('ml/splits.csv'), rows(splits)
+    expected = {'train': {'splits.csv': 3323, 'splits_combined.csv': 11426, 'splits_combined_trash.csv': 11563, 'splits_combined_taco.csv': 5314}[Path(splits).name], 'val': 710, 'test': 719}
     if dict(collections.Counter(r['split'] for r in combined)) != expected:
         raise ValueError('Combined split counts differ from John baseline')
     keys = lambda rs, s: [(r['label'], Path(r['path']).name) for r in rs if r['split'] == s]
@@ -32,13 +32,13 @@ def preflight():
     identities = [(r['label'], Path(r['path']).name) for r in combined]
     if len(set(identities)) != len(identities):
         raise ValueError('Repeated image identity in combined splits')
-    missing = [str(Path('data/combined') / label / name) for label, name in identities
-               if not (Path('data/combined') / label / name).is_file()]
+    missing = [str(data_root / label / name) for label, name in identities
+               if not (data_root / label / name).is_file()]
     if missing:
         raise ValueError(f'Missing {len(missing)} combined images; first: {missing[0]}. Supply Garbage12 and rebuild first.')
     hashes = {}
     for r in combined:
-        path = Path('data/combined') / r['label'] / Path(r['path']).name
+        path = data_root / r['label'] / Path(r['path']).name
         with Image.open(path) as im:
             im.verify()
         h = digest(path)
@@ -47,7 +47,7 @@ def preflight():
         hashes[h] = r['split']
     for r in original:
         name = Path(r['path']).name
-        if digest(Path('data/realwaste-main/RealWaste') / r['label'] / name) != digest(Path('data/combined') / r['label'] / name):
+        if digest(Path('data/realwaste-main/RealWaste') / r['label'] / name) != digest(data_root / r['label'] / name):
             raise ValueError(f'RealWaste image bytes changed: {name}')
     return expected
 
@@ -65,8 +65,10 @@ def main():
     parser.add_argument('--seed', type=int, default=42)
     parser.add_argument('--mode', choices=['all','frozen','layer4','layer4_aug'], default='all')
     parser.add_argument('--initial-state', type=Path)
+    parser.add_argument('--splits', type=Path, default=Path('ml/splits_combined.csv'))
+    parser.add_argument('--data-root', type=Path, default=Path('data/combined'))
     args = parser.parse_args()
-    counts = preflight()
+    counts = preflight(args.splits, args.data_root)
     print('Preflight passed:', counts, flush=True)
     if not args.run:
         return
@@ -97,11 +99,11 @@ def main():
                   optimizer='Adam', class_weights=False, device=device,
                   batchnorm='All running statistics update in train mode, matching John train.py',
                   selection='Best validation accuracy; earliest epoch on ties',
-                  augmentation='RandomHorizontalFlip(p=0.5) before unchanged pretrained preprocessing',
+                  augmentation=('RandomHorizontalFlip(p=0.5) in layer4_aug only' if args.mode in ['all','layer4_aug'] else 'none'),
                   torch=torch.__version__, torchvision=torchvision.__version__, counts=counts,
                   git_revision=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),
                   source_hashes={str(p):digest(p) for p in Path('ml').glob('*.py')},
-                  splits_sha256=digest('ml/splits_combined.csv'))
+                  splits=str(args.splits), data_root=str(args.data_root), splits_sha256=digest(args.splits))
     (args.output_dir/'config.json').write_text(json.dumps(config,indent=2)+'\n')
     torch.save(initial_state,args.output_dir/'initial_state.pt')
     results = {}
@@ -110,7 +112,7 @@ def main():
         random.seed(args.seed); np.random.seed(args.seed); torch.manual_seed(args.seed)
         transform = transforms.Compose([transforms.RandomHorizontalFlip(.5),base_transform]) if mode == 'layer4_aug' else base_transform
         datasets = {s:WasteDataset(s,transform if s=='train' else base_transform,
-                                  Path('ml/splits_combined.csv'),Path('data/combined')) for s in ['train','val','test']}
+                                  args.splits,args.data_root) for s in ['train','val','test']}
         generator = torch.Generator().manual_seed(args.seed)
         loaders = {s:DataLoader(ds,batch_size=32,shuffle=s=='train',num_workers=0,
                                generator=generator if s=='train' else None) for s,ds in datasets.items()}
