@@ -30,16 +30,18 @@ For a live loop, also: keep the camera open between captures, discard the first 
 
 ## 4. Latency
 
-Not measured yet. Measure each step separately on the laptop (Week 4) and again on the Pi (Week 5):
+Pi 5 measured; laptop not measured yet. Each step is timed separately.
 
 | Step | Laptop | Pi 5 |
 |---|---|---|
-| Camera capture (after warm-up) | to measure | to measure |
-| Preprocessing | to measure | to measure |
-| Model inference | to measure | to measure |
-| Total per prediction | to measure | to measure |
+| Camera capture (after warm-up) | to measure | 44 ms (42-45) |
+| Preprocessing | to measure | 7 ms (7-8) |
+| Model inference | to measure | 82 ms (80-87) |
+| Total per prediction | to measure | 133 ms (130-139) |
 
-**Proposed target:** about 1-2 seconds per prediction for a "press a key / place an item" demo. This is not real-time video. If the Pi is slower, the first options are a smaller input or a lighter model such as MobileNetV3 (one change at a time).
+**Pi 5 measurement (Ariella, Nov 2026):** `python ml/pi_speed_test.py --runs 10` on the Raspberry Pi 5 with the Camera Module 3 (imx708, 1280x720 capture), CPU only, torch 2.15.0+cpu, 4 threads, 10 runs after 2 warm-up runs. The model was an untrained ResNet18 with 9 outputs, which has the same speed as the trained one; this measures timing, not accuracy. Loading the model is not included, so the live loop must load it once.
+
+**Proposed target:** about 1-2 seconds per prediction for a "press a key / place an item" demo. This is not real-time video. The Pi 5 measurement (about 0.13 seconds per prediction) is well under the target, so no lighter model or smaller input is needed for speed.
 
 ## 5. Output the camera pipeline must produce
 
