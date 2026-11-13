@@ -30,13 +30,13 @@ def trigger_bin_light(classification_result):
     # Convert ML classification into Arduino signal
     if classification_result == "recyclable":
         arduino.write(b'R')
-        print("Recyclable detected - GREEN LEDs")
+        print("Recyclable detected - BLUE LEDs")
     elif classification_result == "landfill":
         arduino.write(b'L')
-        print("Landfill detected - BLUE LEDs")
+        print("Landfill detected - RED LEDs")
     elif classification_result == "compost":
         arduino.write(b'C')
-        print("Compost detected - WHITE LEDs")
+        print("Compost detected - GREEN LEDs")
     else:
         # Unknown classification: turn off LEDs
         arduino.write(b'X')
