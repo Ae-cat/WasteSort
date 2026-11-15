@@ -1,5 +1,6 @@
 """Shared model loading, prediction, and disposal-category helpers."""
 from pathlib import Path
+from time import perf_counter
 
 import torch
 from PIL import Image
@@ -38,13 +39,31 @@ def load_checkpoint(path, device="cpu"):
     return model, classes
 
 
-def predict_image(model, classes, image_path, device="cpu"):
+def predict_image(model, classes, image_path, device="cpu", *, timings=None):
+    """Predict a saved image, optionally recording CPU stage durations in seconds.
+
+    Timing leaves the prediction result unchanged. Restrict it to CPU so async
+    accelerator work cannot produce misleading inference measurements.
+    """
+    if timings is not None and torch.device(device).type != "cpu":
+        raise ValueError("Prediction timing is supported only on CPU")
     transform = ResNet18_Weights.DEFAULT.transforms()
+    started = perf_counter()
     with Image.open(image_path) as source:
-        image = transform(source.convert("RGB")).unsqueeze(0).to(device)
+        rgb = source.convert("RGB")
+    converted = perf_counter()
+    image = transform(rgb).unsqueeze(0).to(device)
+    preprocessed = perf_counter()
     with torch.inference_mode():
         probabilities = model(image).softmax(dim=1)[0]
     confidence, index = probabilities.max(dim=0)
+    inferred = perf_counter()
+    if timings is not None:
+        timings.update(
+            file_read_conversion=converted - started,
+            preprocessing=preprocessed - converted,
+            inference=inferred - preprocessed,
+        )
     label = classes[index.item()]
     return {
         "label": label,
