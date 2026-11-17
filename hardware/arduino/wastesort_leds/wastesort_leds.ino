@@ -7,6 +7,8 @@
 #define NUM_PIXELS 36
 // Number of LEDs assigned to each compartment
 #define LEDS_PER_BIN 12
+// Brightness 0-255. Keep low so a short strip stays within USB power limits.
+#define BRIGHTNESS 40
 
 // LED strip configuration
 Adafruit_NeoPixel strip(
@@ -22,6 +24,7 @@ void setup() {
 
     // Initialize LED strip
     strip.begin();
+    strip.setBrightness(BRIGHTNESS);
 
     // Start with all LEDs turned off
     strip.clear();
@@ -59,30 +62,30 @@ void loop() {
     if (Serial.available() > 0) {
         // Read classification sent by Raspberry Pi
         char signal = Serial.read();
-        // RECYCLING: First compartment - GREEN
+        // RECYCLING: First compartment - BLUE
         if (signal == 'R') {
             lightBin(
                 0,
                 LEDS_PER_BIN,
-                strip.Color(0, 255, 0)
+                strip.Color(0, 0, 255)
             );
             Serial.println("Recycling detected!");
         }
-        // LANDFILL: Second compartment - BLUE
+        // LANDFILL: Second compartment - RED
         else if (signal == 'L') {
             lightBin(
                 LEDS_PER_BIN,
                 LEDS_PER_BIN * 2,
-                strip.Color(0, 0, 255)
+                strip.Color(255, 0, 0)
             );
             Serial.println("Landfill detected!");
         }
-        // COMPOST: Third compartment - WHITE
+        // COMPOST: Third compartment - GREEN
         else if (signal == 'C') {
             lightBin(
                 LEDS_PER_BIN * 2,
                 NUM_PIXELS,
-                strip.Color(255, 255, 255)
+                strip.Color(0, 255, 0)
             );
             Serial.println("Compost detected!");
         }
