@@ -2,13 +2,15 @@
 
 Run on the Pi with the camera connected:
 
-    python ml/capture_test_photos.py
+    python ml/capture_test_photos.py                  (Pi camera)
+    python ml/capture_test_photos.py --camera opencv  (laptop webcam)
 
 Pick a class number, then press Enter to take each photo. Photos go to
 data/external_unseen/photos/ and each one is added to
 data/external_unseen/manifest.csv (the format ml/test_images.py expects).
 These photos are for TESTING only: never train on them.
 """
+import argparse
 import csv
 import time
 from datetime import date
@@ -41,14 +43,45 @@ def add_manifest_row(path, label):
         writer.writerow([path, label, SOURCE])
 
 
-def main():
+def open_camera(kind):
+    """Return (grab, close): grab() gives an RGB numpy frame."""
+    if kind == "opencv":
+        import cv2
+
+        capture = cv2.VideoCapture(0)
+        if not capture.isOpened():
+            raise RuntimeError("Could not open camera 0")
+        for _ in range(5):  # let auto-exposure settle
+            capture.read()
+
+        def grab():
+            ok, frame = capture.read()
+            if not ok:
+                raise RuntimeError("Camera read failed")
+            return frame[:, :, ::-1]  # BGR -> RGB
+
+        return grab, capture.release
+
     from picamera2 import Picamera2
 
-    PHOTOS.mkdir(parents=True, exist_ok=True)
     camera = Picamera2()
     camera.configure(camera.create_still_configuration(main={"size": (1280, 720), "format": "RGB888"}))
     camera.start()
     time.sleep(2)
+    return (lambda: camera.capture_array()[:, :, ::-1]), camera.stop  # RGB888 is BGR in memory
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--camera", choices=["picamera2", "opencv"], default="picamera2",
+                        help="picamera2 = Pi camera (default), opencv = laptop webcam")
+    args = parser.parse_args()
+    global SOURCE
+    if args.camera == "opencv":
+        SOURCE = "Laptop webcam photo on " + date.today().isoformat()
+
+    PHOTOS.mkdir(parents=True, exist_ok=True)
+    grab, close_camera = open_camera(args.camera)
 
     label = None
     print("Classes:")
@@ -72,11 +105,11 @@ def main():
             continue
         slug = label.lower().replace(" ", "_")
         name = f"{slug}_{next_index(slug):02d}.jpg"
-        frame = camera.capture_array()[:, :, ::-1]  # BGR -> RGB
+        frame = grab()
         Image.fromarray(frame).save(PHOTOS / name, quality=95)
         add_manifest_row("photos/" + name, label)
         print("Saved", name)
-    camera.stop()
+    close_camera()
     print("Photos:", len(list(PHOTOS.glob("*.jpg"))), "- manifest:", MANIFEST)
 
 
