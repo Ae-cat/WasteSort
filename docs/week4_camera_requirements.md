@@ -37,24 +37,14 @@ The live command keeps the model and camera in memory throughout the session.
 
 ## 4. Latency
 
-<<<<<<< HEAD
-Pi 5 measured; laptop not measured yet. Each step is timed separately.
-=======
 **Pending: zero valid laptop webcam prediction samples.**
 The actual camera-open probe returned `opened False`, with OpenCV reporting that camera access was denied.
 It released the camera and closed windows without saving images.
 The trained model and dataset are also absent; source discovery and deterministic image selection are in [the prediction log](week3_prediction_log.md).
 No preview, physical key presses, or end-to-end trained inference could be verified on this laptop session.
->>>>>>> origin/adam
 
 | Step | Laptop CPU mean (range), n=10 | Pi 5 CPU mean (range), n=10 |
 |---|---|---|
-<<<<<<< HEAD
-| Camera capture (after warm-up) | to measure | 44 ms (42-45) |
-| Preprocessing | to measure | 7 ms (7-8) |
-| Model inference | to measure | 82 ms (80-87) |
-| Total per prediction | to measure | 133 ms (130-139) |
-=======
 | Camera read (`camera_read`) | Pending: camera permission and checkpoint | Pending: hardware run |
 | JPEG encode + disk write (`file_write`) | Pending | Pending |
 | File read + JPEG decode + RGB conversion (`file_read_conversion`) | Pending | Pending |
@@ -86,9 +76,8 @@ Stage durations use `time.perf_counter()` and timing is supported only on CPU.
 It excludes model load, camera startup, frame warm-up, preview/key wait, and console printing.
 Thus file overhead is visible and included in total rather than being hidden inside inference.
 The default `predict_image` return fields and behavior remain unchanged when timing is omitted.
->>>>>>> origin/adam
 
-**Pi 5 measurement (Ariella, Nov 2026):** `python ml/pi_speed_test.py --runs 10` on the Raspberry Pi 5 with the Camera Module 3 (imx708, 1280x720 capture), CPU only, torch 2.15.0+cpu, 4 threads, 10 runs after 2 warm-up runs. The model was an untrained ResNet18 with 9 outputs, which has the same speed as the trained one; this measures timing, not accuracy. Loading the model is not included, so the live loop must load it once.
+**Pi 5 measurement (Ariella, Nov 2026):** `python ml/pi_speed_test.py --runs 10` on the Raspberry Pi 5 with the Camera Module 3 (imx708, 1280x720 capture), CPU only, torch 2.15.0+cpu, 4 threads, 10 runs after 2 warm-up runs. The model was an untrained ResNet18 with 9 outputs, which has the same speed as the trained one; this measures timing, not accuracy. Loading the model is not included, so the live loop must load it once. **Results (mean, range in ms): camera capture 44 (42-45), preprocessing 7 (7-8), model inference 82 (80-87), total 133 (130-139).** This in-memory timing differs from the file-based breakdown in the table above, which is still pending for the Pi.
 
 **Proposed target:** about 1-2 seconds per prediction for a "press a key / place an item" demo. This is not real-time video. The Pi 5 measurement (about 0.13 seconds per prediction) is well under the target, so no lighter model or smaller input is needed for speed.
 
